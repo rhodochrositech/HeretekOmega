@@ -1,0 +1,20 @@
+#+TITLE: README
+* What this Repo Is
+Joint work on a basic bot to play the game [[https://en.wikipedia.org/wiki/Warhammer_40,000][Warhammer]] between [[https://github.com/rhodochrositech][rhodochrositech]] and [[https://github.com/rgri][shortcut]].
+* Contents
+* Steps to commit to this repo
+1. create branch
+2. don't ever mess with main
+3. commit to branch
+4. create a pull request to mail
+* Idea for scenario calculator
+credit is arthur :>
+
+1. So basically, you start with the weakest enemies, and assign your weakest units to them. Go down the list like this, until one of these things happens:
+
+2. If you reach a higher priority enemy that you can kill with these units (including units you've already assigned!!!), you want to pull units off the low value targets and reassign to the higher value target. The condition for this can be some function of the priority difference between the high value target and the priority of the units you would have killed instead, but no longer can.
+
+3. If you reach a unit you can't kill with these units, you should stop going through the list, because they are ordered by their health and will only get tougher.
+    The idea here is that you are passing on low value target kills to  "pay" for the cost of a high priority high health target
+4. So when you reassign units, you will start with the first units you assigned (who are killing low health low priority targets) (edited)
+5. After you "steal" a unit from an earlier assignment, you might have to fix the first portion of the solution. An easy way to do that would be to run the algorithm again on just that part of the solution, although there is surely a better way.
