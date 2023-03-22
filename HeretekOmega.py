@@ -1,11 +1,14 @@
-import csv
-import re
-
-# Load the Datasheets.csv file into a dictionary
-datasheets = {}
+# REVIEW: Why is this the case? Shouldn't we be "using" p whenever we call
+# a method specific to Model() or Unit()?
+import physical as p
 
 
-def calculate_damage(skill, strength, toughness, attacks, damage=1):
+def calculate_damage(attacker, attacked):
+    skill = attacker.getSkill()
+    strength = attacker.getStrength()
+    attacks = 1
+    damage = attacker.getDamage()
+    toughness = attacked.getToughness()
     print()
     # Calculate ratio to hit
     # TODO: Refactor this to reflect new model representation
@@ -38,90 +41,44 @@ def calculate_damage(skill, strength, toughness, attacks, damage=1):
     return avg_damage
 
 
-def remove_nonnumeric(s):
-    return re.sub(r"\D", "", s)
-
-
-def fight(attacker_name, defender_name):
-    print()
-    print("----")
-    print("|Skill, Strength, Toughness, Attacks")
-    sel_attack = megadict[attacker_name].values()
-    attacker = []
-    for val in sel_attack:
-        attacker.append(int(remove_nonnumeric(val)))
-    print("|Attacker:", attacker_name, attacker)
-    sel_defender = megadict[defender_name].values()
-    defender = []
-    for val in sel_defender:
-        defender.append(int(remove_nonnumeric(val)))
-    print("|Defender:", defender_name, defender)
-    result = calculate_damage(attacker[0], attacker[1], defender[2], attacker[3])
-    print("|Average damage: ", result)
-    print("----")
-    return result
-
-
-with open("cleandata.csv", newline="") as csvfile:
-    reader = csv.reader(csvfile)
-    headers = next(reader)
-    # print(headers)
-    count = 0
-    megadict = {}
-    while 1:
-        try:
-            count += 1
-            row = next(reader)
-            # if row[2] in megadict:
-            # print('duplicate',row[2])
-            megadict[row[2]] = {
-                "skill": row[4],
-                "strength": row[6],
-                "toughness": row[7],
-                "attacks": row[9],
-            }
-        except:
-            # print(count)
-            break
-    print(len(megadict), "units have been loaded.")
-    # print(megadict['Rough Rider'])
-
-    fight("Skitarii Vanguard", "Rough Rider")
-    fight("Rough Rider", "Skitarii Vanguard")
-    fight("Skitarii Vanguard", "Shock Trooper")
-    fight("Shock Trooper", "Skitarii Ranger")
-    fight("Ironstrider Ballistarius", "Skitarii Ranger")
-    fight("Skitarii Ranger", "Ironstrider Ballistarius")
-    print(megadict["Kastelan Robot"].values())
-    print(megadict["Redemptor Dreadnought"].values())
-
-friendlies = ["Skitarii Vanguard", "Rough Rider"]
-enemies = [
-    megadict["Ironstrider Ballistarius"].values(),
-    megadict["Skitarii Ranger"].values(),
-]
-
-
 def attackSpace(squad):
     # Convert each creature with multiple attacks into
     # imaginary "component creatures" with only one attack
     # and otherwise identical stats, to preserve utility
     # of calculate_damage
     space = []
-    for creature in squad:
-        for i in range(megadict[creature].values[3]):
-            space += [megadict[creature].values[0:3] + [1]]
+    for model in squad.getModels():
+        for i in range(model.getAttacks()):
+            virtualModel = model
+            virtualModel.setAttacks(1)
+            space += [virtualModel]
     return space
 
 
-def modelPoints(u):
-    # TODO: Refactor this to account for new model format.
-    return u[9]
+def modelPoints(m):
+    # DONE: Refactor this to account for new model format.
+    return m.getCost()
+
+
+def unitSpace(unit):
+    # DONE: E999 SyntaxError: positional argument follows keyword argument no idea what this is
+    # p.Unit(unit.UID, unit.subUID, unit.models.sort(reverse=True, modelPoints))
+
+    sortedUnit = unit
+    sortedUnit.setModels(unit.getModels().sort(modelPoints, reverse=True))
+    i = 0
+    outputSpace = []
+    while i < len(sortedUnit.models):
+        currentSubUnit = sortedUnit.subUnit(i, 0, i + 1)
+        tranch = currentSubUnit.cumulative()
+        outputSpace += [tranch]
+        i += 1
 
 
 def enemyHealth(e):
-    # TODO: Change enemyHealth to reflect refactoring of models.
-    return e[8]
+    # DONE: Change enemyHealth to reflect refactoring of models.
+    # Note: "wounds" are health
+    return e.getHealth()
 
 
 class DamageKeyGivenEnemy:
@@ -134,16 +91,17 @@ class DamageKeyGivenEnemy:
         return calculate_damage(fg, self.bg)
 
 
-def optimumAssignment(self, friendlies, enemies):
+def optimumAssignment(self, friendlies, enemyTargets):
     # Figure out which of your guys should shoot which of the bad guys
     # so that you get the most points possible.
     #
     # Some assumptions: for any enemy e, e[9] is the points the enemy is worth.
-    # TODO: Refactor this so enemyPoints is a method called on e.
+    # DONE: Refactor this so enemyPoints is a method called on e.
     # TODO: Write and implement some tests.
 
-    # See the definition of friendlyAttacks.
+    # See the definition of friendlyAttacks and unitSpace.
     friendlyAttacks = attackSpace(friendlies)
+    enemyTargets = unitSpace(enemyTargets)
 
     # Here we are going to represent the assignment as a dict, whose
     # keys are the attacks, and values are the enemies each key will
@@ -152,11 +110,11 @@ def optimumAssignment(self, friendlies, enemies):
     # Initialize this dict as everyone attacking the first enemy to begin with.
     noTargets = []
     for i in friendlyAttacks:
-        noTargets += [enemies[0]]
+        noTargets += [enemyTargets[0]]
     target = dict(zip(friendlyAttacks, noTargets))
 
     # Sort enemies by health, weakest first.
-    enemiesByHealth = enemies.sort(reverse=True, key=enemyHealth)
+    enemiesByHealth = enemyTargets.sort(reverse=True, key=enemyHealth)
     i = 0
     while i < len(enemiesByHealth):
         currentEnemy = enemiesByHealth[i]
