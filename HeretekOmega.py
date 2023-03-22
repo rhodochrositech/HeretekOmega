@@ -176,3 +176,4 @@ def optimumAssignment(self, friendlies, enemyTargets):
         # If the previousPoints condition is not met, or we have
         # finished the sub-loop, we have assigned profitably.
         i += 1
+    return target
