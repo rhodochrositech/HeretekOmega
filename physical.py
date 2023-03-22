@@ -11,21 +11,21 @@ def remove_non_alphanumeric(text):
     return re.sub(r"[^a-zA-Z0-9-]", " ", text)
 
 
-class Unit:
+class Squad:
     UnitList = []
 
     def __init__(self, UID, subUID=False, models=[]):
         self.UID = UID
         self.subUID = subUID
-        self.models = models
-        Unit.UnitList.append(self)
+        self.models = []
+        Squad.UnitList.append(self)
 
     @staticmethod
     def cleanSubUnits():
         index = 0
-        for unit in Unit.UnitList:
+        for unit in Squad.UnitList:
             if unit.getSubUID():
-                Unit.UnitList.pop(index)
+                Squad.UnitList.pop(index)
             index += 1
 
     def getUID(self):
@@ -38,7 +38,7 @@ class Unit:
         return self.models
 
     def createSubUnit(self, subUID, begin, end):
-        Unit(self.UID, subUID, self.getModels()[begin:end])
+        Squad(self.UID, subUID, self.getModels()[begin:end])
 
     def cumulative_model(self):
         return False
