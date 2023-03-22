@@ -1,4 +1,3 @@
-import tensorflow as tf
 import csv
 import re
 
@@ -9,6 +8,7 @@ datasheets = {}
 def calculate_damage(skill, strength, toughness, attacks, damage=1):
     print()
     # Calculate ratio to hit
+    # TODO: Refactor this to reflect new model representation
     if skill >= 7:
         hit_ratio = 1
     elif skill <= 1:
@@ -103,66 +103,118 @@ enemies = [
 
 
 def attackSpace(squad):
+    # Convert each creature with multiple attacks into
+    # imaginary "component creatures" with only one attack
+    # and otherwise identical stats, to preserve utility
+    # of calculate_damage
     space = []
     for creature in squad:
-        # convert each creature with multiple attacks into
-        # imaginary "component creatures" with only one attack
-        # and otherwise identical stats, to preserve utility
-        # of calculate_damage
-        for i in range(megadict[creature].values()[3]):
-            space += [megadict[creature].values()[0:3] + [1]]
+        for i in range(megadict[creature].values[3]):
+            space += [megadict[creature].values[0:3] + [1]]
     return space
 
 
+def modelPoints(u):
+    # TODO: Refactor this to account for new model format.
+    return u[9]
+
+
 def enemyHealth(e):
+    # TODO: Change enemyHealth to reflect refactoring of models.
     return e[8]
 
 
 class DamageKeyGivenEnemy:
+    # When instantiated on a bg, acts as a function which maps
+    # unit -> (damage done by unit to bg).
     def __init__(self, bg):
         self.bg = bg
 
-    def damage(self, fg):
-        return calculate_damage(fg, bg)
+    def key(self, fg):
+        return calculate_damage(fg, self.bg)
 
 
-# inspo:
-# So basically, you start with the weakest enemies, and assign your weakest units to them. Go down the list like this, until one of these things happens:
-#
-# If you reach a higher priority enemy that you can kill with these units (including units you've already assigned!!!), you want to pull units off the low value targets and reassign to the higher value target. The condition for this can be some function of the priority difference between the high value target and the priority of the units you would have killed instead, but no longer can.
-#
-# If you reach a unit you can't kill with these units, you should stop going through the list, because they are ordered by their health and will only get tougher.
-# [7:03 PM]
-# The idea here is that you are passing on low value target kills to  "pay" for the cost of a high priority high health target
-# [7:04 PM]
-# So when you reassign units, you will start with the first units you assigned (who are killing low health low priority targets) (edited)
-# [7:06 PM]
-# After you "steal" a unit from an earlier assignment, you might have to fix the first portion of the solution. An easy way to do that would be to run the algorithm again on just that part of the solution, although there is surely a better way.
-# [7:07 PM]
-# does any of that make sense?
-#
-friendlyAttacks = attackSpace(friendlies)
-scenario = []
-for i in range(enemies):
-    scenario += [[]]
-enemiesByHealth = enemies.sort(reverse=True, key=enemyHealth)
-i = 0
-while i < len(enemiesByHealth):
-    # remember to update i!!!!
-    # clocking out for tonight [2023-03-09 Thu 21:05].
-    # TODO: Add check to this loop
-    currentDamage = DamageKeyGivenEnemy(enemiesByHealth[i])
-    friendlyAttacksByDamage = friendlyAttacks.sort(
-        reverse=True, key=currentDamage.damage
-    )
-    j = 0
-    damageDone = 0
-    while j < len(friendlyAttacksByDamage) and damageDone < enemiesByHealth[i][8]:
-        damageDone += currentDamage.damage(friendlyAttacksByDamage[j])
-        scenario[i] += [friendlyAttacksByDamage[j]]
-        j += 1
-    # if the loop terminates because we have used up all of our troops,
-    # hail-mary all of the troops at that enemy
-    if j == len(friendlyAttacksByDamage):
-        scenario[i] += friendlyAttacksByDamage()
-    i += 1
+def optimumAssignment(self, friendlies, enemies):
+    # Figure out which of your guys should shoot which of the bad guys
+    # so that you get the most points possible.
+    #
+    # Some assumptions: for any enemy e, e[9] is the points the enemy is worth.
+    # TODO: Refactor this so enemyPoints is a method called on e.
+    # TODO: Write and implement some tests.
+
+    # See the definition of friendlyAttacks.
+    friendlyAttacks = attackSpace(friendlies)
+
+    # Here we are going to represent the assignment as a dict, whose
+    # keys are the attacks, and values are the enemies each key will
+    # target.
+    #
+    # Initialize this dict as everyone attacking the first enemy to begin with.
+    noTargets = []
+    for i in friendlyAttacks:
+        noTargets += [enemies[0]]
+    target = dict(zip(friendlyAttacks, noTargets))
+
+    # Sort enemies by health, weakest first.
+    enemiesByHealth = enemies.sort(reverse=True, key=enemyHealth)
+    i = 0
+    while i < len(enemiesByHealth):
+        currentEnemy = enemiesByHealth[i]
+        # TODO: Handle the case where some attacks are never assigned
+        # REVIEW: Suppose a1 and a2 are assigned to e1, and a1, a2, and a3
+        # get assigned to e2 in the next iteration, but a3
+        # on its own is enough to kill a3. We could have killed
+        # both e1 and e2, but instead are "overkilling" e2.
+        #
+        # Instantiate the key on the current enemy.
+        currentDamage = DamageKeyGivenEnemy(currentEnemy)
+
+        # Create a new list which is the list of friendly units sorted by
+        # how much damage they do to the ith enemy, weakest first.
+        friendlyAttacksByDamage = friendlyAttacks.sort(
+            reverse=True, key=currentDamage.key
+        )
+
+        j = 0
+        damageDone = 0
+        while j < len(friendlyAttacksByDamage) and damageDone < enemyHealth(
+            currentEnemy
+        ):
+            damageDone += currentDamage.key(friendlyAttacksByDamage[j])
+            j += 1
+
+        # If we can kill the ith enemy, assign him as the target of the 0-j
+        # friendlyAttacks iff he is worth more points than the sum of points
+        # of their previous targets.
+        if damageDone >= enemyHealth(currentEnemy):
+
+            # Get the list of previous targets as a set to remove duplicates.
+            previousTargets = set([])
+            for attack in friendlyAttacksByDamage[0 : j + 1]:
+                previousTargets.add(target[attack])
+
+            # Sum the value of their previous targets.
+            previousPoints = 0
+            for target in previousTargets:
+                previousPoints += modelPoints(target)
+
+            # If we gain more points by attacking the currentEnemy.
+            if previousPoints < modelPoints(currentEnemy):
+                for k in range(0, j + 1):
+                    # If we actually need this attack to kill the
+                    # higher priority currentEnemy, reassign it.
+                    # Otherwise, do nothing- our cause is better
+                    # forwarded by having it attack another enemy,
+                    # even if it will not kill it.
+                    #
+                    # Since not reassigning an attack will only
+                    # effectively decrease previousPoints, the
+                    # outer condition is still valid.
+                    if damageDone - currentDamage.key(
+                        friendlyAttacksByDamage[k]
+                    ) < enemyHealth(currentEnemy):
+                        target[attack] = currentEnemy
+
+        # If the previousPoints condition is not met, or we have
+        # finished the sub-loop, we have assigned profitably.
+        i += 1
