@@ -1,0 +1,1863 @@
+﻿datasheet_id|line|name|M|WS|BS|S|T|W|A|Ld|Sv|Cost|cost_description|models_per_unit|cost_including_wargear|base_size|base_size_descr|
+000000001|1|Warboss|5"|2+|5+|6|6|6|5|8|4+|90||1|false|40mm||
+000000002|1|Warboss in Mega Armour|5"|2+|5+|6|6|7|5|8|2+|115||1|false|50mm||
+000000003|1|Warboss on Warbike|14"|2+|5+|6|7|7|5|8|4+|115||1|false|100 x 40mm||
+000000004|1|Weirdboy|5"|3+|5+|5|5|5|3|6|6+|70||1|false|40mm||
+000000005|1|Big Mek|5"|3+|5+|5|4|4|3|7|4+|55||1|false|32mm||
+000000005|2|Grot Oiler|5"|5+|4+|2|2|1|1|4|6+|4||0-1|false|25mm||
+000000006|1|Big Mek in Mega Armour|4"|3+|4+|5|5|6|3|8|2+|85||1|false|40mm|Grot oiler 25mm|
+000000007|1|Big Mek on Warbike|14"|3+|5+|5|5|5|3|7|4+|81||1|false|90 x 52mm||
+000000008|1|Ghazghkull Thraka|7"|2+|5+|7|7|12|5|8|2+|300||1|false|80mm||
+000000009|1|Kaptin Badrukk|5"|2+|4+|5|6|6|5|8|3+|95||1|false|40mm|Ammo runt 25mm|
+000000010|1|Boss Zagstruk|12"|2+|5+|6|6|6|6|7|4+|110||1|false|40mm||
+000000011|1|Boss Snikrot|6"|2+|5+|6|6|6|6|7|6+|95||1|false|40mm||
+000000012|1|Mek|5"|3+|5+|4|5|3|2|6|6+|25||1|false|32mm|Grot oiler 25mm|
+000000013|1|Painboy|5"|3+|5+|5|5|4|4|8|6+|60||1|false|32mm||
+000000014|1|Painboy on Warbike|14"|3+|5+|5|5|5|4|6|4+|90||1|false|90 x 52mm||
+000000015|1|Mad Dok Grotsnik|5"|2+|5+|5|5|4|4|8|4+|85||1|false|32mm||
+000000016|1|Ork Boy|5"|3+|5+|4|5|1|2|6|6+|8||9-29|false|32mm||
+000000016|2|Boss Nob|5"|3+|5+|5|5|2|3|7|6+|8||1|false|32mm||
+000000017|1|Gretchin|5"|5+|4+|2|3|1|1|4|7+|4||10-30|false|25mm||
+000000018|1|Runtherd|5"|3+|5+|4|5|4|3|7|6+|30||1|false|32mm||
+000000019|1|Burna Boy|5"|3+|5+|4|5|1|2|6|6+|10||4-12|false|32mm||
+000000019|2|Spanner|5"|3+|5+|4|5|1|2|6|6+|10||1-3|false|32mm||
+000000020|1|Tankbusta|5"|3+|5+|4|5|1|2|6|6+|16||4-14|false|32mm|Bomb squig 25mm|
+000000020|2|Boss Nob|5"|3+|5+|5|5|2|3|7|6+|16||1|false|32mm||
+000000021|1|Nob|5"|3+|5+|5|5|2|3|7|4+|17||4-9|false|32mm|Ammo runt 25mm|
+000000021|2|Boss Nob|5"|3+|5+|5|5|2|3|7|4+|17||1|false|32mm||
+000000022|1|Nob with Waaagh! Banner|5"|3+|5+|5|5|4|3|7|4+|70||1|false|32mm||
+000000024|1|Meganob|5"|3+|5+|5|5|3|3|7|2+|30||2-9|false|40mm||
+000000024|2|Boss Meganob|5"|3+|5+|5|5|3|3|7|2+|30||1|false|40mm||
+000000025|1|Kommando|6"|3+|5+|4|5|1|2|6|6+|11||4-14|false|32mm||
+000000025|2|Boss Nob|6"|3+|5+|5|5|2|3|7|6+|11||1|false|32mm||
+000000026|1|Trukk|12"|5+|5+|6|6|10|3|6|4+|70||1|false|Use model||
+000000027|1|Stormboy|12"|3+|5+|4|5|1|2|6|6+|10||4-14|false|32mm||
+000000027|2|Boss Nob|12"|3+|5+|5|5|2|3|7|6+|10||1|false|32mm||
+000000028|1|Deffkopta|14"|3+|5+|4|5|4|2|6|4+|50||3-6|false|75 x 42mm||
+000000029|1|Dakkajet|20-60"|5+|5+|6|6|12|3|6|4+|100||1|false|120 x 92mm flying base||
+000000030|1|Burna-bommer|20-60"|5+|5+|6|6|12|3|6|4+|135||1|false|120 x 92mm flying base||
+000000031|1|Blitza-bommer|20-60"|5+|5+|6|6|12|3|6|4+|150||1|false|120 x 92mm flying base||
+000000032|1|Wazbom Blastajet|20-60"|5+|4+|6|6|12|3|6|4+|170||1|false|120 x 92mm flying base||
+000000033|1|Warbiker|14"|3+|5+|4|5|3|2|6|4+|25||2-8|false|75 x 42mm||
+000000033|2|Boss Nob on Warbike|14"|3+|5+|5|5|4|3|7|4+|25||1|false|75 x 42mm||
+000000034|1|Wartrakk|12"|3+|5+|4|5|6|4|6|4+|37||1-5|false|Use model||
+000000035|1|Skorcha|12"|3+|5+|4|5|6|4|6|4+|37||1-5|false|Use model||
+000000036|1|Warbuggy|14"|3+|5+|4|5|5|4|6|4+|33||1-5|false|Use model||
+000000037|1|Big Gun|3"|5+|4+|2|5|3|2|4|5+|8||1-6|false|Use model||
+000000038|1|Mek Gun|3"|5+|4+|2|5|6|6|4|5+|40||1-3|false|Use model||
+000000039|1|Battlewagon|12"|5+|5+|8|7|16|6|7|3+|105||1|false|Use model||
+000000040|1|Deff Dread|6"|3+|5+|5|7|8|3|7|3+|85||1-3|false|60mm||
+000000041|1|Killa Kan|6"|4+|4+|5|5|5|3|6|3+|30||3-6|false|60mm||
+000000042|1|Morkanaut|8"|3+|5+|8|8|24|4|7|3+|315||1|false|170 x 109mm||
+000000043|1|Gorkanaut|8"|3+|5+|8|8|24|5|7|3+|330||1|false|170 x 109mm||
+000000044|1|Loota|5"|3+|5+|4|5|1|2|6|6+|14||4-12|false|32mm||
+000000044|2|Spanner|5"|3+|5+|4|5|1|2|6|6+|14||1-3|false|32mm||
+000000045|1|Flash Git|5"|3+|4+|5|5|2|3|7|4+|20||4-9|false|40mm|Ammo runt 25mm|
+000000045|2|Kaptin|5"|3+|4+|5|5|2|3|7|4+|20||1|false|40mm||
+000000046|1|Stompa|10"|3+|5+|10|8|40|6|8|3+|675||1|false|Use model||
+000000047|1|Zhadsnark da Ripper|14"|2+|5+|6|6|7|5|8|4+|120||1|false|100 x 40mm||
+000000048|1|Mek Boss Buzzgob|5"|3+|4+|5|5|6|4|8|4+|||1|false|40mm|Grot Oiler 25mm|
+000000049|1|Grot Tank|6+D6"|6+|4+|4|5|4|2|6|3+|35||3-7|false|Use model||
+000000049|2|Kommanda|6+D6"|6+|4+|4|5|4|3|7|3+|35||1|false|Use model||
+000000050|1|Grot Mega-tank|6+D6"|5+|4+|6|6|11|4|7|3+|90||1|false|Use model||
+000000051|1|Squiggoth|10"|3+|5+|8|8|18|4|9|3+|150||1|false|Use model||
+000000052|1|Meka-Dread|8"|3+|4+|7|7|16|4|9|3+|165||1|false|Use model||
+000000053|1|Lifta Wagon|12"|5+|5+|8|7|16|6|7|4+|155||1|false|Use model||
+000000054|1|Big Trakk|14"|5+|5+|6|6|12|4|6|4+|85||1|false|Use model||
+000000055|1|Kannonwagon|12"|5+|5+|8|7|16|6|7|3+|150||1|false|Use model||
+000000056|1|Kill Tank|12"|4+|5+|8|8|24|8|8|3+|275||1|false|Use model||
+000000057|1|Chinork Warkopta|16"|3+|5+|6|6|10|3|6|4+|100||1|false|120 x 92mm flying base||
+000000058|1|Kustom Stompa|10"|3+|5+|10|8|40|6|8|3+|675||1|false|Use model||
+000000059|1|Gargantuan Squiggoth|10"|3+|5+|12|8|36|8|9|3+|420||1|false|Use model||
+000000060|1|Captain|6"|2+|2+|4|4|5|4|9|3+|85||1|false|32mm||
+000000061|1|Captain in Terminator Armour|5"|2+|2+|4|4|6|4|9|2+|100||1|false|40mm||
+000000063|1|Captain in Gravis Armour|5"|2+|2+|4|5|7|5|9|3+|105||1|false|40mm||
+000000064|1|Captain on Bike|14"|2+|2+|4|5|6|4|9|3+|100||1|false|75 x 25mm||
+000000065|1|Librarian|6"|3+|3+|4|4|4|3|9|3+|80||1|false|32mm||
+000000066|1|Librarian in Terminator Armour|5"|3+|3+|4|4|5|3|9|2+|95||1|false|40mm||
+000000067|1|Librarian on Bike|14"|3+|3+|4|5|5|3|9|3+|119||1|false|75 x 25mm||
+000000068|1|Techmarine|6"|3+|2+|4|4|4|3|8|2+|70||1|false|32mm||
+000000069|1|Servitor|5"|5+|5+|3|3|1|1|6|4+|||4|false|25mm||
+000000070|1|Techmarine on Bike|14"|3+|2+|4|5|5|3|8|2+|70||1|false|75 x 25mm||
+000000071|1|Chaplain|6"|2+|3+|4|4|4|3|9|3+|70||1|false|32mm||
+000000072|1|Chaplain in Terminator Armour|5"|2+|3+|4|4|5|3|9|2+|85||1|false|40mm||
+000000073|1|Chaplain on Bike|14"|2+|3+|4|5|5|3|9|3+|95||1|false|75 x 25mm||
+000000074|1|Apothecary|6"|3+|3+|4|4|4|3|8|3+|65||1|false|32mm||
+000000075|1|Apothecary on Bike|14"|3+|3+|4|5|5|3|8|3+|80||1|false|75 x 25mm||
+000000076|1|Primaris Lieutenant|6"|2+|2+|4|4|5|4|8|3+|65||1|false|40mm||
+000000077|1|Company Ancient|6"|3+|3+|4|4|4|3|8|3+|65||1|false|32mm||
+000000078|1|Company Ancient on Bike|14"|3+|3+|4|5|5|3|8|3+|88||1|false|75 x 25mm||
+000000079|1|Primaris Ancient|6"|3+|3+|4|4|5|4|8|3+|70||1|false|40mm||
+000000080|1|Company Champion|6"|2+|3+|4|4|4|4|8|3+|50||1|false|32mm||
+000000081|1|Company Champion on Bike|14"|2+|3+|4|5|5|4|8|3+|80||1|false|75 x 25mm||
+000000082|1|Company Veteran|6"|3+|3+|4|4|2|2|8|3+|20||1-4|false|32mm||
+000000082|2|Company Veteran Sergeant|6"|3+|3+|4|4|2|3|9|3+|20||1|false|32mm||
+000000083|1|Space Marine Veteran Biker|14"|3+|3+|4|5|2|2|8|3+|34||1-4|false|75 x 25mm||
+000000083|2|Veteran Biker Sergeant|14"|3+|3+|4|5|2|3|9|3+|34||1|false|75 x 25mm||
+000000084|1|Space Marine|6"|3+|3+|4|4|2|1|7|3+|18||4-9|false|32mm||
+000000084|2|Space Marine Sergeant|6"|3+|3+|4|4|2|2|8|3+|18||1|false|32mm||
+000000085|1|Scout|6"|3+|3+|4|4|1|1|7|4+|12||4-9|false|25mm||
+000000085|2|Scout Sergeant|6"|3+|3+|4|4|1|2|8|4+|12||1|false|25mm||
+000000086|1|Intercessor|6"|3+|3+|4|4|2|2|7|3+|18||4-9|false|32mm||
+000000086|2|Intercessor Sergeant|6"|3+|3+|4|4|2|3|8|3+|18||1|false|32mm||
+000000087|1|Imperial Space Marine|6"|3+|3+|4|4|4|3|8|3+|60||1|false|32mm||
+000000088|1|Honour Guard|6"|3+|3+|4|4|2|2|9|2+|||2|false|32mm||
+000000089|1|Chapter Ancient|6"|3+|3+|4|4|4|3|9|2+|65||1|false|32mm||
+000000090|1|Chapter Champion|6"|2+|3+|4|4|4|5|9|2+|75||1|false|32mm||
+000000091|1|Assault Centurion|5"|3+|3+|5|5|4|3|7|2+|60||2-5|false|50mm||
+000000091|2|Assault Centurion Sergeant|5"|3+|3+|5|5|4|4|8|2+|60||1|false|50mm||
+000000092|1|Sternguard Veteran|6"|3+|3+|4|4|2|2|8|3+|20||4-9|false|32mm||
+000000092|2|Sternguard Veteran Sergeant|6"|3+|3+|4|4|2|3|9|3+|20||1|false|32mm||
+000000093|1|Vanguard Veteran|6"|3+|3+|4|4|2|2|8|3+|20||4-9|false|32mm||
+000000093|2|Vanguard Veteran Sergeant|6"|3+|3+|4|4|2|3|9|3+|20||1|false|32mm||
+000000094|1|Dreadnought|6"|3+|3+|6|7|8|4|8|3+|120||1|false|60mm||
+000000095|1|Venerable Dreadnought|6"|2+|2+|6|7|8|4|8|3+|135||1|false|60mm||
+000000096|1|Contemptor Dreadnought|8"|3+|3+|7|7|9|4|8|3+|140||1|false|60mm||
+000000097|1|Ironclad Dreadnought|6"|3+|3+|6|8|8|4|8|3+|135||1|false|60mm||
+000000098|1|Terminator|5"|3+|3+|4|4|3|2|8|2+|33||4-9|false|40mm||
+000000098|2|Terminator Sergeant|5"|3+|3+|4|4|3|3|9|2+|33||1|false|40mm||
+000000099|1|Assault Terminator|5"|3+|3+|4|4|3|2|8|2+|33||4-9|false|40mm||
+000000099|2|Assault Terminator Sergeant|5"|3+|3+|4|4|3|3|9|2+|33||1|false|40mm||
+000000102|1|Assault Marine|6"|3+|3+|4|4|2|1|7|3+|18||4-9|false|32mm||
+000000102|2|Assault Marine Sergeant|6"|3+|3+|4|4|2|2|8|3+|18||1|false|32mm||
+000000103|1|Inceptor|10"|3+|3+|4|5|3|2|7|3+|40||2-5|false|40mm||
+000000103|2|Inceptor Sergeant|10"|3+|3+|4|5|3|3|8|3+|40||1|false|40mm||
+000000104|1|Scout Biker|16"|3+|3+|4|5|2|1|7|4+|30||2-8|false|75 x 25mm||
+000000104|2|Scout Biker Sergeant|16"|3+|3+|4|5|2|2|8|4+|30||1|false|75 x 25mm||
+000000105|1|Space Marine Biker|14"|3+|3+|4|5|3|1|7|3+|30||2-15|false|75 x 25mm||
+000000105|2|Space Marine Biker|14"|3+|3+|4|5|3|1|7|3+|30||2-7|false|75 x 25mm||
+000000105|3|Biker Sergeant|14"|3+|3+|4|5|3|2|8|3+|30||1|false|75 x 25mm||
+000000105|4|Attack Bike|14"|3+|3+|4|5|4|2|7|3+|30||0-1|false|Use model||
+000000106|1|Attack Bike|14"|3+|3+|4|5|4|2|7|3+|50||1-3|false|Use model||
+000000107|1|Land Speeder Storm|18"|3+|3+|4|6|7|2|7|4+|50||1|false|60mm flying base||
+000000108|1|Land Speeder|18"|3+|3+|4|6|6|2|7|3+|60||1-3|false|60mm flying base||
+000000109|1|Rhino|12"|6+|3+|6|7|10|3|8|3+|80||1|false|Use model||
+000000110|1|Rhino Primaris|12"|6+|3+|6|7|10|3|8|3+|52||1|false|Use model||
+000000111|1|Razorback|12"|6+|3+|6|7|10|3|8|3+|100||1|false|Use model||
+000000112|1|Drop Pod|-|-|3+|6|6|8|-|8|3+|70||1|false|Use model||
+000000113|1|Stormhawk Interceptor|20-60"|6+|3+|6|7|10|3|8|3+|185||1|false|120 x 92mm flying base||
+000000114|1|Stormtalon Gunship|20-50"|6+|3+|6|6|10|3|8|3+|165||1|false|120 x 92mm flying base||
+000000115|1|Devastator Marine|6"|3+|3+|4|4|2|1|7|3+|23||4-9|false|32mm||
+000000115|2|Devastator Marine Sergeant|6"|3+|3+|4|4|2|2|8|3+|23||1|false|32mm||
+000000116|1|Devastator Centurion|5"|3+|3+|5|5|4|3|7|2+|70||2-5|false|50mm||
+000000116|2|Devastator Centurion Sergeant|5"|3+|3+|5|5|4|4|8|2+|70||1|false|50mm||
+000000117|1|Hellblaster|6"|3+|3+|4|4|2|2|7|3+|30||4-9|false|32mm||
+000000117|2|Hellblaster Sergeant|6"|3+|3+|4|4|2|3|8|3+|30||1|false|32mm||
+000000118|1|Thunderfire Cannon|3"|6+|2+|3|6|4|1|8|2+|||1|false|Use model||
+000000118|2|Techmarine Gunner|6"|3+|2+|4|4|4|3|8|2+|||1|false|25mm||
+000000119|1|Predator Destructor|12"|6+|3+|6|7|11|3|8|3+|130||1|false|Use model||
+000000120|1|Whirlwind|12"|6+|3+|6|7|11|3|8|3+|125||1|false|Use model||
+000000121|1|Vindicator|10"|6+|3+|6|8|11|3|8|3+|120||1|false|Use model||
+000000122|1|Hunter|10"|6+|3+|6|8|11|3|8|3+|110||1|false|Use model||
+000000123|1|Stalker|10"|6+|3+|6|8|11|3|8|3+|115||1|false|Use model||
+000000124|1|Stormraven Gunship|20-45"|6+|3+|8|7|14|6|9|3+|260||1|false|120 x 92mm flying base||
+000000125|1|Land Raider|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000000126|1|Land Raider Crusader|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000000127|1|Land Raider Redeemer|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000000128|1|Land Raider Excelsior|10"|6+|3+|8|8|16|6|9|2+|200||1|false|Use model||
+000000129|1|Roboute Guilliman|8"|2+|2+|6|6|9|6|10|2+|300||1|false|60mm||
+000000130|1|Captain Lysander|5"|2+|2+|4|4|6|4|9|2+|120||1|false|40mm||
+000000131|1|Pedro Kantor|6"|2+|2+|4|4|6|5|9|2+|130||1|false|25mm||
+000000132|1|Marneus Calgar|6"|2+|2+|4|5|8|6|9|2+|160||1|false|50mm||
+000000133|1|Marneus Calgar in Artificer Armour|6"|2+|2+|4|4|6|5|9|2+|235||1|true|50mm||
+000000134|1|Captain Sicarius|6"|2+|2+|4|4|5|4|9|2+|105||1|false|25mm||
+000000135|1|Chief Librarian Tigurius|6"|3+|3+|4|4|5|4|9|3+|120||1|false|40mm||
+000000136|1|Chaplain Cassius|6"|2+|3+|4|5|4|3|9|3+|85||1|false|32mm||
+000000137|1|Sergeant Telion|7"|3+|2+|4|4|4|2|8|4+|50||1|false|25mm||
+000000138|1|Sergeant Chronus|6"|3+|2+|4|4|4|2|8|3+|35||1|false|25mm||
+000000139|1|Tyrannic War Veteran|6"|3+|3+|4|4|2|2|8|3+|17||3-9|false|25mm||
+000000139|2|Veteran Sergeant|6"|3+|3+|4|4|2|3|9|3+|17||1|false|25mm||
+000000140|1|Terminus Ultra|10"|6+|3+|8|8|16|6|9|2+|250||1|false|Use model||
+000000141|1|High Marshal Helbrecht|6"|2+|2+|4|4|8|6|9|2+|140||1|false|60mm||
+000000142|1|The Emperor’s Champion|6"|2+|3+|4|4|5|5|9|2+|90||1|false|40mm||
+000000143|1|Chaplain Grimaldus|6"|2+|3+|4|4|5|4|9|3+|120||1|false|40mm||
+000000143|2|Cenobyte Servitor|6"|4+|4+|3|4|1|1|6|4+|||3|false|28mm||
+000000145|1|Initiate|6"|3+|3+|4|4|2|1|7|3+|18||4-9|false|32mm||
+000000145|2|Neophyte|6"|3+|3+|4|4|1|1|6|4+|13||0-10|false|25mm||
+000000145|3|Sword Brother|6"|3+|3+|4|4|2|2|8|3+|18||1|false|32mm||
+000000146|1|Kayvaan Shrike|14"|2+|2+|4|4|6|6|9|3+|120||1|false|40mm||
+000000147|1|Vulkan He’stan|6"|2+|2+|4|4|5|4|9|2+|110||1|false|25mm||
+000000148|1|Kor’sarro Khan|6"|2+|2+|4|4|6|5|9|3+|100||1|false|40mm||
+000000149|1|Kor’sarro Khan on Moondrakkan|14"|2+|2+|4|5|6|4|9|3+|132||1|true|75 x 25mm||
+000000150|1|Legionnaire|5"|3+|3+|4|4|1|2|10|3+|25||4-9|false|32mm||
+000000150|2|Legionnaire Sergeant|5"|3+|3+|4|4|1|3|10|3+|25||1|false|32mm||
+000000243|1|Fortress of Redemption|-|-|4+|6|8|30|-|7|3+|440||1|false|Use model||
+000000373|1|Kaldor Draigo|5"|2+|2+|4|4|7|6|9|2+|165||1|false|40mm||
+000000374|1|Grand Master Voldus|5"|2+|2+|4|4|6|6|9|2+|135||1|false|40mm||
+000000375|1|Grand Master|5"|2+|2+|4|4|6|6|9|2+|120||1|false|40mm||
+000000376|1|Brother-Captain|5"|2+|2+|4|4|6|5|9|2+|100||1|false|40mm||
+000000377|1|Brother-Captain Stern|5"|2+|2+|4|4|6|6|9|2+|110||1|false|40mm||
+000000378|1|Brotherhood Ancient|5"|3+|3+|4|4|5|4|8|2+|90||1|false|40mm||
+000000379|1|Brotherhood Champion|6"|2+|2+|4|4|4|5|8|2+|60||1|false|32mm||
+000000380|1|Castellan Crowe|6"|2+|2+|4|4|5|6|8|2+|85||1|false|40mm||
+000000381|1|Grey Knight|6"|3+|3+|4|4|2|3|7|3+|20||4-9|false|32mm||
+000000381|2|Justicar|6"|3+|3+|4|4|2|4|8|3+|20||1|false|32mm||
+000000382|1|Brotherhood Terminator|5"|3+|3+|4|4|3|3|7|2+|35||4-9|false|40mm||
+000000382|2|Terminator Justicar|5"|3+|3+|4|4|3|4|8|2+|35||1|false|40mm||
+000000383|1|Purifier|6"|3+|3+|4|4|2|3|8|3+|23||4-9|false|32mm||
+000000383|2|Knight of the Flame|6"|3+|3+|4|4|2|4|9|3+|23||1|false|32mm||
+000000384|1|Paladin|5"|2+|3+|4|4|3|4|8|2+|45||2-9|false|40mm||
+000000384|2|Paragon|5"|2+|3+|4|4|3|5|9|2+|45||1|false|40mm||
+000000385|1|Paladin Ancient|5"|2+|3+|4|4|5|5|9|2+|100||1|false|40mm||
+000000386|1|Brotherhood Apothecary|5"|3+|3+|4|4|5|5|8|2+|90||1|false|40mm||
+000000387|1|Interceptor|12"|3+|3+|4|4|2|3|7|3+|24||4-9|false|32mm||
+000000387|2|Interceptor Justicar|12"|3+|3+|4|4|2|4|8|3+|24||1|false|32mm||
+000000388|1|Purgator|6"|3+|3+|4|4|2|3|7|3+|22||4-9|false|32mm||
+000000388|2|Purgator Justicar|6"|3+|3+|4|4|2|4|8|3+|22||1|false|32mm||
+000000389|1|Nemesis Dreadknight|9"|3+|3+|6|6|13|5|8|2+|130||1|false|120 x 92mm||
+000000390|1|Dreadnought|6"|3+|3+|6|7|8|5|8|3+|130||1|false|60mm||
+000000391|1|Land Raider|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000000392|1|Land Raider Crusader|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000000393|1|Land Raider Redeemer|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000000395|1|Razorback|12"|6+|3+|6|7|10|3|8|3+|100||1|false|Use model||
+000000396|1|Rhino|12"|6+|3+|6|7|10|3|8|3+|80||1|false|Use model||
+000000397|1|Servitor|5"|5+|5+|3|3|1|1|6|4+|||4|false|25mm||
+000000398|1|Stormraven Gunship|20-45"|6+|3+|8|7|14|6|9|3+|260||1|false|120 x 92mm flying base||
+000000399|1|Brotherhood Techmarine|6"|3+|2+|4|4|4|4|8|2+|70||1|false|32mm||
+000000400|1|Venerable Dreadnought|6"|2+|2+|6|7|8|5|8|3+|145||1|false|60mm||
+000000402|1|Commander in Coldstar Battlesuit|14"|3+|2+|5|5|7|4|10|3+|120||1|false|60mm||
+000000403|1|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|10||0-12|false|32mm flying base||
+000000403|2|Marker Drone|10"|5+|5+|3|4|1|1|6|4+|10||0-12|false|32mm flying base||
+000000403|3|Shield Drone|10"|5+|5+|3|4|2|1|6|4+|15||0-12|false|32mm flying base||
+000000404|1|Ethereal|6"|3+|4+|3|3|4|3|10|5+|90||1|false|25mm|40mm on hover drone|
+000000405|1|Cadre Fireblade|6"|4+|3+|3|3|4|3|8|4+|50||1|false|25mm||
+000000406|1|Commander Farsight|10"|2+|2+|5|5|7|5|10|3+|130||1|false|40mm||
+000000407|1|Commander Shadowsun|10"|3+|2+|5|5|7|4|10|3+|150||1|false|50mm||
+000000407|2|Advanced Guardian Drone|10"|5+|5+|3|4|1|1|6|4+|||1|false|32mm flying base||
+000000407|3|Command-link Drone|10"|5+|5+|3|4|1|1|6|4+|||1|false|32mm flying base||
+000000408|1|Aun’Shi|6"|2+|4+|3|3|5|5|10|7+|105||1|false|25mm||
+000000409|1|Aun’Va|6"|6+|4+|2|3|6|1|10|5+|||1|false|40mm||
+000000409|2|Ethereal Guard|6"|3+|3+|3|3|2|3|10|5+|||2|false|25mm||
+000000410|1|Darkstrider|7"|3+|2+|3|3|5|3|9|4+|60||1|false|32mm||
+000000411|1|Fire Warrior|6"|5+|4+|3|3|1|1|7|4+|||9|false|25mm||
+000000411|2|Fire Warrior Shas’ui|6"|5+|4+|3|3|1|2|8|4+|||1|false|25mm||
+000000411|3|Support Turret|-|-|4+|3|3|1|-|4|4+|+10||0-1|false|40mm||
+000000412|1|Breacher Fire Warrior|6"|5+|4+|3|3|1|1|7|4+|||9|false|25mm||
+000000412|2|Breacher Fire Warrior Shas’ui|6"|5+|4+|3|3|1|2|8|4+|||1|false|25mm||
+000000412|3|Support Turret|-|-|4+|3|3|1|-|4|4+|+10||0-1|false|40mm||
+000000413|1|Kroot|7"|3+|4+|4|3|1|2|6|6+|7||10-20|false|25mm||
+000000414|1|Krootox Rider|7"|3+|4+|6|5|4|4|6|6+|25||1-3|false|40mm||
+000000415|1|Kroot Hound|12"|3+|-|3|3|1|3|5|6+|6||4-12|false|25mm||
+000000416|1|Kroot Shaper|7"|2+|4+|4|3|4|3|8|6+|25||1|false|25mm||
+000000417|1|Stealth Shas’ui|8"|5+|4+|4|4|2|2|8|3+|25||2-5|false|32mm||
+000000417|2|Stealth Shas’vre|8"|5+|4+|4|4|2|3|9|3+|25||1|false|32mm||
+000000418|1|Crisis Shas’ui|10"|5+|4+|5|5|4|3|8|3+|45||2-5|false|50mm||
+000000418|2|Crisis Shas’vre|10"|5+|4+|5|5|4|4|9|3+|45||1|false|50mm||
+000000419|1|Crisis Bodyguard Shas’ui|10"|5+|4+|5|5|4|3|8|3+|45||1-5|false|50mm||
+000000419|2|Crisis Bodyguard Shas’vre|10"|5+|4+|5|5|4|4|9|3+|45||1|false|50mm||
+000000420|1|Ghostkeel Shas’vre|12"|5+|4+|6|7|12|3|9|3+|||1|false|105 x 70mm||
+000000420|2|Stealth Drone|10"|5+|5+|3|4|1|1|6|4+|||2|true|32mm flying base||
+000000421|1|Riptide Shas’vre|12"|5+|4+|6|7|14|6|9|2+|240||1|false|120 x 92mm||
+000000422|1|Pathfinder|7"|5+|4+|3|3|1|1|7|5+|||9|false|25mm||
+000000422|2|Pathfinder Shas’ui|7"|5+|4+|3|3|1|2|8|5+|||1|false|25mm||
+000000423|1|Piranha|16"|6+|4+|4|6|7|2|7|4+|60||1-5|false|60mm flying base||
+000000423|2|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000000424|1|Devilfish|12"|6+|4+|6|7|13|3|8|3+|95||1|false|60mm flying base||
+000000424|2|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000000425|1|Razorshark Strike Fighter|20-50"|6+|4+|6|7|12|3|8|4+|155||1|false|120 x 92mm flying base||
+000000426|1|Sun Shark Bomber|20-50"|6+|4+|6|6|12|3|8|4+|165||1|false|120 x 92mm flying base||
+000000426|2|Interceptor Drone|20"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000000427|1|Vespid Stingwing|14"|4+|4+|4|4|1|1|5|4+|12||4-12|false|25mm||
+000000427|2|Vespid Strain Leader|14"|4+|4+|4|4|1|2|8|4+|12||1|false|25mm||
+000000428|1|Firesight Marksman|6"|5+|3+|3|3|3|2|8|4+|||1|false|40mm||
+000000428|2|Sniper Drone|10"|5+|5+|3|4|1|1|6|4+|||3|false|32mm flying base||
+000000430|1|Sky Ray Gunship|12"|6+|4+|6|7|14|3|8|3+|135||1|false|60mm flying base||
+000000430|2|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000000431|1|Longstrike|12"|6+|3+|6|7|14|3|9|3+|160||1|false|60mm flying base||
+000000431|2|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000000432|1|Hammerhead Gunship|12"|6+|4+|6|7|14|3|8|3+|145||1|false|60mm flying base||
+000000432|2|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000000433|1|Broadside Shas’ui|5"|5+|4+|5|5|8|3|8|2+|85||0-2|false|60mm||
+000000433|2|Broadside Shas’vre|5"|5+|4+|5|5|8|4|9|2+|85||1|false|60mm||
+000000434|1|Stormsurge|8"|5+|4+|8|8|22|3|8|2+|400||1|false|170 x 109mm||
+000000435|1|Tidewall Droneport|-|-|4+|6|6|10|-|10|4+|80||1|false|Use model||
+000000436|1|Tidewall Shieldline|-|-|-|6|6|10|-|10|4+|80||1|false|Use model||
+000000436|2|Tidewall Defence Platform|-|-|-|6|6|10|-|10|4+|80||0-1|false|Use model||
+000000437|1|Tidewall Gunrig|-|-|4+|6|6|16|-|10|4+|125||1|false|Use model||
+000000438|1|Shas’o R’myr|8"|3+|2+|5|5|5|4|9|3+|110||1|true|60mm||
+000000439|1|Shas’o R’alai|8"|3+|2+|5|5|7|4|9|3+|||1|false|65mm||
+000000439|2|Blacklight Marker Drone|8"|5+|4+|3|3|1|1|6|4+|||2|false|32mm flying base||
+000000440|1|Commander in XV81 Crisis Battlesuit|8"|3+|2+|5|5|5|4|9|3+|100||1|false|60mm||
+000000441|1|DX4 Technical Drone|8"|5+|5+|3|4|2|1|6|4+|20||2-10|true|32mm flying base||
+000000442|1|Commander in XV84 Crisis Battlesuit|8"|3+|2+|5|5|5|4|9|3+|90||1|false|60mm||
+000000443|1|XV9 Hazard Battlesuit|8"|5+|4+|5|5|4|3|8|3+|60||1-3|false|60mm||
+000000444|1|XV109 Y’vahra Battlesuit|18"|5+|4+|6|7|14|4|8|2+|300||1|false|120 x 92mm||
+000000445|1|XV107 R’varna Battlesuit|8"|5+|4+|6|8|15|4|8|2+|320||1|false|120 x 92mm||
+000000446|1|KX139 Ta’unar Supremacy Armour|10"|5+|3+|8|8|30|4|9|3+|1000||1|false|160mm||
+000000447|1|Tetra|18"|6+|4+|4|5|4|2|6|4+|40||2-4|false|60mm flying base||
+000000448|1|TX42 Piranha|16"|6+|4+|4|5|6|2|7|3+|55||1-5|false|60mm flying base||
+000000449|1|Heavy Gun Drone|8"|5+|5+|3|4|2|1|6|4+|18||2-6|false|32mm flying base||
+000000452|1|DX-6 Remora Stealth Drone|15-30"|5+|4+|4|5|5|2|6|3+|60||1-4|false|60mm flying base||
+000000453|1|AX-5-2 Barracuda|20-65"|6+|4+|6|7|14|3|8|3+|200||1|false|120 x 92mm flying base||
+000000454|1|Tiger Shark|20-65"|6+|4+|7|8|18|3|8|3+|375||1|false|160mm||
+000000455|1|AX-1-0 Tiger Shark|20-65"|6+|4+|7|8|18|3|8|3+|450||1|false|160mm||
+000000456|1|Orca Dropship|20"-55"|6+|4+|7|8|28|3|7|3+|300||1|true|Use model||
+000000457|1|Manta|20-60"|6+|4+|8|8|60|12|9|3+|2000||1|false|Use model||
+000000458|1|Remote Sensor Tower|-|-|4+|-|6|3|-|-|4+|40||1|true|Use model||
+000000459|1|Drone Sentry Turret|-|-|5+|-|6|3|-|-|4+|30||1-4|false|Use model||
+000000460|1|Hive Tyrant|9"|2+|2+|7|8|12|5|10|2+|180||1|false|60mm||
+000000461|1|The Swarmlord|9"|2+|2+|8|8|13|9|10|2+|240||1|false|60mm||
+000000462|1|Old One Eye|8"|2+|2+|6|7|9|6|7|2+|250||1|false|105 x 70mm||
+000000463|1|Broodlord|8"|2+|6+|5|5|7|6|10|4+|120||1|false|75 x 42mm||
+000000464|1|Tyranid Prime|6"|2+|2+|5|5|6|4|10|3+|85||1|false|50mm||
+000000465|1|Tervigon|8"|3+|3+|7|8|17|4|10|2+|235||1|false|120 x 92mm||
+000000466|1|Tyranid Warrior|6"|3+|3+|5|5|3|3|9|4+|30||3-9|false|50mm||
+000000467|1|Genestealer|8"|3+|6+|4|4|1|4|8|5+|16||5-10|false|25mm||
+000000468|1|Termagant|6"|4+|4+|3|3|1|1|5|5+|7||10-30|false|25mm||
+000000469|1|Hormagaunt|10"|4+|4+|3|3|1|3|5|5+|8||10-30|false|25mm||
+000000470|1|Ripper Swarm|6"|5+|5+|3|3|4|4|4|6+|15||3-9|false|40mm||
+000000471|1|Tyrant Guard|6"|3+|4+|5|6|4|3|5|2+|45||3-6|false|50mm||
+000000472|1|Hive Guard|6"|4+|3+|5|6|4|3|5|3+|55||3-6|false|50mm||
+000000473|1|Lictor|10"|2+|6+|7|5|5|6|8|4+|70||1|false|40mm||
+000000474|1|Maleceptor|8"|3+|3+|7|8|15|3|10|3+|220||1|false|120 x 92mm||
+000000475|1|Zoanthrope|6"|5+|3+|5|5|4|2|9|5+|70||3-6|false|40mm||
+000000476|1|Venomthrope|8"|3+|3+|5|5|4|5|5|4+|40||3-6|false|40mm||
+000000477|1|Pyrovore|5"|3+|3+|5|5|5|3|5|3+|40||1-3|false|60mm||
+000000478|1|Haruspex|8"|3+|3+|7|8|15|5|7|2+|170||1|false|120 x 92mm||
+000000479|1|Deathleaper|10"|2+|6+|7|5|7|7|8|4+|120||1|false|40mm||
+000000482|1|Ravener|12"|3+|3+|5|5|4|5|5|4+|45||3-9|false|40mm||
+000000483|1|Sky-slasher Swarm|12"|5+|5+|3|3|3|4|4|6+|15||3-9|false|40mm||
+000000484|1|Gargoyle|12"|4+|4+|3|3|1|1|5|6+|8||10-20|false|32mm flying base||
+000000485|1|Harpy|15-40"|3+|3+|6|7|13|4|8|3+|175||1|false|120 x 92mm flying base||
+000000486|1|Hive Crone|15-40"|3+|3+|6|7|13|4|8|3+|160||1|false|120 x 92mm flying base||
+000000487|1|Mucolid Spore|4"|6+|6+|1|4|4|-|10|6+|20||1-3|false|40mm||
+000000488|1|Spore Mine|4"|6+|6+|1|3|1|-|10|6+|10||3-9|false|25mm||
+000000489|1|Tyrannocyte|8"|5+|5+|7|7|15|6|6|4+|110||1|false|100mm||
+000000490|1|Carnifex|8"|3+|4+|6|7|9|4|6|2+|125||1-3|false|105 x 70mm||
+000000491|1|Biovore|5"|4+|4+|5|5|4|2|5|4+|45||1-3|false|60mm||
+000000492|1|Trygon Prime|10"|3+|3+|7|7|14|12|10|3+|175||1|false|120 x 92mm||
+000000493|1|Trygon|10"|3+|3+|7|7|14|12|7|3+|160||1|false|120 x 92mm||
+000000494|1|Mawloc|10"|3+|3+|7|7|14|16|7|3+|125||1|false|120 x 92mm||
+000000495|1|Exocrine|8"|3+|3+|7|8|15|3|7|2+|200||1|false|120 x 92mm||
+000000496|1|Tyrannofex|9"|3+|3+|7|8|17|4|7|2+|185||1|false|120 x 92mm||
+000000497|1|Toxicrene|8"|3+|3+|7|8|15|12|7|3+|150||1|false|120 x 92mm||
+000000498|1|Sporocyst|-|5+|5+|7|7|10|6|6|4+|95||1|false|100mm||
+000000499|1|Malanthrope|5"|4+|4+|4|5|9|4|9|5+|150||1|false|60mm||
+000000500|1|Dimachaeron|12"|3+|3+|7|7|18|6|8|3+|280||1|false|120 x 92mm||
+000000501|1|Meiotic Spore|3"|-|-|1|2|2|1|10|7+|20||3-6|false|40mm||
+000000502|1|Stone-crusher Carnifex|7"|4+|4+|7|7|8|4|6|3+|120||1|false|60mm||
+000000503|1|Barbed Hierodule|8"|3+|3+|8|8|18|4|8|2+|275||1|false|127mm||
+000000504|1|Harridan|20-45"|3+|3+|8|8|34|5|9|3+|700||1|false|120 x 92mm flying base||
+000000505|1|Hierophant|10"|3+|3+|8|8|34|6|9|2+|850||1|false|Use model||
+000000506|1|Scythed Hierodule|12"|3+|3+|8|8|18|6|8|3+|235||1|false|127mm||
+000000507|1|Patriarch|8"|2+|4+|5|5|7|6|10|4+|140||1|false|50mm|Psychic familiar 25mm|
+000000508|1|Magus|6"|3+|3+|3|3|4|3|9|5+|80||1|false|32mm|Psychic familiar 25mm|
+000000509|1|Primus|6"|2+|2+|4|4|5|4|9|5+|70||1|false|32mm||
+000000510|1|Acolyte Iconward|6"|3+|3+|4|4|4|4|8|5+|65||1|false|32mm||
+000000511|1|Acolyte Hybrid|6"|3+|4+|4|4|1|2|7|5+|9||4-14|false|32mm||
+000000511|2|Acolyte Leader|6"|3+|4+|4|4|1|3|8|5+|9||1|false|32mm||
+000000512|1|Neophyte Hybrid|6"|4+|4+|3|3|1|1|7|5+|6||9-19|false|25mm|32mm if equipped with Heavy Mining Weapon|
+000000512|2|Neophyte Leader|6"|4+|4+|3|3|1|2|8|5+|6||1|false|25mm||
+000000513|1|Hybrid Metamorph|6"|3+|4+|4|4|1|3|7|5+|12||4-14|false|32mm||
+000000513|2|Metamorph Leader|6"|3+|4+|4|4|1|4|8|5+|12||1|false|32mm||
+000000514|1|Aberrant|6"|3+|6+|5|5|3|2|7|5+|27||4-9|false|32mm||
+000000514|2|Aberrant Hypermorph|6"|3+|6+|5|5|3|3|7|5+|27||1|false|32mm||
+000000515|1|Purestrain Genestealer|8"|2+|6+|4|4|1|4|9|5+|14||5-10|false|25mm||
+000000516|1|Goliath Truck|12"|6+|4+|6|6|10|3|8|3+|90||1|false|Use model||
+000000521|1|Goliath Rockgrinder|12"|3+|4+|6|7|10|6|8|3+|110||1|false|Use model||
+000000522|1|Imotekh the Stormlord|6"|2+|2+|5|5|6|4|10|2+|130||1|false|25mm||
+000000523|1|Overlord|6"|2+|2+|5|5|5|4|10|3+|90||1|false|40mm||
+000000524|1|Lord|6"|3+|3+|5|5|4|3|10|3+|65||1|false|32mm||
+000000527|1|Nemesor Zahndrekh|6"|2+|2+|5|5|6|4|10|2+|125||1|false|25mm||
+000000528|1|Vargard Obyron|6"|2+|3+|5|5|6|4|10|2+|90||1|false|25mm||
+000000530|1|Orikan the Diviner|5"|3+|3+|4|4|5|2|10|4+|100||1|false|25mm||
+000000530|2|Orikan Empowered|5"|2+|2+|7|7|5|4|10|4+||||false|25mm||
+000000531|1|Anrakyr the Traveller|6"|2+|2+|6|5|6|4|10|3+|130||1|false|25mm||
+000000532|1|Trazyn the Infinite|6"|2+|2+|5|5|6|4|10|3+|90||1|false|25mm||
+000000533|1|Catacomb Command Barge|12"|2+|2+|5|6|9|4|10|3+|145||1|false|Use model||
+000000534|1|Necron Warrior|5"|3+|3+|4|4|1|1|10|4+|11||10-20|false|32mm||
+000000535|1|Immortal|5"|3+|3+|4|5|1|2|10|3+|16||5-10|false|32mm||
+000000536|1|Lychguard|5"|3+|3+|5|5|2|3|10|3+|25||5-10|false|32mm||
+000000537|1|Deathmarks|5"|3+|2+|4|5|1|1|10|3+|13||5-10|false|32mm||
+000000538|1|Flayed One|5"|3+|6+|4|4|1|3|10|4+|10||5-20|false|28mm||
+000000539|1|Triarch Praetorian|10"|3+|3+|5|5|2|3|10|3+|20||5-10|false|32mm||
+000000540|1|Triarch Stalker|10"|3+|3+|7|6|12|3|10|3+|110||1|false|Use model||
+000000541|1|C’tan Shard of the Nightbringer|8"|2+|2+|7|7|9|6|10|4+|320||1|false|40mm||
+000000542|1|C’tan Shard of the Deceiver|8"|2+|2+|6|7|9|5|10|4+|300||1|false|40mm||
+000000543|1|Ghost Ark|12"|6+|3+|6|6|14|3|10|3+|115||1|false|60mm||
+000000544|1|Night Scythe|20-50"|6+|3+|6|6|12|3|10|3+|120||1|false|120 x 92mm flying base||
+000000545|1|Doom Scythe|20-50"|6+|3+|6|6|12|3|10|3+|165||1|false|120 x 92mm flying base||
+000000546|1|Canoptek Wraith|12"|4+|4+|4|5|3|4|10|3+|35||3-6|false|50mm||
+000000548|1|Tomb Blades|14"|3+|3+|4|5|2|1|10|4+|18||3-9|false|32mm flying base||
+000000551|1|Canoptek Spyder|6"|4+|4+|6|6|6|5|10|3+|60||1-3|false|60mm flying base||
+000000552|1|Monolith|8"|6+|3+|8|8|24|6|10|2+|270||1|false|160mm||
+000000553|1|Annihilation Barge|12"|6+|3+|5|6|8|3|10|3+|120||1|false|Use model||
+000000554|1|Doomsday Ark|12"|6+|3+|6|6|14|3|10|3+|145||1|false|60mm flying base||
+000000555|1|Transcendent C’tan|8"|2+|2+|6|7|9|5|10|4+|230||1|false|60mm flying base||
+000000556|1|Tesseract Vault|8"|6+|3+|8|7|30|6|10|2+|360||1|false|120 x 92mm flying base||
+000000557|1|Obelisk|8"|6+|3+|8|8|28|6|10|2+|270||1|false|120 x 92mm flying base||
+000000558|1|Canoptek Tombstalker|10"|4+|4+|6|7|9|6|10|3+|90||1|false|120 x 92mm||
+000000559|1|Canoptek Acanthrite|12"|4+|4+|5|5|3|2|10|3+|35||3-6|false|40mm||
+000000560|1|Canoptek Tomb Sentinel|10"|4+|4+|6|7|9|4|10|3+|100||1|false|120 x 92mm||
+000000561|1|Night Shroud|20-50"|6+|3+|6|7|14|3|10|3+|190||1|false|120 x 92mm flying base||
+000000562|1|Sentry Pylon|-|-|3+|4|7|8|-|10|3+|100||1-3|false|Use model||
+000000564|1|Tesseract Ark|12"|6+|3+|5|7|10|3|10|3+|170||1|false|60mm||
+000000565|1|Kutlakh the World Killer|6"|2+|2+|5|5|6|4|10|3+|110||1|true|||
+000000566|1|Toholk the Blinded|5"|3+|5+|4|4|4|1|10|4+|80||1|true|||
+000000567|1|Gauss Pylon|-|-|3+|6|8|30|-|10|3+|450||1|false|Use model||
+000000568|1|Eldrad Ulthran|7"|2+|2+|3|4|6|3|9|6+|145||1|false|32mm||
+000000569|1|Prince Yriel|7"|2+|2+|3|3|6|5|9|3+|95||1|false|32mm||
+000000570|1|Illic Nightspear|7"|2+|2+|3|3|5|4|9|4+|90||1|false|25mm||
+000000571|1|Asurmen|7"|2+|2+|4|4|6|6|9|2+|160||1|false|25mm||
+000000572|1|Jain Zar|8"|2+|2+|4|4|6|6|9|2+|150||1|false|40mm||
+000000573|1|Karandras|7"|2+|2+|4|4|6|6|9|2+|150||1|false|25mm||
+000000574|1|Fuegan|7"|2+|2+|5|5|6|6|9|2+|170||1|false|25mm||
+000000575|1|Baharroth|14"|2+|2+|4|4|6|6|9|2+|160||1|false|25mm||
+000000576|1|Maugan Ra|7"|2+|2+|4|4|6|6|9|2+|160||1|false|40mm||
+000000577|1|Autarch|7"|2+|2+|3|3|5|5|9|3+|85||1|false|32mm||
+000000579|1|Autarch with Warp Jump Generator|7"|2+|2+|3|3|5|4|9|3+|73||1|false|32mm||
+000000580|1|Autarch Skyrunner|16"|2+|2+|3|4|6|5|9|3+|105||1|false|32mm flying base||
+000000581|1|Avatar of Khaine|10"|2+|2+|7|8|14|7|10|2+|280||1|false|80mm||
+000000582|1|Farseer|7"|2+|2+|3|3|5|2|9|6+|105||1|false|25mm||
+000000583|1|Farseer Skyrunner|16"|2+|2+|3|4|6|2|9|4+|135||1|false|32mm flying base||
+000000584|1|Warlock|7"|3+|3+|3|3|2|2|8|6+|25|If this unit contains 1 model, it costs 45pts/model instead.|1-6|false|32mm||
+000000586|1|Warlock Skyrunner|16"|3+|3+|3|4|3|2|8|4+|40|If this unit contains 1 model, it costs 65pts/model instead.|1-3|false|32mm flying base||
+000000588|1|Spiritseer|7"|2+|2+|3|3|4|2|8|6+|75||1|false|25mm||
+000000589|1|Guardian Defender|7"|3+|3+|3|3|1|1|7|4+|9||10-20|false|28mm||
+000000589|2|Heavy Weapon Platform|7"|6+|3+|3|3|2|1|7|3+|20||0-2|false|40mm||
+000000590|1|Guardian|7"|3+|3+|3|3|1|1|7|4+|8||10-20|false|28mm||
+000000590|2|Serpent’s Scale Platform|7"|6+|3+|3|3|2|1|7|3+|20||0-2|false|28mm||
+000000591|1|Windrider|16"|3+|3+|3|4|2|1|7|3+|20||3-9|false|32mm flying base||
+000000592|1|Ranger|7"|3+|2+|3|3|1|1|7|5+|13||5-10|false|28mm||
+000000593|1|Dire Avenger|7"|3+|3+|3|3|1|2|8|4+|13||4-9|false|28mm||
+000000593|2|Dire Avenger Exarch|7"|3+|3+|3|3|2|3|8|4+|13||1|false|28mm||
+000000594|1|Howling Banshee|8"|3+|3+|3|3|1|3|8|4+|19||4-9|false|28mm||
+000000594|2|Howling Banshee Exarch|8"|3+|3+|3|3|2|4|8|4+|19||1|false|28mm||
+000000595|1|Striking Scorpion|7"|3+|3+|3|3|1|3|8|3+|18||4-9|false|25mm||
+000000595|2|Striking Scorpion Exarch|7"|3+|3+|3|3|2|4|8|3+|18||1|false|25mm||
+000000596|1|Fire Dragon|7"|3+|3+|3|4|1|2|8|3+|24||4-9|false|25mm||
+000000596|2|Fire Dragon Exarch|7"|3+|3+|3|4|2|3|8|3+|24||1|false|25mm||
+000000597|1|Wraithguard|5"|3+|3+|5|6|3|3|9|3+|40||5-10|false|40mm||
+000000598|1|Wraithblade|5"|3+|3+|5|6|3|3|9|3+|40||5-10|false|40mm||
+000000599|1|Wave Serpent|16"|6+|3+|6|7|13|3|8|3+|145||1|false|60mm flying base||
+000000600|1|Swooping Hawk|14"|3+|3+|3|3|1|2|8|4+|25||4-9|false|25mm||
+000000600|2|Swooping Hawk Exarch|14"|3+|3+|3|3|2|3|8|4+|25||1|false|25mm||
+000000601|1|Warp Spider|12"|3+|3+|3|3|1|2|8|3+|22||4-9|false|25mm||
+000000601|2|Warp Spider Exarch|12"|3+|3+|3|3|2|3|8|3+|22||1|false|25mm||
+000000602|1|Shining Spear|16"|3+|3+|3|4|2|3|8|3+|35||2-5|false|60mm flying base||
+000000602|2|Shining Spear Exarch|16"|3+|3+|3|4|3|4|8|3+|35||1|false|60mm flying base||
+000000603|1|Crimson Hunter|20-60"|6+|3+|6|6|12|3|8|3+|175||1|false|170 x 109mm flying base||
+000000605|1|Vyper|16"|6+|3+|4|5|6|2|8|3+|40||1-3|false|60mm flying base||
+000000606|1|Hemlock Wraithfighter|20-60"|6+|3+|6|6|12|3|8|3+|215||1|false|170 x 109mm flying base||
+000000607|1|Dark Reaper|6"|3+|3+|3|3|1|2|8|3+|||4|false|28mm||
+000000607|2|Dark Reaper Exarch|6"|3+|3+|3|3|2|3|8|3+|||1|false|28mm||
+000000608|1|Support Weapon|6"|3+|3+|3|5|5|2|7|4+|45||1-3|false|40mm||
+000000609|1|Falcon|16"|6+|3+|6|7|12|3|8|3+|145||1|false|60mm flying base||
+000000610|1|Fire Prism|16"|6+|3+|6|7|12|3|8|3+|165||1|false|60mm flying base||
+000000611|1|Night Spinner|16"|6+|3+|6|7|12|3|8|3+|140||1|false|60mm flying base||
+000000612|1|War Walker|10"|3+|3+|5|6|6|3|8|3+|55||1-3|false|60mm||
+000000613|1|Wraithlord|8"|3+|3+|7|8|9|4|9|3+|100||1|false|60mm||
+000000614|1|Wraithknight|12"|3+|3+|8|8|22|5|9|3+|400||1|false|120 x 92mm||
+000000615|1|Shadow Spectre|12"|3+|3+|3|3|1|1|8|3+|26||5-10|false|25mm||
+000000615|2|Shadow Spectre Exarch|12"|3+|3+|3|3|2|2|8|3+|26||0-1|false|25mm||
+000000616|1|Wasp Assault Walker|10"|3+|3+|5|6|6|2|8|4+|50||1-3|false|60mm||
+000000617|1|Wraithseer|8"|3+|3+|7|8|9|4|9|3+|130||1|false|60mm||
+000000618|1|Hornet|18"|6+|3+|4|6|8|2|8|3+|80||1-3|false|60mm||
+000000619|1|Warp Hunter|16"|6+|3+|6|7|12|3|8|3+|195||1|false|Use model||
+000000620|1|Lynx|18"|6+|3+|6|7|16|3|8|3+|220||1|false|Use model||
+000000621|1|Scorpion|14"|6+|3+|8|8|26|6|9|3+|500||1|false|Use model||
+000000622|1|Cobra|14"|6+|3+|8|8|26|6|9|3+|450||1|false|Use model||
+000000623|1|Nightwing|20-60"|6+|3+|6|6|14|3|8|3+|220||1|false|120 x 92mm flying base||
+000000624|1|Phoenix|20-60"|6+|3+|6|6|16|3|8|3+|210||1|true|120 x 92mm flying base||
+000000625|1|Vampire Raider|20-50"|6+|3+|8|8|32|6|9|3+|400||1|true|170 x 109mm flying base||
+000000626|1|Vampire Hunter|20-50"|6+|3+|8|8|32|6|9|3+|600||1|true|170 x 109mm flying base||
+000000627|1|Skathach Wraithknight|12"|3+|3+|8|8|24|4|9|3+|325||1|false|120 x 92mm||
+000000628|1|Revenant Titan|30"|3+|3+|9|9|32|4|10|3+|1500||1|false|Use model||
+000000629|1|Corsair Cloud Dancer|16"|3+|3+|3|4|2|1|6|4+|22||3-9|false|32mm flying base||
+000000629|2|Corsair Cloud Dancer Felarch|16"|3+|3+|3|4|2|2|7|4+|22||0-1|false|32mm flying base||
+000000630|1|Irillyth|12"|2+|2+|4|4|6|4|9|2+|140||1|false|25mm||
+000000631|1|Phantom Titan|24"|3+|3+|9|9|60|6|10|3+|3000||1|false|Use model||
+000000632|1|Corsair Reaver|8"|3+|3+|3|3|1|1|6|5+|9||5-15|false|25mm||
+000000632|2|Corsair Reaver Felarch|8"|3+|3+|3|3|1|2|7|5+|9||0-1|false|25mm||
+000000633|1|Corsair Skyreaver|16"|3+|3+|3|3|1|1|6|5+|12||5-15|false|25mm||
+000000633|2|Corsair Skyreaver Felarch|16"|3+|3+|3|3|1|2|7|5+|12||0-1|false|25mm||
+000000634|1|Archon|8"|2+|2+|3|3|5|5|9|4+|70||1|false|25mm||
+000000638|1|Ur-Ghul|8"|3+|-|4|3|3|4|4|7+|15||1|true|32mm||
+000000639|1|Succubus|8"|2+|2+|3|3|5|6|8|6+|80||1|false|25mm||
+000000640|1|Lelith Hesperax|8"|2+|2+|3|3|5|7|8|6+|90||1|false|32mm||
+000000641|1|Haemonculus|7"|2+|2+|3|4|6|4|8|6+|80||1|false|25mm||
+000000642|1|Urien Rakarth|7"|2+|2+|3|5|6|5|8|6+|100||1|false|25mm||
+000000643|1|Drazhar|7"|2+|2+|4|4|6|5|9|2+|145||1|false|40mm||
+000000644|1|Kabalite Warrior|7"|3+|3+|3|3|1|2|7|4+|8||4-19|false|25mm||
+000000644|2|Sybarite|7"|3+|3+|3|3|1|3|8|4+|8||1|false|25mm||
+000000645|1|Kabalite Trueborn|7"|3+|3+|3|3|1|2|8|5+|11||4-19|false|25mm||
+000000645|2|Dracon|7"|3+|3+|3|3|1|3|8|5+|11||1|false|25mm||
+000000646|1|Wych|8"|3+|3+|3|3|1|3|7|6+|10||4-19|false|25mm||
+000000646|2|Hekatrix|8"|3+|3+|3|3|1|4|8|6+|10||1|false|25mm||
+000000647|1|Hekatrix Bloodbride|8"|3+|3+|3|3|1|3|8|6+|13||4-19|false|25mm||
+000000647|2|Syren|8"|3+|3+|3|3|1|4|8|6+|13||1|false|25mm||
+000000648|1|Incubi|7"|2+|3+|3|3|1|3|8|3+|18||4-9|false|28mm||
+000000648|2|Klaivex|7"|2+|3+|3|3|2|4|9|3+|18||1|false|28mm||
+000000649|1|Mandrake|8"|3+|3+|4|3|1|3|7|7+|15||4-9|false|25mm||
+000000649|2|Nightfiend|8"|3+|3+|4|3|1|4|8|7+|15||1|false|25mm||
+000000650|1|Wrack|7"|3+|3+|3|4|1|2|7|6+|9||4-19|false|25mm||
+000000650|2|Acothyst|7"|3+|3+|3|4|1|3|8|6+|9||1|false|25mm||
+000000651|1|Grotesque|7"|3+|6+|5|5|4|4|8|6+|35||3-6|false|40mm||
+000000652|1|Beastmaster|12"|3+|3+|3|4|3|3|7|5+|35||1|false|32mm flying base||
+000000653|1|Clawed Fiend|10"|4+|-|5|5|4|5|4|5+|25||1-6|false|40mm||
+000000654|1|Khymera|10"|3+|-|4|4|1|3|4|6+|10||2-6|false|40mm||
+000000655|1|Razorwing Flock|12"|4+|-|2|2|4|4|4|7+|12||3-9|false|40mm||
+000000656|1|Raider|14"|4+|3+|6|6|10|3|7|4+|95||1|false|60mm flying base||
+000000657|1|Venom|16"|4+|3+|5|5|6|3|7|4+|65||1|false|60mm flying base||
+000000658|1|Reaver|18"|3+|3+|3|4|2|3|7|4+|20||2-11|false|32mm flying base||
+000000658|2|Arena Champion|18"|3+|3+|3|4|2|4|8|4+|20||1|false|32mm flying base||
+000000659|1|Hellion|14"|3+|3+|3|4|2|3|7|5+|17||4-19|false|32mm flying base||
+000000659|2|Helliarch|14"|3+|3+|3|4|2|4|8|5+|17||1|false|32mm flying base||
+000000660|1|Razorwing Jetfighter|20-72"|6+|3+|6|6|10|3|7|4+|150||1|false|120 x 92mm flying base||
+000000661|1|Voidraven Bomber|20-60"|6+|3+|6|6|12|3|7|4+|175||1|false|120 x 92mm flying base||
+000000662|1|Scourge|14"|3+|3+|3|3|1|2|7|4+|12||4-9|false|32mm||
+000000662|2|Solarite|14"|3+|3+|3|3|1|3|8|4+|12||1|false|32mm||
+000000663|1|Talos|8"|3+|4+|6|6|7|5|8|3+|100||1-3|false|60mm flying base||
+000000664|1|Cronos|8"|4+|3+|5|6|7|4|9|3+|75||1-3|false|60mm flying base||
+000000665|1|Ravager|14"|4+|3+|6|6|11|3|7|4+|130||1|false|Use model||
+000000666|1|Reaper|14"|4+|3+|6|6|10|3|7|4+|140||1|false|Use model||
+000000667|1|Tantalus|16"|4+|3+|7|7|18|6|7|3+|220||1|false|Use model||
+000000680|1|Tank Commander|10"|6+|4+|7|8|13|6|7|2+|160||1|false|Use model||
+000000684|1|Guardsman|6"|4+|4+|3|3|1|1|6|5+|||9*|false|25mm||
+000000684|2|Sergeant|6"|4+|4+|3|3|1|2|7|5+|||1|false|25mm||
+000000684|3|Heavy Weapons Team|6"|4+|4+|3|3|2|2|6|5+|||0-1*|false|50mm||
+000000686|1|Heavy Weapons Team|6"|4+|4+|3|3|2|2|6|5+|||3|false|50mm||
+000000689|1|Rough Rider|10"|4+|4+|3|3|2|1|6|5+|8||4-9|false|40mm||
+000000689|2|Rough Rider Sergeant|10"|4+|4+|3|3|2|2|7|5+|8||1|false|40mm||
+000000690|1|Scout Sentinel|12"|4+|4+|6|6|7|2|7|4+|40||1-3|false|80mm||
+000000691|1|Armoured Sentinel|8"|4+|4+|6|6|7|2|7|3+|45||1-3|false|80mm||
+000000692|1|Chimera|12"|6+|4+|6|7|11|3|7|3+|85||1|false|Use model||
+000000693|1|Taurox|14"|6+|4+|6|6|10|3|7|3+|70||1|false|Use model||
+000000694|1|Hellhound|12"|6+|4+|6|7|11|3|7|3+|110||1|false|Use model||
+000000695|1|Basilisk|10"|6+|4+|6|7|11|3|7|3+|140||1|false|Use model||
+000000696|1|Hydra|10"|6+|4+|6|7|11|3|7|3+|110||1|false|Use model||
+000000697|1|Wyvern|10"|6+|4+|6|7|11|3|7|3+|120||1|false|Use model||
+000000698|1|Manticore|10"|6+|4+|6|7|11|3|7|3+|140||1|false|Use model||
+000000699|1|Deathstrike|10"|6+|4+|6|7|11|3|7|3+|160||1|false|Use model||
+000000700|1|Leman Russ Battle Tank|10"|6+|4+|7|8|13|6|7|2+|150||1-3|false|Use model||
+000000702|1|Baneblade|10"|5+|4+|9|9|30|9|8|2+|430||1|false|Use model||
+000000703|1|Banehammer|10"|5+|4+|9|9|28|9|8|2+|400||1|false|Use model||
+000000704|1|Banesword|10"|5+|4+|9|9|30|9|8|2+|390||1|false|Use model||
+000000705|1|Doomhammer|10"|5+|4+|9|9|28|9|8|2+|420||1|false|Use model||
+000000706|1|Hellhammer|10"|5+|4+|9|9|30|9|8|2+|450||1|false|Use model||
+000000707|1|Shadowsword|10"|5+|4+|9|9|30|9|8|2+|450||1|false|Use model||
+000000708|1|Stormlord|10"|5+|4+|9|9|28|9|8|2+|430||1|false|Use model||
+000000709|1|Stormsword|10"|5+|4+|9|9|30|9|8|2+|420||1|false|Use model||
+000000713|1|‘Iron Hand’ Straken|6"|2+|3+|6|4|5|6|9|3+|75||1|false|25mm||
+000000714|1|Sergeant Harker|6"|3+|3+|5|4|4|4|7|5+|40||1|false|25mm||
+000000716|1|Commissar|6"|3+|3+|3|3|4|3|8|5+|40||1|false|25mm||
+000000719|1|Tempestus Scion|6"|4+|3+|3|3|1|2|7|4+|||4|false|25mm||
+000000719|2|Tempestor Prime|6"|3+|3+|3|3|4|3|8|4+|||1|false|25mm||
+000000720|1|Tempestus Scion|6"|4+|3+|3|3|1|2|7|4+|11||4-9|false|25mm||
+000000720|2|Tempestor|6"|4+|3+|3|3|1|3|8|4+|11||1|false|25mm||
+000000721|1|Taurox Prime|14"|6+|3+|6|6|10|3|7|3+|105||1|false|Use model||
+000000722|1|Ogryn|6"|3+|4+|6|5|3|4|7|5+|30||2-5|false|40mm||
+000000722|2|Ogryn Bone ’ead|6"|3+|4+|6|5|3|5|8|5+|30||1|false|40mm||
+000000723|1|Bullgryn|6"|3+|4+|6|5|3|4|7|4+|30||2-5|false|40mm||
+000000723|2|Bullgryn Bone ’ead|6"|3+|4+|6|5|3|5|8|4+|30||1|false|40mm||
+000000724|1|Ratling|5"|5+|3+|2|2|1|1|5|6+|||5|false|25mm||
+000000727|1|Valkyrie|20-40"|6+|3+|7|7|14|3|7|3+|140||1|false|120 x 92mm flying base||
+000000728|1|Atlas Recovery Tank|12"|6+|4+|7|7|11|3|7|3+|80||1|false|Use model||
+000000729|1|Salamander Command Vehicle|12"|6+|3+|6|7|10|3|8|3+|100||1|false|Use model||
+000000730|1|Hades Breaching Drill|6"|4+|4+|6|7|7|D3+3|7|3+|80||1|false|Use model||
+000000731|1|Centaur Light Carrier|12"|6+|4+|5|6|7|2|7|3+|50||1|false|Use model||
+000000733|1|Trojan Support Vehicle|12"|6+|4+|6|7|10|3|7|3+|85||1|false|Use model||
+000000735|1|Salamander Scout Tank|12"|6+|4+|6|7|10|3|7|3+|75||1-3|false|Use model||
+000000736|1|Tauros Assault Vehicle|15"|4+|4+|4|5|6|2|7|4+|50||1-3|false|Use model||
+000000737|1|Tauros Venator|15"|4+|4+|4|5|6|2|7|4+|50||1-3|false|Use model||
+000000738|1|Armageddon-pattern Basilisk|12"|6+|4+|6|7|11|3|7|3+|130||1|false|Use model||
+000000739|1|Armageddon-pattern Medusa|12"|6+|4+|6|7|11|3|7|3+|140||1|false|Use model||
+000000740|1|Colossus Bombard|8"|6+|4+|7|8|12|3|7|3+|150||1-3|false|Use model||
+000000741|1|Cyclops Demolition Vehicle|10"|6+|4+|4|6|4|1|10|3+|50||1|false|Use model||
+000000742|1|Earthshaker Carriage|-|-|4+|4|7|7|-|7|4+|125||1-3|false|Use model||
+000000743|1|Earthshaker Carriage|-|4+|4+|3|6|7|5|7|4+|120||1-3|false|Use model||
+000000744|1|Griffon Mortar Carrier|8"|6+|4+|7|7|11|3|7|3+|85||1-3|false|Use model||
+000000745|1|Heavy Mortar|-|4+|4+|3|6|7|3|7|4+|70||1-3|false|Use model||
+000000746|1|Heavy Quad Launcher|-|4+|4+|3|6|6|3|7|4+|90||1-3|false|Use model||
+000000747|1|Hydra Platform|-|-|4+|4|7|7|-|7|4+|80||1-3|false|Use model||
+000000751|1|Malcador Annihilator|10"|6+|4+|7|8|18|3|7|3+|230||1|false|Use model||
+000000752|1|Malcador Defender|10"|6+|4+|7|8|18|3|7|3+|260||1|false|Use model||
+000000753|1|Malcador|10"|6+|4+|7|8|18|3|7|3+|210||1|false|Use model||
+000000754|1|Malcador Infernus|10"|6+|4+|7|8|18|3|7|3+|250||1|false|Use model||
+000000755|1|Manticore Platform|-|-|4+|4|7|7|-|7|4+|120||1-3|false|Use model||
+000000756|1|Medusa Carriage|-|4+|4+|3|6|7|5|7|4+|120||1-3|false|Use model||
+000000757|1|Rapier Laser Destroyer|4"|4+|4+|3|5|4|2|7|3+|85||1-3|false|Use model||
+000000758|1|Sabre Gun Platform|-|-|4+|4|4|4|-|7|4+|30||1-3|false|Use model||
+000000759|1|Sentinel Powerlifter|9"|4+|4+|5|5|6|1|7|4+|50||1-3|false|Use model||
+000000760|1|Stygies Destroyer Tank Hunter|10"|6+|4+|7|8|10|3|7|3+|155||1-3|false|Use model||
+000000761|1|Thunderer|10"|6+|4+|7|8|12|3|7|3+|120||1-3|false|Use model||
+000000762|1|Tarantula Sentry Gun|-|-|4+|4|5|4|-|7|3+|40||1-3|false|Use model||
+000000763|1|Stormblade|10"|6+|4+|7|8|26|6|8|2+|360||1|false|Use model||
+000000764|1|Arkurian Stormhammer|10"|5+|4+|9|8|26|9|8|2+|440||1|false|Use model||
+000000766|1|Crassus|10"|6+|4+|7|8|20|6|8|2+|240||1|false|Use model||
+000000767|1|Dominus Armoured Siege Bombard|10"|5+|4+|8|8|20|3|8|2+|500||1|false|Use model||
+000000768|1|Gorgon Heavy Transport|10"|5+|4+|9|8|22|5|8|2+|320||1|false|Use model||
+000000769|1|Macharius|10"|6+|4+|7|8|22|6|8|2+|310||1|false|Use model||
+000000770|1|Macharius Omega|10"|5+|4+|8|8|22|3|8|2+|340||1|false|Use model||
+000000771|1|Macharius Vanquisher|10"|6+|4+|7|8|22|6|8|2+|310||1|false|Use model||
+000000772|1|Macharius Vulcan|10"|6+|4+|7|8|22|6|8|2+|340||1|false|Use model||
+000000773|1|Marauder Bomber|20-45"|6+|4+|7|7|20|3|8|2+|320||1|false|Use model||
+000000774|1|Marauder Destroyer|20-45"|6+|4+|7|7|20|3|8|2+|350||1|false|Use model||
+000000775|1|Minotaur|10"|6+|4+|7|8|22|6|8|2+|300||1|false|Use model||
+000000776|1|Praetor|10"|6+|4+|7|8|20|6|8|2+|400||1|false|Use model||
+000000777|1|Valdor Tank Hunter|10"|6+|4+|7|8|20|6|8|2+|335||1|false|Use model||
+000000778|1|Aquila Lander|20-45"|6+|4+|6|7|12|3|7|3+|95||1|false|120 x 92mm flying base||
+000000779|1|Arvus Lighter|20-30"|6+|4+|5|6|8|1|7|3+|85||1|false|120 x 92mm flying base||
+000000780|1|Avenger Strike Fighter|20-45"|6+|4+|6|6|14|3|7|3+|165||1|false|120 x 92mm flying base||
+000000781|1|Voss-pattern Lightning|20-45"|6+|4+|6|6|14|3|7|3+|130||1|false|120 x 92mm flying base||
+000000782|1|Thunderbolt|20-45"|6+|4+|6|7|15|3|7|3+|210||1|false|120 x 92mm flying base||
+000000783|1|Vendetta Gunship|20-45"|6+|4+|6|7|14|3|7|3+|210||1|false|120 x 92mm flying base||
+000000784|1|Vulture Gunship|20-45"|6+|4+|6|7|14|3|7|3+|180||1|false|120 x 92mm flying base||
+000000785|1|Gate Section|-|-|-|10|10|8|-|10|2+|80|Extra gate section|1|false|Use model||
+000000785|2|Gate Tower Section|-|-|4+|10|10|16|-|10|2+|160|Extra gate tower section|2|false|Use model||
+000000785|3|Tower Section|-|-|4+|10|10|12|-|10|2+|120|Extra tower section|2|false|Use model||
+000000785|4|Wall Section|-|-|-|10|10|12|-|10|2+|120|Extra wall section|2|false|Use model||
+000000786|1|Primaris Redoubt|-|-|4+|8|8|20|-|10|3+|750||1|false|Use model||
+000000838|1|Belisarius Cawl|6"|2+|2+|5|6|8|4|9|2+|160||1|false|105 x 70mm||
+000000839|1|Tech-Priest Dominus|6"|3+|2+|4|4|5|3|8|2+|70||1|false|50mm||
+000000840|1|Tech-Priest Enginseer|6"|4+|3+|4|4|4|2|8|3+|50||1|false|32mm||
+000000841|1|Kataphron Breacher|6"|4+|4+|5|5|3|3|7|2+|35||3-6|false|60mm||
+000000842|1|Kataphron Destroyer|6"|4+|4+|5|5|3|3|7|3+|40||3-6|false|60mm||
+000000843|1|Fulgurite Electro-Priest|6"|3+|4+|3|3|1|2|8|6+|12||5-20|false|32mm||
+000000844|1|Corpuscarii Electro-Priest|6"|4+|3+|3|3|1|2|8|6+|12||5-20|false|32mm||
+000000845|1|Kastelan Robot|8"|4+|4+|6|7|7|3|10|3+|85||2-6|false|60mm||
+000000846|1|Cybernetica Datasmith|6"|3+|3+|4|4|4|2|8|2+|35||1|false|32mm||
+000000847|1|Servitor|5"|5+|5+|3|3|1|1|6|4+|||4|false|25mm||
+000000848|1|Skitarii Ranger|6"|4+|3+|3|3|1|1|6|4+|9||4-19|false|25mm|60 x 35mm if equipped with transuranic arquebus|
+000000848|2|Skitarii Ranger Alpha|6"|4+|3+|3|3|1|2|7|4+|9||1|false|25mm||
+000000849|1|Skitarii Vanguard|6"|4+|3+|3|3|1|1|6|4+|9||4-19|false|25mm|60 x 35mm if equipped with transuranic arquebus|
+000000849|2|Skitarii Vanguard Alpha|6"|4+|3+|3|3|1|2|7|4+|9||1|false|25mm||
+000000850|1|Sicarian Infiltrator|8"|3+|3+|4|3|2|2|6|4+|17||4-9|false|40mm||
+000000850|2|Sicarian Infiltrator Princeps|8"|3+|3+|4|3|2|3|7|4+|17||1|false|40mm||
+000000851|1|Sicarian Ruststalker|8"|3+|3+|4|3|2|3|6|4+|16||4-9|false|40mm||
+000000851|2|Sicarian Ruststalker Princeps|8"|3+|3+|4|3|2|4|7|4+|16||1|false|40mm||
+000000852|1|Ironstrider Ballistarius|10"|3+|3+|5|6|6|2|8|3+|75||1-6|false|105 x 70mm||
+000000853|1|Sydonian Dragoon|10"|3+|3+|5|6|6|4|8|3+|50||1-6|false|105 x 70mm||
+000000854|1|Onager Dunecrawler|8"|5+|3+|6|7|11|3|8|3+|100||1|false|130mm||
+000000855|1|Knight Paladin|10"|3+|3+|8|8|24|4|9|3+|425||1|false|170 x 109mm||
+000000856|1|Knight Errant|10"|3+|3+|8|8|24|4|9|3+|425||1|false|170 x 109mm||
+000000857|1|Knight Warden|10"|3+|3+|8|8|24|4|9|3+|435||1|false|170 x 109mm||
+000000858|1|Knight Gallant|12"|2+|3+|8|8|24|5|9|3+|400||1|false|170 x 109mm||
+000000859|1|Knight Crusader|10"|3+|3+|8|8|24|4|9|3+|485||1|false|170 x 109mm||
+000000860|1|Acastus Knight Porphyrion|8"|4+|3+|8|8|30|3|9|3+|780||1|false|Use model||
+000000861|1|Cerastus Knight Acheron|12"|3+|3+|8|8|26|4|9|3+|480||1|false|170 x 109mm||
+000000862|1|Cerastus Knight Atrapos|12"|3+|3+|8|8|26|4|9|3+|520||1|false|170 x 109mm||
+000000863|1|Cerastus Knight Castigator|12"|3+|3+|8|8|26|4|9|3+|460||1|false|170 x 109mm||
+000000864|1|Cerastus Knight Lancer|14"|3+|3+|8|8|26|5|9|3+|440||1|false|170 x 109mm||
+000000865|1|Questoris Knight Magaera|12"|3+|3+|8|8|24|4|9|3+|500||1|false|170 x 109mm||
+000000866|1|Questoris Knight Styrix|12"|3+|3+|8|8|24|4|9|3+|475||1|false|170 x 109mm||
+000000867|1|Warhound Titan|20"|4+|3+|8|8|50|4|10|2+|2000||1|false|Use model||
+000000868|1|Reaver Titan|18"|4+|3+|8|8|70|4|10|2+|3000||1|false|Use model||
+000000869|1|Warlord Titan|12"|4+|3+|9|9|120|4|10|2+|5500||1|false|Use model||
+000000870|1|Vindicare Assassin|7"|2+|2+|4|4|5|5|9|6+|90||1|true|32mm||
+000000871|1|Callidus Assassin|7"|2+|2+|4|4|5|5|9|6+|90||1|true|32mm||
+000000872|1|Eversor Assassin|7"|2+|2+|4|4|6|6|9|6+|90||1|true|32mm||
+000000873|1|Culexus Assassin|7"|2+|2+|4|4|5|4|9|6+|90||1|true|32mm||
+000000874|1|Inquisitor Greyfax|6"|3+|3+|3|3|5|4|10|3+|90||1|false|32mm||
+000000875|1|Inquisitor Karamazov|5"|3+|3+|5|5|8|4|10|4+|125||1|false|60mm||
+000000876|1|Inquisitor Coteaz|6"|3+|3+|3|3|5|4|10|2+|95||1|false|25mm||
+000000877|1|Inquisitor|6"|3+|3+|3|3|5|4|9|4+|60||1|false|25mm||
+000000878|1|Ordo Malleus Inquisitor in Terminator Armour|6"|3+|3+|3|3|6|4|9|2+|95||1|false|40mm||
+000000879|1|Acolyte|6"|4+|4+|3|3|1|2|7|5+|10||1-6|false|25mm||
+000000880|1|Daemonhost|6"|4+|4+|4|4|4|3|7|7+|25||1|false|25mm||
+000000881|1|Jokaero Weaponsmith|6"|6+|4+|2|3|3|2|7|7+|20||1|false|25mm||
+000000882|1|Custodian Guard|6"|2+|2+|5|5|3|3|11|2+|45||3-10|false|40mm||
+000000883|1|Venerable Contemptor Dreadnought|9"|2+|2+|7|7|9|5|11|2+|155||1|false|60mm||
+000000884|1|Venerable Land Raider|10"|6+|2+|8|8|16|6|11|2+|265||1|false|Use model||
+000000889|1|Primaris Psyker|6"|3+|3+|3|3|4|3|8|5+|60||1|false|32mm||
+000000892|1|Uriah Jacobus|6"|3+|3+|3|3|5|4|8|6+|50||1|true|32mm||
+000000894|1|Crusader|6"|3+|4+|3|3|1|2|7|3+|11||2-6|false|25mm||
+000000895|1|Death Cult Assassin|7"|2+|4+|4|3|1|4|7|5+|13||2-6|false|25mm||
+000000896|1|Arco-flagellant|7"|4+|-|4|4|2|2|7|7+|13||3-10|false|25mm||
+000000897|1|Penitent Engine|8"|4+|4+|5|5|5|4|8|4+|50||1-4|false|50mm||
+000000898|1|Celestine|12"|2+|2+|3|3|6|6|9|2+|||1|false|40mm||
+000000898|2|Geminae Superia|12"|3+|3+|3|3|2|3|8|2+|||2|false|32mm||
+000000899|1|Canoness|6"|2+|2+|3|3|5|4|9|3+|50||1|false|32mm||
+000000900|1|Imagifier|6"|3+|3+|3|3|4|3|8|3+|50||1|false|32mm||
+000000901|1|Hospitaller|6"|4+|3+|3|3|4|3|8|3+|50||1|false|50mm||
+000000902|1|Dialogus|6"|4+|3+|3|3|4|3|8|3+|50||1|false|40mm||
+000000903|1|Battle Sister|6"|4+|3+|3|3|1|1|7|3+|11||4-19|false|32mm||
+000000903|2|Sister Superior|6"|4+|3+|3|3|1|2|8|3+|11||1|false|32mm||
+000000904|1|Seraphim|12"|3+|3+|3|3|1|2|8|3+|12||4-9|false|32mm||
+000000904|2|Seraphim Superior|12"|3+|3+|3|3|1|3|9|3+|12||1|false|32mm||
+000000905|1|Celestian|6"|3+|3+|3|3|1|2|8|3+|12||4-9|false|32mm||
+000000905|2|Celestian Superior|6"|3+|3+|3|3|1|3|9|3+|12||1|false|32mm||
+000000907|1|Sister Repentia|6"|3+|3+|3|3|1|2|8|7+|16||4-10|false|28mm||
+000000908|1|Retributor|6"|4+|3+|3|3|1|1|7|3+|12||4-9|false|32mm||
+000000908|2|Retributor Superior|6"|4+|3+|3|3|1|2|8|3+|12||1|false|32mm||
+000000909|1|Dominion|6"|4+|3+|3|3|1|1|7|3+|14||4-9|false|32mm||
+000000909|2|Dominion Superior|6"|4+|3+|3|3|1|2|8|3+|14||1|false|32mm||
+000000910|1|Sororitas Rhino|12"|6+|3+|6|7|10|3|8|3+|80||1|false|Use model||
+000000911|1|Immolator|12"|6+|3+|6|7|11|3|8|3+|90||1|false|Use model||
+000000912|1|Exorcist|12"|6+|3+|6|7|11|3|8|3+|120||1|false|Use model||
+000000913|1|Large Shield Section|-|-|-|-|-|-|-|-|-|||4|false|Use model||
+000000913|2|Small Shield Section|-|-|-|-|-|-|-|-|-|||4|false|Use model||
+000000913|3|Gun Emplacement|-|-|5+|3|7|3|-|4|4+|||0-1|false|Use model||
+000000914|1|Bastion|-|-|4+|6|8|18|-|7|3+|180||1|false|Use model||
+000000916|1|Imperial Bunker|-|-|5+|-|8|12|-|-|3+|90||1|false|Use model||
+000000917|1|Vengeance Weapon Battery|-|-|5+|-|8|10|-|-|3+|110||1-2|false|Use model||
+000000918|1|Firestorm Redoubt|-|-|5+|-|8|20|-|-|3+|210||1|false|Use model||
+000000919|1|Plasma Obliterator|-|-|5+|-|9|20|-|-|3+|210||1|true|Use model||
+000000920|1|Macro-cannon Aquila Strongpoint|-|-|5+|-|10|30|-|-|3+|440||1|false|Use model||
+000000921|1|Vortex Missile Aquila Strongpoint|-|-|5+|-|10|30|-|-|3+|470||1|false|Use model||
+000000922|1|Void Shield Generator|-|-|-|6|8|16|-|7|4+|200||1|true|Use model||
+000000923|1|Skyshield Landing Pad|-|-|-|-|-|-|-|-|-|140||1|true|Use model||
+000000924|1|Abaddon the Despoiler|6"|2+|2+|6|6|9|8|11|2+|350||1|false|60mm||
+000000925|1|Huron Blackheart|6"|2+|2+|4|5|6|7|10|3+|140||1|false|25mm||
+000000926|1|Cypher|6"|2+|2+|4|4|6|6|9|3+|90||1|false|32mm||
+000000928|1|Fabius Bile|6"|2+|2+|5|4|6|6|10|3+|90||1|false|40mm||
+000000928|2|Surgeon Acolyte|6"|5+|5+|3|4|1|1|6|6+|0||1|false|32mm||
+000000929|1|Chaos Lord|6"|2+|2+|4|4|6|6|10|3+|90||1|false|40mm||
+000000930|1|Chaos Lord in Terminator Armour|5"|2+|2+|4|4|7|6|10|2+|110||1|false|40mm||
+000000931|1|Chaos Lord on Bike|14"|2+|2+|4|5|6|6|10|3+|113||1|false|75 x 25mm||
+000000932|1|Chaos Lord on Juggernaut of Khorne|8"|2+|2+|4|5|7|6|10|3+|125||1|false|90 x 52mm||
+000000933|1|Chaos Lord on Disc of Tzeentch|12"|2+|2+|4|4|6|6|10|3+|100||1|false|40mm||
+000000934|1|Chaos Lord on Palanquin of Nurgle|5"|2+|2+|4|5|7|6|10|3+|99||1|false|120 x 92mm||
+000000935|1|Chaos Lord on Steed of Slaanesh|12"|2+|2+|4|4|7|6|10|3+|94||1|false|||
+000000936|1|Dark Apostle|6"|2+|3+|4|4|5|5|10|3+|||1|false|40mm||
+000000936|2|Dark Disciple|6"|4+|4+|3|4|1|1|6|6+|||2|false|25mm||
+000000937|1|Heretic Astartes Daemon Prince|8"|2+|2+|7|6|8|6|10|3+|120|This model must be upgraded to have a Mark of Chaos.|1|false|60mm||
+000000938|1|Sorcerer|6"|3+|3+|4|4|5|5|9|3+|95||1|false|40mm||
+000000939|1|Sorcerer in Terminator Armour|5"|3+|3+|4|4|6|5|9|2+|110||1|false|40mm||
+000000940|1|Sorcerer on Bike|14"|3+|3+|4|5|6|5|9|3+|130||1|false|75 x 25mm||
+000000941|1|Sorcerer on Disc of Tzeentch|12"|3+|3+|4|4|5|5|9|3+|125||1|false|40mm||
+000000942|1|Sorcerer on Palanquin of Nurgle|5"|3+|3+|4|5|7|5|9|3+|123||1|false|120 x 92mm||
+000000943|1|Sorcerer on Steed of Slaanesh|12"|3+|3+|4|4|6|5|9|3+|115||1|false|||
+000000944|1|Warpsmith|6"|3+|2+|4|4|5|5|9|2+|80||1|false|60 x 35mm||
+000000946|1|Chaos Cultist|6"|4+|4+|3|3|1|1|5|6+|5||9-19|false|25mm||
+000000946|2|Cultist Champion|6"|4+|4+|3|3|1|2|6|6+|5||1|false|25mm||
+000000947|1|Chaos Terminator|5"|3+|3+|4|4|3|3|9|2+|36||4-9|false|40mm||
+000000947|2|Terminator Champion|5"|3+|3+|4|4|3|4|10|2+|36||1|false|40mm||
+000000948|1|Khorne Berzerker|6"|3+|3+|5|4|2|5|8|3+|22||4-9|false|32mm||
+000000948|2|Berzerker Champion|6"|3+|3+|5|4|2|6|9|3+|22||1|false|32mm||
+000000951|1|Noise Marine|6"|3+|3+|4|4|2|3|8|3+|21||4-9|false|32mm||
+000000951|2|Noise Champion|6"|3+|3+|4|4|2|4|9|3+|21||1|false|32mm||
+000000952|1|Chosen|6"|3+|3+|4|4|3|3|9|3+|25||4-9|false|32mm||
+000000952|2|Chosen Champion|6"|3+|3+|4|4|3|4|10|3+|25||1|false|32mm||
+000000953|1|Possessed|9"|3+|3+|5|5|3|5|9|3+|28||4-9|false|40mm||
+000000953|2|Possessed Champion|9"|3+|3+|5|5|3|6|9|3+|28||1|false|40mm||
+000000954|1|Helbrute|6"|3+|3+|6|7|8|5|8|3+|105||1|false|60mm||
+000000956|1|Chaos Rhino|12"|6+|3+|6|7|10|3|8|3+|80||1|false|Use model||
+000000957|1|Chaos Biker|14"|3+|3+|4|5|3|3|8|3+|30||2-8|false|75 x 42mm||
+000000957|2|Biker Champion|14"|3+|3+|4|5|3|4|9|3+|30||1|false|75 x 42mm||
+000000958|1|Raptor|12"|3+|3+|4|4|2|3|8|3+|21||4-9|false|32mm||
+000000958|2|Raptor Champion|12"|3+|3+|4|4|2|4|9|3+|21||1|false|32mm||
+000000959|1|Warp Talon|12"|3+|3+|4|4|2|5|9|3+|28||4-9|false|32mm||
+000000959|2|Warp Talon Champion|12"|3+|3+|4|4|2|6|9|3+|28||1|false|32mm||
+000000960|1|Chaos Spawn|7"|4+|-|5|5|4|2D3|8|5+|25||1-5|false|50mm||
+000000961|1|Heldrake|20-60"|3+|3+|7|7|12|5|8|3+|165||1|false|120 x 92mm flying base||
+000000962|1|Chaos Land Raider|10"|6+|3+|8|9|16|6|9|2+|265||1|false|Use model||
+000000963|1|Chaos Predator Destructor|12"|6+|3+|6|8|11|3|8|3+|140||1|false|Use model||
+000000964|1|Chaos Vindicator|10"|6+|3+|6|8|12|3|8|3+|130||1|false|Use model||
+000000965|1|Obliterator|5"|3+|3+|5|5|5|4|9|2+|90||1-3|false|50mm||
+000000966|1|Havoc|6"|3+|3+|4|5|2|3|8|3+|||4|false|40mm||
+000000966|2|Havoc Champion|6"|3+|3+|4|5|2|4|9|3+|||1|false|40mm||
+000000967|1|Forgefiend|8"|3+|3+|6|7|12|5|8|3+|110||1|false|120 x 92mm||
+000000968|1|Maulerfiend|10"|3+|3+|7|7|12|6|8|3+|140||1|false|120 x 92mm||
+000000969|1|Defiler|8"|3+|3+|8|7|14|5|8|3+|175||1|false|Use model||
+000000970|1|Khorne Lord of Skulls|10"|3+|3+|8|8|30|6|8|2+|575||1|false|Use model||
+000001016|1|Sorcerer|6"|3+|3+|4|4|4|4|9|3+|90||1|false|40mm||
+000001017|1|Sorcerer in Terminator Armour|5"|3+|3+|4|4|5|4|9|2+|105||1|false|40mm||
+000001018|1|Sorcerer on Disc of Tzeentch|12"|3+|3+|4|4|4|3|9|3+|146||1|false|40mm||
+000001019|1|Thousand Sons Cultist|6"|4+|4+|3|3|1|1|5|6+|5||9-29|false|25mm||
+000001019|2|Thousand Sons Cultist Champion|6"|4+|4+|3|3|1|2|6|6+|5||1|false|25mm||
+000001020|1|Rubric Marine|6"|3+|3+|4|4|2|2|7|3+|21||4-9|false|32mm||
+000001020|2|Aspiring Sorcerer|6"|3+|3+|4|4|2|3|8|3+|21||1|false|32mm||
+000001021|1|Helbrute|6"|3+|3+|6|7|8|5|8|3+|105||1|false|60mm||
+000001022|1|Chaos Rhino|12"|6+|3+|6|7|10|3|8|3+|80||1|false|Use model||
+000001023|1|Chaos Spawn|7"|4+|-|5|5|4|2D3|9|5+|21||1-5|false|50mm||
+000001024|1|Heldrake|20-60"|3+|3+|7|7|12|5|8|3+|165||1|false|120 x 92mm flying base||
+000001025|1|Chaos Land Raider|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000001026|1|Chaos Predator Destructor|12"|6+|3+|6|7|11|3|8|3+|130||1|false|Use model||
+000001027|1|Chaos Vindicator|10"|6+|3+|6|8|11|3|8|3+|120||1|false|Use model||
+000001028|1|Forgefiend|8"|3+|3+|7|7|12|5|8|3+|110||1|false|120 x 92mm||
+000001029|1|Maulerfiend|10"|3+|3+|7|7|12|6|8|3+|140||1|false|120 x 92mm||
+000001030|1|Defiler|8"|3+|3+|8|7|14|5|8|3+|175||1|false|Use model||
+000001031|1|Magnus the Red|16"|2+|2+|8|7|18|8|10|3+|420||1|false|100mm||
+000001032|1|Ahriman|6"|2+|2+|4|4|6|5|9|3+|160||1|false|40mm||
+000001033|1|Exalted Sorcerer|6"|2+|2+|4|4|5|5|9|3+|100||1|false|32mm||
+000001034|1|Tzaangor|6"|4+|4+|4|4|1|1|6|6+|7||9-19|false|32mm||
+000001034|2|Twistbray|6"|4+|4+|4|4|1|2|7|6+|7||1|false|32mm||
+000001035|1|Scarab Occult Terminator|5"|3+|3+|4|4|3|3|8|2+|40||4-9|false|40mm||
+000001035|2|Scarab Occult Sorcerer|5"|3+|3+|4|4|3|3|9|2+|40||1|false|40mm||
+000001036|1|Thousand Sons Daemon Prince|8"|2+|2+|7|6|8|5|10|3+|140||1|false|60mm||
+000001037|1|Death Guard Chaos Lord|6"|2+|2+|4|5|5|5|9|3+|85||1|false|40mm||
+000001038|1|Death Guard Chaos Lord in Terminator Armour|5"|2+|2+|4|5|6|5|9|2+|105||1|false|40mm||
+000001039|1|Chaos Lord on Palanquin of Nurgle|5"|2+|2+|4|5|7|6|10|3+|99||1|false|120 x 92mm||
+000001041|1|Death Guard Sorcerer in Terminator Armour|5"|3+|3+|4|5|5|4|9|2+|110||1|false|40mm||
+000001043|1|Death Guard Cultist|6"|4+|4+|3|3|1|1|5|6+|5||9-29|false|25mm||
+000001043|2|Death Guard Cultist Champion|6"|4+|4+|3|3|1|2|6|6+|5||1|false|25mm||
+000001044|1|Plague Marine|5"|3+|3+|4|5|2|2|7|3+|19||4-9|false|32mm||
+000001044|2|Plague Champion|5"|3+|3+|4|5|2|3|8|3+|19||1|false|32mm||
+000001045|1|Death Guard Possessed|7"|3+|3+|5|5|2|4|8|3+|24||5-10|false|32mm||
+000001046|1|Helbrute|6"|3+|3+|6|7|8|5|8|3+|105||1|false|60mm||
+000001047|1|Chaos Rhino|12"|6+|3+|6|7|10|3|8|3+|80||1|false|Use model||
+000001048|1|Chaos Spawn|7"|4+|-|5|5|4|2D3|9|5+|21||1-5|false|50mm||
+000001049|1|Chaos Land Raider|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000001050|1|Chaos Predator Annihilator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000001051|1|Defiler|8"|3+|3+|8|7|14|5|8|3+|175||1|false|Use model||
+000001052|1|Death Guard Daemon Prince|8"|2+|2+|7|6|8|6|10|3+|140||1|false|60mm||
+000001053|1|Typhus|5"|2+|2+|4|5|6|6|9|2+|165||1|false|50mm||
+000001054|1|Lord of Contagion|5"|2+|2+|4|5|6|5|9|2+|120||1|false|50mm|40mm if equipped with manreaper and orb of desiccation|
+000001055|1|Malignant Plaguecaster|5"|3+|3+|4|5|4|4|8|3+|90||1|false|32mm||
+000001056|1|Poxwalker|4"|4+|-|3|4|1|2|4|7+|5||10-20|false|25mm||
+000001057|1|Foetid Bloat-drone|10"|3+|3+|6|7|9|4|8|3+|115||1|false|60mm||
+000001058|1|Noxious Blightbringer|5"|3+|3+|4|5|4|4|8|3+|55||1|false|40mm||
+000001094|1|Chaos Cerastus Knight Acheron|12"|3+|3+|8|8|26|4|9|3+|480||1|false|170 x 109mm||
+000001095|1|Chaos Cerastus Knight Lancer|14"|3+|3+|8|8|26|5|9|3+|440||1|false|170 x 109mm||
+000001096|1|Chaos Cerastus Knight Castigator|12"|3+|3+|8|8|26|4|9|3+|460||1|false|170 x 109mm||
+000001097|1|Chaos Cerastus Knight Atrapos|12"|3+|3+|8|8|26|4|9|3+|520||1|false|170 x 109mm||
+000001098|1|Chaos Questoris Knight Magaera|12"|3+|3+|8|8|24|4|9|3+|500||1|false|120 x 92mm||
+000001099|1|Chaos Acastus Knight Porphyrion|8"|4+|3+|8|8|30|3|9|3+|780||1|false|Use model||
+000001100|1|Chaos Questoris Knight Styrix|12"|3+|3+|8|8|24|4|9|3+|475||1|false|120 x 92mm||
+000001104|1|Karanak|12"|2+|-|6|5|5|6|8|5+/4+|90||1|false|75 x 42mm||
+000001105|1|Skarbrand|8"|2+|2+|8|8|22|8|9|4+/4+|330||1|false|100mm||
+000001106|1|Skulltaker|6"|2+|3+|6|6|5|6|8|4+/4+|110||1|false|40mm||
+000001111|1|Rendmaster on Blood Throne|8"|2+|3+|6|7|9|5|8|4+/4+|140||1|false|120 x 92mm||
+000001112|1|Flesh Hound|12"|3+|-|5|4|2|3|7|5+/4+|15||4-9|false|60 x 35mm||
+000001112|2|Gore Hound|12"|3+|-|5|4|2|4|8|5+/4+|15||1|false|60 x 35mm||
+000001114|1|Bloodletter|6"|3+|3+|5|4|1|2|6|5+/4+|||9|false|32mm||
+000001114|2|Bloodreaper|6"|3+|3+|5|4|1|3|7|5+/4+|||1|false|32mm||
+000001115|1|Bloodcrusher|10"|3+|3+|5|5|4|3|7|4+/4+|40||2-5|false|90 x 52mm||
+000001115|2|Bloodhunter|10"|3+|3+|5|5|4|4|8|4+/4+|40||1|false|90 x 52mm||
+000001116|1|Skull Cannon|8"|3+|3+|6|7|9|2|7|4+/4+|90||1|false|120 x 92mm||
+000001117|1|Kairos Fateweaver|12"|3+|3+|6|7|22|5|10|5+/3+|320||1|false|100mm||
+000001118|1|The Changeling|6"|4+|3+|3|5|5|2|8|5+/3+|100||1|false|40mm||
+000001119|1|The Blue Scribes|12"|4+|4+|3|4|5|2|8|5+/3+|90||1|false|60mm flying base||
+000001120|1|Lord of Change|12"|3+|3+|6|7|20|5|10|5+/3+|310||1|false|100mm||
+000001125|1|Flamer|12"|4+|3+|5|4|3|3|7|6+/3+|25||2-5|false|32mm||
+000001125|2|Pyrocaster|12"|4+|3+|5|4|3|4|8|6+/3+|25||1|false|32mm||
+000001126|1|Exalted Flamer|10"|3+|3+|6|5|5|4|8|6+/3+|75||1|false|75 x 42mm||
+000001127|1|Screamer|16"|4+|-|4|4|3|3|8|6+/3+|25||3-6|false|32mm flying base||
+000001128|1|Burning Chariot|14"|4+|3+|6|6|9|4|8|4+/4+|120||1|false|120 x 92mm||
+000001129|1|Epidemius|5"|2+|3+|5|6|9|4|8|5+/4+|90||1|false|60mm||
+000001130|1|Great Unclean One|7"|2+|3+|7|9|22|6|10|5+/4+|280||1|false|130mm||
+000001132|1|Plaguebearer|5"|4+|4+|4|5|2|2|6|5+/4+|||9|false|32mm||
+000001132|2|Plagueridden|5"|4+|4+|4|5|2|3|7|5+/4+|||1|false|32mm||
+000001133|1|Nurgling Swarm|5"|4+|4+|2|3|4|4|6|6+/5+|20||3-9|false|40mm||
+000001134|1|Beast of Nurgle|6"|4+|-|6|6|7|6|7|5+/4+|70||1-3|false|60mm||
+000001135|1|Plague Drone|10"|4+|4+|5|6|5|2|7|5+/4+|40||2-5|false|60mm||
+000001135|2|Plaguebringer|10"|4+|4+|5|6|5|3|8|5+/4+|40||1|false|60mm||
+000001136|1|The Masque of Slaanesh|10"|2+|3+|4|4|4|6|8|4+/4+|90||1|false|32mm||
+000001137|1|Keeper of Secrets|16"|2+|2+|6|7|20|6|10|5+/4+|280||1|false|100mm||
+000001138|1|Tranceweaver|9"|2+|3+|4|4|4|5|8|5+/4+|70||1|false|25mm||
+000001139|1|Herald of Slaanesh on Steed|14"|2+|2+|4|3|5|4|8|6+|82||1|true|60 x 35mm||
+000001140|1|Tormentbringer on Seeker Chariot|14"|2+|3+|4|5|7|8|8|4+/4+|100||1|false|120 x 92mm||
+000001141|1|Tormentbringer on Exalted Seeker Chariot|14"|2+|3+|4|5|12|8|8|4+/4+|120||1|false|120 x 92mm||
+000001142|1|Daemonette|10"|3+|3+|4|3|1|4|6|5+/4+|||9|false|25mm||
+000001142|2|Alluress|10"|3+|3+|4|3|1|5|7|5+/4+|||1|false|25mm||
+000001143|1|Fiend|14"|3+|-|5|4|4|4|7|5+/4+|30||2-5|false|75 x 42mm||
+000001143|2|Blissbringer|14"|3+|-|5|4|4|5|8|5+/4+|30||1|false|75 x 42mm||
+000001144|1|Hellflayer|14"|3+|3+|4|5|7|8|8|4+/4+|75||1|false|120 x 92mm||
+000001145|1|Seeker|16"|3+|3+|4|4|2|4|7|5+/4+|17||4-9|false|60 x 35mm||
+000001145|2|Heartseeker|16"|3+|3+|4|4|2|5|8|5+/4+|17||1|false|60 x 35mm||
+000001146|1|Seeker Chariot|14"|3+|3+|4|5|7|8|8|4+/4+|65||1|false|120 x 92mm||
+000001147|1|Exalted Seeker Chariot|14"|2+|3+|4|5|12|8|8|4+/4+|85||1|false|120 x 92mm||
+000001148|1|Be’lakor|12"|2+|2+|8|7|20|6|9|4+/4+|420||1|false|100mm||
+000001149|1|Daemon Prince of Chaos|8"|2+|2+|7|6|8|6|10|5+/4+|140||1|false|60mm||
+000001151|1|Soul Grinder|8"|3+|3+|8|8|16|5|7|5+/4+|190||1|false|Use model||
+000001153|1|Deimos Predator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000001154|1|Vindicator Laser Destroyer|10"|6+|3+|6|8|11|3|8|3+|175||1|false|Use model||
+000001156|1|Land Raider Proteus|10"|6+|3+|8|8|16|6|9|2+|220||1|false|Use model||
+000001157|1|Land Raider Helios|10"|6+|3+|8|8|16|6|9|2+|260||1|false|Use model||
+000001158|1|Land Raider Prometheus|10"|6+|3+|8|8|16|6|9|2+|295||1|false|Use model||
+000001159|1|Land Raider Achilles|10"|6+|3+|8|8|16|6|9|2+|270||1|false|Use model||
+000001160|1|Sicaran Battle Tank|14"|6+|3+|6|7|14|3|8|2+|165||1|false|Use model||
+000001161|1|Sicaran Venator|14"|6+|3+|6|7|14|3|8|2+|170||1|false|Use model||
+000001162|1|Sicaran Punisher|14"|6+|3+|6|7|14|3|8|2+|155||1|false|Use model||
+000001163|1|Spartan|10"|5+|3+|8|8|20|6|9|2+|420||1|false|Use model||
+000001164|1|Typhon|10"|5+|3+|8|8|20|6|9|2+|320||1|false|Use model||
+000001165|1|Cerberus|10"|5+|3+|8|8|20|6|9|2+|370||1|false|Use model||
+000001166|1|Fellblade|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000001167|1|Falchion|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000001168|1|Mastodon|10"|5+|3+|9|9|30|6|9|2+|750||1|false|Use model||
+000001169|1|Mortis Dreadnought|6"|3+|3+|6|7|8|4|8|3+|135||1|false|60mm||
+000001172|1|Chaplain Venerable Dreadnought|6"|2+|2+|6|7|8|5|10|3+|175||1|false|60mm||
+000001173|1|Relic Contemptor Dreadnought|8"|3+|3+|7|7|9|4|8|3+|140||1|false|60mm||
+000001174|1|Deredeo Dreadnought|8"|3+|3+|6|7|12|4|8|3+|190||1|false|80mm||
+000001175|1|Leviathan Dreadnought|8"|3+|3+|7|7|14|4|8|2+|220||1|false|80mm||
+000001176|1|Land Speeder Tempest|16"|6+|3+|4|6|7|2|7|3+|110||1-3|false|60mm flying base||
+000001177|1|Javelin Attack Speeder|16"|3+|3+|4|6|9|2|7|3+|115||1|false|60mm flying base||
+000001178|1|Xiphon Interceptor|20-60"|6+|3+|6|7|12|3|8|3+|235||1|false|120 x 92mm flying base||
+000001179|1|Storm Eagle Gunship|20-45"|6+|3+|8|7|18|6|9|3+|335||1|false|120 x 92mm flying base||
+000001181|1|Fire Raptor Gunship|20-45"|6+|3+|8|7|18|6|9|3+|340||1|false|120 x 92mm flying base||
+000001182|1|Caestus Assault Ram|20-45"|5+|3+|8|7|20|6|9|3+|320||1|true|120 x 92mm flying base||
+000001183|1|Thunderhawk Gunship|20-50"|6+|3+|10|8|30|6|9|2+|800||1|false|120 x 92mm flying base||
+000001184|1|Thunderhawk Transporter|20-45"|6+|3+|10|8|30|6|9|2+|600||1|true|120 x 92mm flying base||
+000001185|1|Sokar-pattern Stormbird|20-50"|6+|3+|10|8|40|6|9|2+|1000||1|false|Use model||
+000001186|1|Damocles Command Rhino|12"|6+|3+|6|7|10|3|8|3+|90||1|false|Use model||
+000001187|1|Whirlwind Hyperios|12"|6+|3+|6|7|11|3|8|3+|130||1|false|Use model||
+000001188|1|Whirlwind Scorpius|12"|6+|3+|6|7|11|3|8|3+|170||1|false|Use model||
+000001189|1|Rapier Carrier|4"|3+|3+|4|5|5|2|7|3+|75||1|false|Use model||
+000001190|1|Tarantula Sentry Gun|-|-|4+|4|5|4|-|7|3+|40||1-3|false|Use model||
+000001191|1|Tarantula Air Defence Gun|-|-|4+|4|5|4|-|7|3+|40||1-3|false|Use model||
+000001192|1|Dreadnought Drop Pod|-|-|-|6|6|8|-|8|3+|70||1|false|Use model||
+000001193|1|Deathstorm Drop Pod|-|-|4+|6|6|8|-|8|3+|120||1|false|Use model||
+000001196|1|Land Raider Banisher|10"|6+|3+|8|8|16|6|9|2+|245||1|false|Use model||
+000001197|1|Grey Knights Thunderhawk Gunship|20-50"|6+|3+|10|8|30|6|9|2+|800||1|false|Use model||
+000001198|1|Inquisition Land Raider Prometheus|10"|6+|3+|8|8|16|6|9|2+|295||1|false|Use model||
+000001199|1|Repressor|12"|5+|3+|6|7|12|3|8|3+|85||1|false|Use model||
+000001200|1|Lord High Commander Carab Culln|5"|2+|2+|4|4|7|6|9|2+|170||1|false|40mm||
+000001201|1|Lugft Huron|5"|2+|2+|4|4|7|4|9|2+|160||1|false|40mm||
+000001202|1|Armenneus Valthex|6"|3+|2+|4|4|5|3|8|2+|105||1|false|40mm||
+000001203|1|Corien Sumatris|6"|2+|2+|4|4|5|4|9|3+|100||1|false|||
+000001204|1|Carnac Commodus|6"|2+|3+|4|4|5|3|8|3+|90||1|true|||
+000001205|1|Asterion Moloc|5"|2+|2+|4|4|7|5|9|2+|170||1|false|40mm||
+000001206|1|Ivanus Enkomi|6"|2+|3+|4|4|5|4|9|3+|100||1|false|25mm||
+000001207|1|Sevrin Loth|6"|3+|3+|4|4|5|3|9|3+|135||1|false|25mm||
+000001208|1|Tyberos the Red Wake|5"|2+|2+|4|4|6|6|9|2+|160||1|false|40mm||
+000001209|1|Chaplain Dreadnought Titus|6"|2+|2+|6|7|9|5|10|3+|180||1|true|60mm||
+000001210|1|Anton Narvaez|6"|2+|2+|4|4|5|4|9|3+|110||1|true|||
+000001211|1|Tarnus Vale|6"|2+|2+|4|4|5|4|9|3+|110||1|true|||
+000001212|1|Lias Issodon|7"|2+|2+|4|4|6|5|9|3+|165||1|false|||
+000001213|1|Malakim Phoros|6"|2+|2+|4|4|6|5|9|3+|145||1|true|32mm||
+000001214|1|Mordaci Blaylock|5"|2+|2+|4|4|6|4|9|2+|125||1|true|||
+000001215|1|Pellas Mir’san|6"|2+|2+|4|4|6|4|9|2+|100||1|true|||
+000001216|1|Bray’arth Ashmantle|6"|2+|2+|8|7|8|6|9|2+|220||1|false|60mm||
+000001217|1|Harath Shen|6"|3+|3+|4|4|4|3|8|3+|120||1|true|||
+000001218|1|Ahazra Redth|6"|3+|3+|4|4|4|3|9|2+|125||1|true|||
+000001219|1|Thulsa Kane|6"|2+|3+|4|4|4|4|9|3+|140||1|true|||
+000001220|1|Silas Alberec|6"|2+|2+|5|4|5|4|9|3+|110||1|true|||
+000001221|1|Elam Courbray|12"|2+|2+|4|4|5|4|9|3+|110||1|true|||
+000001222|1|Vaylund Cal|6"|2+|2+|4|4|6|5|9|2+|165||1|true|||
+000001223|1|Zhrukhal Androcles|6"|2+|2+|4|4|5|4|9|3+|95||1|true|||
+000001224|1|Hector Rex|5"|2+|3+|4|3|6|4|9|2+|100||1|false|40mm||
+000001225|1|Solomon Lok|6"|3+|3+|3|3|5|4|9|3+|75||1|false|25mm||
+000001226|1|Hecaton Aiakos|8"|2+|2+|7|7|9|5|9|3+|160||1|false|60mm||
+000001237|1|Valkyrie Sky Talon|20-45"|6+|4+|7|7|14|3|7|3+|115||1|false|120 x 92mm flying base||
+000001249|1|Renegade Commander|6"|3+|3+|3|3|4|3|8|5+|35||1|false|25mm||
+000001250|1|Malefic Lord|6"|4+|4+|3|3|4|3|8|7+|50||1|true|25mm||
+000001251|1|Rogue Psyker|6"|5+|5+|3|3|3|1|8|7+|35||5|true|25mm||
+000001252|1|Renegade Cultist|6"|4+|4+|3|3|1|1|5|6+|5||9-29|false|25mm||
+000001252|2|Renegade Cultist Champion|6"|4+|4+|3|3|1|2|6|6+|5||1|false|25mm||
+000001253|1|Renegade Militia|6"|4+|4+|3|3|1|1|6|6+|6||9-19|false|25mm||
+000001253|2|Renegade Militia Champion|6"|4+|4+|3|3|1|2|7|6+|6||1|false|25mm||
+000001253|3|Renegade Militia Weapons Team|6"|4+|4+|3|3|2|2|6|6+|12||0-2|false|25mm||
+000001254|1|Renegade Mutant|6"|4+|4+|3|3|1|1|5|6+|7||9-29|false|||
+000001254|2|Renegade Mutant Champion|6"|4+|4+|3|3|1|2|6|6+|7||1|false|||
+000001255|1|Chaos Spawn|7"|4+|-|5|5|4|D6|9|5+|23||1-5|true|50mm||
+000001256|1|Renegade Disciples|6"|3+|3+|3|3|1|1|6|6+|6||4-14|false|||
+000001256|2|Renegade Disciple Weapon Team|6"|3+|3+|3|3|2|2|6|6+|12||0-1|false|||
+000001257|1|Renegade Disciples|6"|3+|3+|3|3|1|1|6|6+|7||4-14|false|||
+000001257|2|Renegade Disciple Champion|6"|3+|3+|3|3|1|2|7|6+|7||1|false|||
+000001257|3|Renegade Disciple Weapon Team|6"|3+|3+|3|3|2|2|6|6+|14||0-1|false|||
+000001258|1|Renegade Enforcer|6"|3+|3+|3|3|4|3|8|5+|23||1|false|25mm||
+000001259|1|Marauder|6"|3+|3+|3|3|1|2|7|4+|9||4-9|false|||
+000001259|2|Brute|6"|3+|5+|5|3|3|3|7|4+|9||0-2|false|||
+000001259|3|Marauder Chief|6"|3+|3+|3|3|2|2|8|4+|9||1|false|||
+000001260|1|Ogryn Pack Master|6"|3+|4+|5|5|3|3|7|5+|15||1|false|40mm||
+000001260|2|Chaos Mauler Hounds|6"|3+|-|5|5|2|2|6|5+|15||3-6|false|60 x 35mm||
+000001261|1|Ogryn Brute|6"|3+|4+|5|5|3|3|7|5+|32||3-12|false|40mm||
+000001262|1|Plague Ogryn|6"|3+|4+|5|5|3|3|7|5+|35||3-9|true|40mm||
+000001263|1|Renegade Heavy Weapons Team|6"|4+|4+|3|3|2|2|6|6+|12||3-6|false|40mm||
+000001264|1|Chimera|12"|6+|4+|6|7|11|3|7|3+|85||1|false|Use model||
+000001265|1|Hellhound|12"|6+|4+|6|7|11|3|7|3+|110||1|false|Use model||
+000001266|1|Scout Sentinel|12"|4+|4+|6|6|7|2|7|4+|40||1-3|false|80mm||
+000001267|1|Armoured Sentinel|8"|4+|4+|6|6|7|2|7|3+|45||1-3|false|80mm||
+000001268|1|Salamander Scout Tank|12"|6+|4+|6|7|10|3|7|3+|75||1-3|false|Use model||
+000001269|1|Arvus Lighter|20-30"|6+|4+|5|6|8|1|7|3+|85||1|false|120 x 92mm flying base||
+000001270|1|Valkyrie|20-40"|6+|3+|7|7|14|3|7|3+|140||1|false|120 x 92mm flying base||
+000001271|1|Leman Russ Battle Tank|0"|6+|-|7|8|12|0|7|3+|140||1-3|false|Use model||
+000001273|1|Basilisk|10"|6+|4+|6|7|11|3|7|3+|140||1|false|Use model||
+000001274|1|Medusa Carriage|-|4+|4+|3|6|7|5|7|4+|120||1-3|false|Use model||
+000001275|1|Griffon Mortar Carrier|8"|6+|4+|7|7|11|3|7|3+|85||1-3|false|Use model||
+000001276|1|Wyvern|10"|6+|4+|6|7|11|3|7|3+|120||1|false|Use model||
+000001277|1|Hydra|10"|6+|4+|6|7|11|3|7|3+|110||1|false|Use model||
+000001278|1|Colossus Bombard|8"|6+|4+|7|8|12|3|7|3+|150||1-3|false|Use model||
+000001280|1|Rapier Laser Destroyer|4"|4+|4+|3|5|4|2|7|3+|85||1-3|false|Use model||
+000001281|1|Heavy Quad Launcher|-|4+|4+|3|6|6|3|7|4+|90||1-3|false|Use model||
+000001282|1|Heavy Mortar|-|4+|4+|3|6|7|3|7|4+|70||1-3|false|Use model||
+000001283|1|Malcador|10"|6+|4+|7|8|18|3|7|3+|210||1|false|Use model||
+000001284|1|Minotaur|10"|6+|4+|7|8|22|6|8|2+|300||1|false|Use model||
+000001285|1|Malcador Defender|10"|6+|4+|7|8|18|3|7|3+|260||1|false|Use model||
+000001286|1|Baneblade|10"|5+|4+|9|9|30|9|8|2+|430||1|false|Use model||
+000001287|1|Armageddon-pattern Medusa|12"|6+|4+|6|7|11|3|7|3+|140||1|false|Use model||
+000001288|1|Earthshaker Carriage|-|4+|4+|3|6|7|5|7|4+|120||1-3|false|Use model||
+000001289|1|Macharius|10"|6+|4+|7|8|22|6|8|2+|310||1|false|Use model||
+000001290|1|Macharius Omega|10"|5+|4+|8|8|22|3|8|2+|340||1|false|Use model||
+000001291|1|Macharius Vanquisher|10"|6+|4+|7|8|22|6|8|2+|310||1|false|Use model||
+000001292|1|Macharius Vulcan|10"|6+|4+|7|8|22|6|8|2+|340||1|false|Use model||
+000001293|1|Blood Slaughterer|10"|3+|3+|7|7|9|5|8|3+|125||1|false|Use model||
+000001294|1|Greater Blight Drone|14"|3+|3+|6|7|9|4|8|3+|125||1|false|60mm||
+000001295|1|Decimator|9"|3+|3+|7|7|12|5|8|3+|160||1|false|60mm||
+000001296|1|Plague Hulk of Nurgle|7"|4+|4+|8|8|14|5|7|3+|190||1|true|Use model||
+000001297|1|Kytan Ravager|12"|3+|3+|8|8|26|5|9|3+|400||1|false|170 x 109mm||
+000001298|1|Greater Brass Scorpion|12"|3+|3+|8|8|28|6|9|3+|430||1|false|Use model||
+000001299|1|Chaos Contemptor Dreadnought|8"|3+|3+|7|7|9|4|8|3+|140||1|false|60mm||
+000001300|1|Chaos Land Raider Proteus|10"|6+|3+|8|8|16|6|9|2+|220||1|false|Use model||
+000001301|1|Chaos Land Raider Achilles|10"|6+|3+|8|8|16|6|9|2+|270||1|false|Use model||
+000001302|1|Chaos Deimos Predator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000001303|1|Chaos Whirlwind Scorpius|12"|6+|3+|6|7|11|3|8|3+|170||1|false|Use model||
+000001304|1|Hellforged Sicaran|14"|6+|3+|6|7|14|3|8|2+|165||1|false|Use model||
+000001305|1|Chaos Sicaran Venator|14"|6+|3+|6|7|14|3|8|2+|170||1|false|Use model||
+000001306|1|Chaos Spartan|10"|5+|3+|8|8|20|6|9|2+|420||1|false|Use model||
+000001307|1|Chaos Deredeo Dreadnought|8"|3+|3+|6|7|12|4|8|3+|190||1|false|80mm||
+000001308|1|Chaos Rapier Carrier|4"|3+|3+|4|5|5|2|7|3+|75||1|false|Use model||
+000001309|1|Chaos Leviathan Dreadnought|8"|3+|3+|7|7|14|4|8|2+|220||1|false|80mm||
+000001310|1|Dreadclaw Drop Pod|12"|4+|-|6|6|9|4|8|3+|115||1|false|Use model||
+000001311|1|Kharybdis Assault Claw|15"|4+|4+|8|8|20|4|8|3+|400||1|false|Use model||
+000001312|1|Chaos Cerberus|10"|5+|3+|8|8|20|6|9|2+|370||1|false|Use model||
+000001313|1|Chaos Typhon|10"|5+|3+|8|8|20|6|9|2+|320||1|false|Use model||
+000001314|1|Chaos Fellblade|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000001315|1|Chaos Falchion|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000001316|1|Chaos Mastodon|10"|5+|3+|9|9|30|6|9|2+|750||1|false|Use model||
+000001317|1|Hell Blade|20"-60"|6+|3+|6|6|9|2|8|3+|135||1|false|120 x 92mm flying base||
+000001318|1|Hell Talon|20"-60"|6+|3+|7|7|14|6|8|3+|210||1|false|120 x 92mm flying base||
+000001319|1|Chaos Storm Eagle Gunship|20"-45"|6+|3+|8|7|18|6|9|3+|335||1|false|120 x 92mm flying base||
+000001320|1|Chaos Fire Raptor Gunship|20"-45"|6+|3+|8|7|18|6|9|3+|340||1|false|120 x 92mm flying base||
+000001321|1|Chaos Thunderhawk Gunship|20"-50"|6+|3+|10|8|30|6|9|2+|800||1|false|120 x 92mm flying base||
+000001322|1|Chaos Sokar-pattern Stormbird|20-50"|6+|3+|10|8|40|6|9|2+|1000||1|false|120 x 92mm flying base||
+000001323|1|Chaos Xiphon Interceptor|20"-60"|6+|3+|6|7|12|3|8|3+|235||1|false|120 x 92mm flying base||
+000001324|1|Zhufor the Impaler|5"|2+|2+|5|4|6|6|9|2+|140||1|true|40mm||
+000001325|1|Necrosius the Undying|5"|3+|3+|4|5|5|5|8|3+|120||1|true|32mm||
+000001326|1|Lord Arkos|6"|2+|2+|4|4|5|6|9|3+|120||1|true|||
+000001327|1|Chaos Hellwright|6"|3+|2+|5|5|4|3|9|2+|85||1|true|40mm||
+000001328|1|Chaos Hellwright on Dark Abeyant|8"|3+|2+|5|6|6|3|9|2+|120||1|true|60mm||
+000001329|1|An’ggrath the Unbound|16"|2+|4+|10|8|24|8|10|4+/4+|450||1|false|130mm||
+000001330|1|Uraka the Warfiend|8"|2+|3+|7|6|9|6|9|5+/4+|130||1|false|60mm||
+000001331|1|Samus|9"|2+|4+|7|7|12|6|9|4+|200||1|true|130mm||
+000001332|1|Zarakynel|14"|2+|3+|7|7|18|6|10|5+/4+|360||1|false|105 x 70mm||
+000001333|1|Aetaos’rau’keres|18"|2+|2+|8|8|27|6|10|5+/3+|600||1|false|130mm||
+000001334|1|Mamon Transfigured|6"|2+|3+|7|7|9|5|9|5+/4+|130||1|false|60mm||
+000001335|1|Cor’bax Utterblight|8"|2+|3+|7|8|12|5|9|5+/4+|160||1|false|120 x 92mm||
+000001336|1|Plague Toad|8"|4+|4+|5|5|4|3|7|6+|38||3-6|true|60mm||
+000001337|1|Pox Rider|8"|4+|4+|5|5|5|3|7|6+|45||3-6|false|60mm||
+000001338|1|Spined Chaos Beast|10"|3+|4+|7|7|12|5|9|4+|150||1|true|||
+000001339|1|Giant Chaos Spawn|8+D6"|4+|4+|6|6|10|6+D6|9|4+|140||1|true|100mm||
+000001340|1|Scabeiathrax the Bloated|8"|2+|3+|8|9|21|5|10|5+/4+|380||1|false|Use model||
+000001343|1|Chaos Vindicator Laser Destroyer|10"|6+|3+|6|8|11|3|8|3+|175||1|false|Use model||
+000001344|1|Primaris Captain|6"|2+|2+|4|4|6|5|9|3+|80||1|false|40mm||
+000001345|1|Primaris Librarian|6"|3+|3+|4|4|5|4|9|3+|85||1|false|40mm||
+000001346|1|Primaris Chaplain|6"|2+|3+|4|4|5|4|9|3+|75||1|false|40mm||
+000001347|1|Lieutenant|6"|2+|2+|4|4|4|3|8|3+|70||1|false|32mm||
+000001348|1|Primaris Apothecary|6"|3+|3+|4|4|5|4|8|3+|70||1|false|40mm||
+000001349|1|Reiver|6"|3+|3+|4|4|2|2|7|3+|16||4-9|false|32mm||
+000001349|2|Reiver Sergeant|6"|3+|3+|4|4|2|3|8|3+|16||1|false|32mm||
+000001350|1|Aggressor|5"|3+|3+|4|5|3|3|7|3+|30||2-5|false|40mm||
+000001350|2|Aggressor Sergeant|5"|3+|3+|4|5|3|4|8|3+|30||1|false|40mm||
+000001351|1|Redemptor Dreadnought|8"|3+|3+|7|7|13|4|8|3+|185||1|false|90mm||
+000001352|1|Repulsor|10"|6+|3+|8|8|16|6|9|3+|220||1|false|100mm||
+000001353|1|Khârn the Betrayer|6"|2+|2+|6|4|6|6|9|3+|140||1|false|40mm||
+000001354|1|Lucius the Eternal|6"|2+|2+|5|4|6|5|10|3+|120||1|false|25mm||
+000001355|1|Exalted Champion|6"|2+|2+|4|4|5|5|9|3+|90||1|false|40mm||
+000001360|1|Grand Master in Nemesis Dreadknight|9"|2+|2+|6|6|13|6|9|2+|160||1|false|120 x 92mm||
+000001361|1|Brotherhood Librarian|5"|3+|3+|4|4|5|4|9|2+|95||1|false|40mm||
+000001362|1|Brotherhood Chaplain|5"|2+|3+|4|4|5|4|9|2+|100||1|false|40mm||
+000001363|1|Stormhawk Interceptor|20-60"|6+|3+|6|7|10|3|8|3+|185||1|false|120 x 92mm flying base||
+000001364|1|Stormtalon Gunship|20-50"|6+|3+|6|6|10|3|8|3+|165||1|false|120 x 92mm flying base||
+000001367|1|Foul Blightspawn|5"|3+|3+|4|5|4|4|8|3+|80||1|false|40mm||
+000001368|1|Biologus Putrifier|5"|3+|3+|4|5|4|4|8|3+|60||1|false|40mm||
+000001369|1|Plague Surgeon|5"|3+|3+|4|5|4|4|8|3+|70||1|false|40mm||
+000001370|1|Tallyman|5"|3+|3+|4|5|4|4|8|3+|65||1|false|40mm||
+000001371|1|Deathshroud Terminator|5"|2+|3+|4|5|3|4|8|2+|50||2-5|false|40mm||
+000001371|2|Deathshroud Champion|5"|2+|3+|4|5|3|5|9|2+|50||1|false|40mm||
+000001372|1|Blightlord Terminator|5"|3+|3+|4|5|3|3|8|2+|40||4-9|false|40mm||
+000001372|2|Blightlord Champion|5"|3+|3+|4|5|3|4|9|2+|40||1|false|40mm||
+000001374|1|Myphitic Blight-hauler|10"|3+|3+|6|7|9|4|8|3+|110||1-3|false|80mm||
+000001376|1|Plagueburst Crawler|9"|6+|3+|7|8|12|4|8|3+|135||1|false|Use model||
+000001377|1|Mortarion|12"|2+|2+|8|8|18|7|10|3+|450||1|false|100mm||
+000001383|1|Mukaali Rider|8"|4+|4+|3|5|3|1|6|4+|22||2-5|false|40mm||
+000001383|2|Mukaali Rider Sergeant|8"|4+|4+|3|5|3|2|7|4+|22||1|false|40mm||
+000001385|1|Grot Bomm Launcha|12"|3+|5+|4|5|6|4|6|4+|50||1|false|Use model||
+000001386|1|Attack Fighta|20-50"|5+|5+|6|6|12|3|6|4+|120||1|true|120 x 92mm flying base||
+000001387|1|Fighta-bommer|20-50"|5+|5+|6|6|14|3|6|4+|140||1|false|120 x 92mm flying base||
+000001388|1|Dethrolla Battle Fortress|12"|5+|5+|8|8|24|9|7|4+|310||1|false|Use model||
+000001389|1|Kill Krusha|12"|5+|5+|8|8|24|8|8|4+|290||1|false|Use model||
+000001390|1|Raven Strike Fighter|20-70"|6+|3+|6|6|10|3|7|4+|150||1|true|120 x 92mm flying base||
+000001391|1|Knarloc Riders|7"|3+|4+|3|4|4|1|6|4+|30||3-6|true|65mm||
+000001392|1|Great Knarloc|7"|3+|4+|7|6|9|4|6|4+|65||1|false|65mm||
+000001393|1|Firestorm|16"|6+|3+|6|7|12|3|8|3+|130||1|false|60mm flying base||
+000001394|1|Regimental Preacher|6"|4+|4+|3|3|4|3|8|6+|40||1|false|25mm||
+000001396|1|Regimental Enginseer|6"|4+|3+|4|4|4|2|8|3+|40||1|false|32mm||
+000001397|1|Munitorum Servitor|5"|5+|5+|3|3|1|1|6|4+|||4|false|25mm||
+000001400|1|Bonesinger|7"|3+|3+|3|3|4|1|7|6+|70||1|true|25mm||
+000001401|1|Neurothrope|6"|5+|3+|5|5|6|2|10|5+|110||1|false|40mm||
+000001402|1|Screamer-Killer|10"|3+|4+|6|7|9|10|6|2+|130||1-3|false|105 x 70mm||
+000001403|1|Thornback|6"|3+|4+|6|7|9|4|6|2+|130||1-3|false|105 x 70mm||
+000001406|1|Sly Marbo|6"|2+|2+|4|3|5|5|7|5+|50||1|false|32mm||
+000001446|1|Trajann Valoris|6"|2+|2+|5|5|8|6|11|2+|200||1|false|40mm||
+000001447|1|Shield-Captain|6"|2+|2+|5|5|7|6|11|2+|105||1|false|40mm||
+000001448|1|Shield-Captain in Allarus Terminator Armour|6"|2+|2+|5|5|8|6|11|2+|115||1|false|40mm||
+000001449|1|Shield-Captain on Dawneagle Jetbike|14"|2+|2+|5|6|9|6|11|2+|160||1|false|75 x 42mm|May use 60mm flying base instead|
+000001450|1|Custodian Warden|6"|2+|2+|5|5|3|4|11|2+|50||3-10|false|40mm||
+000001451|1|Vexilus Praetor|6"|2+|2+|5|5|6|4|11|2+|105||1|false|40mm||
+000001452|1|Vexilus Praetor in Allarus Terminator Armour|6"|2+|2+|5|5|7|4|11|2+|115||1|false|40mm||
+000001453|1|Allarus Custodian|6"|2+|2+|5|5|4|4|11|2+|60||1-6|false|40mm||
+000001454|1|Vertus Praetor|14"|2+|2+|5|6|5|4|11|2+|80||3-6|false|75 x 42mm|May use 60mm flying base instead|
+000001455|1|Bloodmaster|6"|2+|3+|6|5|4|5|8|4+/4+|90||1|false|40mm||
+000001456|1|Skullmaster|10"|2+|3+|6|6|7|5|8|4+/4+|130||1|false|60mm||
+000001458|1|Contemptor-Achillus Dreadnought|9"|2+|2+|7|7|9|5|11|2+|170||1|false|60mm||
+000001460|1|Caladius Grav-tank|14"|6+|2+|6|7|14|3|11|3+|205||1|false|170 x 109mm|May use 50mm base instead|
+000001461|1|Coronus Grav-carrier|14"|6+|2+|7|8|18|3|11|3+|220||1|false|Use model||
+000001462|1|Changecaster|6"|4+|3+|3|4|5|2|8|6+/3+|80||1|false|32mm||
+000001463|1|Fateskimmer|14"|4+|3+|3|6|9|2|8|5+/3+|150||1|false|120 x 92mm||
+000001464|1|Fluxmaster|12"|4+|3+|3|4|6|2|8|6+/3+|110||1|false|60mm flying base||
+000001465|1|Rotigus|7"|2+|3+|7|9|24|6|10|5+/4+|300||1|false|130mm||
+000001466|1|Horticulous Slimux|5"|2+|2+|5|7|9|4|8|4+/4+|140||1|false|105 x 70mm||
+000001467|1|Poxbringer|5"|2+|3+|5|6|6|3|8|5+/4+|90||1|false|32mm||
+000001468|1|Sloppity Bilepiper|5"|2+|3+|5|6|6|3|8|5+/4+|85||1|false|32mm||
+000001469|1|Spoilpox Scrivener|5"|2+|3+|5|6|6|3|8|5+/4+|100||1|false|40mm||
+000001470|1|Feculent Gnarlmaw|-|-|-|6|7|9|-|7|4+/3+|||1|false|Use model||
+000001472|1|Tzaangor Shaman|12"|3+|3+|4|4|4|3|8|6+|60||1|false|40mm||
+000001474|1|Enlightened|12"|3+|3+|4|4|2|2|7|6+|18||2-5|false|40mm||
+000001474|2|Aviarch|12"|3+|3+|4|4|2|3|8|6+|18||1|false|40mm||
+000001476|1|Mutalith Vortex Beast|10"|3+|4+|7|7|14|5|7|4+|130||1|false|120 x 92mm||
+000001477|1|Commander in Crisis Battlesuit|10"|3+|2+|5|5|6|4|10|3+|110||1|false|50mm||
+000001478|1|Commander in Enforcer Battlesuit|8"|3+|2+|5|5|7|4|10|2+|130||1|false|60mm||
+000001479|1|Telemon Heavy Dreadnought|8"|2+|2+|8|8|14|4|11|2+|260||1|false|100mm||
+000001481|1|Armiger Helverin|12"|3+|3+|6|7|12|4|8|3+|155||1-3|false|100mm||
+000001482|1|Armiger Warglaive|12"|3+|3+|6|7|12|4|8|3+|145||1-3|false|100mm||
+000001483|1|Knight Preceptor|10"|3+|3+|8|8|24|4|9|3+|420||1|false|170 x 109mm||
+000001484|1|Canis Rex|10"|2+|2+|8|8|24|5|9|3+|440||1|false|170 x 109mm||
+000001484|2|Sir Hekhtur|6"|2+|2+|3|3|4|3|9|4+||||false|25mm||
+000001485|1|Knight Castellan|8"|4+|3+|8|8|28|4|9|2+|595||1|false|170 x 109mm||
+000001486|1|Knight Valiant|8"|4+|3+|8|8|28|4|9|2+|585||1|false|170 x 109mm||
+000001521|1|Astraeus|12"|5+|3+|8|8|30|6|9|2+|550||1|false|160mm||
+000001522|1|Gabriel Angelos|5"|2+|2+|4|4|7|5|9|2+|150||1|false|40mm||
+000001523|1|Sicaran Arcus|14"|6+|3+|6|7|14|3|8|2+|155||1|false|Use model||
+000001524|1|Sicaran Omega|14"|6+|3+|6|7|14|3|8|2+|175||1|false|Use model||
+000001525|1|Secutarii Hoplite|6"|3+|3+|3|3|1|2|6|4+|10||4-9|false|25mm||
+000001525|2|Hoplite Alpha|6"|3+|3+|3|3|1|3|7|4+|10||1|false|25mm||
+000001526|1|Secutarii Peltast|6"|3+|3+|3|3|1|2|6|4+|9||4-9|false|25mm||
+000001526|2|Peltast Alpha|6"|3+|3+|3|3|1|3|7|4+|9||1|false|25mm||
+000001527|1|Terrax-pattern Termite|8"|4+|3+|7|8|14|3|8|3+|180||1|false|Use model||
+000001532|1|Chaos Terrax-pattern Termite|8"|4+|3+|7|8|14|3|8|3+|180||1|false|Use model||
+000001533|1|Terrax-pattern Termite|8"|4+|3+|7|8|14|3|8|3+|180||1|false|Use model||
+000001536|1|Big Mek with Shokk Attack Gun|5"|3+|4+|5|5|5|3|7|4+|110||1|false|40mm|Grot oiler 25mm|
+000001537|1|Deffkilla Wartrike|14"|2+|5+|5|6|8|5|7|4+|120||1|false|150 x 95mm||
+000001538|1|Kustom Boosta-blasta|12"|4+|5+|5|6|8|4|7|4+|80||1-3|false|150 x 95mm||
+000001539|1|Shokkjump Dragsta|14"|4+|5+|5|6|8|4|7|4+|85||1-3|false|150 x 95mm||
+000001540|1|Boomdakka Snazzwagon|12"|4+|5+|5|6|8|4|7|4+|90||1-3|false|150 x 95mm||
+000001541|1|Megatrakk Scrapjet|10"|4+|5+|6|6|9|4|7|4+|100||1-3|false|150 x 95mm||
+000001542|1|Rukkatrukk Squigbuggy|10"|4+|5+|5|6|9|4|7|4+|95||1-3|false|150 x 95mm||
+000001543|1|Gunwagon|12"|5+|5+|8|8|16|6|7|3+|150||1|false|Use model||
+000001544|1|Bonebreaka|12"|5+|5+|8|8|16|6|7|3+|160||1|false|Use model||
+000001546|1|Abominant|6"|3+|6+|5|5|6|3|8|5+|85||1|false|40mm||
+000001552|1|Missionary|6"|4+|4+|3|3|4|3|8|6+|40||1|false|25mm||
+000001553|1|Preacher|6"|4+|4+|3|3|4|3|7|6+|25||1|false|25mm||
+000001554|1|Marneus Calgar in Armour of Heraclus|6"|2+|2+|4|5|8|6|9|2+|200||1|true|50mm||
+000001555|1|Victrix Honour Guard|6"|2+|3+|4|4|3|4|9|2+|||2|false|40mm||
+000001556|1|Haarken Worldclaimer|12"|2+|2+|4|4|6|7|10|3+|150||1|false|40mm||
+000001557|1|Contemptor-Galatus Dreadnought|9"|2+|2+|7|7|9|5|11|2+|180||1|false|60mm||
+000001558|1|Aquilon Custodian|6"|2+|2+|5|5|4|4|11|2+|70||3-6|false|50mm||
+000001559|1|Custodian Guard|6"|2+|2+|5|5|3|3|11|2+|55||3-5|false|40mm||
+000001560|1|Agamatus Custodians|14"|2+|2+|5|6|4|4|11|2+|95||3-6|false|65mm||
+000001561|1|Venatari Custodian|12"|2+|2+|5|5|3|3|11|3+|55||3-6|false|40mm||
+000001562|1|Pallas Grav-attack|16"|6+|2+|5|6|8|2|11|3+|95||1|false|105 x 70mm|May use 50mm base instead|
+000001563|1|Sagittarum Custodian|6"|2+|2+|5|5|3|3|11|2+|50||3-5|false|40mm||
+000001564|1|Orion Assault Dropship|20"-50"|6+|2+|8|8|22|6|11|3+|450||1|false|160mm||
+000001565|1|Jackal Alphus|14"|3+|2+|3|4|4|3|8|4+|80||1|false|60 x 35mm||
+000001567|1|Clamavus|6"|3+|3+|3|3|4|3|8|5+|45||1|false|32mm||
+000001568|1|Locus|6"|2+|3+|4|4|4|5|8|5+|45||1|false|32mm||
+000001569|1|Sanctus|6"|2+|2+|3|3|4|4|8|5+|70||1|false|32mm||
+000001570|1|Kelermorph|6"|3+|2+|3|3|4|4|8|5+|80||1|false|32mm||
+000001571|1|Nexos|6"|3+|3+|3|3|4|3|8|5+|50||1|false|40mm||
+000001572|1|Biophagus|6"|3+|3+|3|3|4|3|8|5+|40||1|false|25mm|Alchemicus familiar 25mm|
+000001573|1|Achilles Ridgerunner|14"|6+|4+|5|6|8|3|8|4+|80||1-3|false|120 x 92mm||
+000001574|1|Atalan Jackal|14"|4+|4+|3|4|2|2|7|4+|15||3-7|false|60 x 35mm||
+000001574|2|Atalan Leader|14"|4+|4+|3|4|2|3|8|4+|15||1|false|60 x 35mm||
+000001574|3|Atalan Wolfquad|14"|4+|4+|3|4|4|2|7|4+|30||0-2|false|60mm||
+000001577|1|Seraptek|12"|3+|3+|8|8|28|6|10|3+|600||1|false|Use model||
+000001578|1|Commissar Severina Raine|6"|3+|3+|3|3|3|3|8|4+|35||1|false|32mm||
+000001579|1|Inquisitor Eisenhorn|6"|3+|3+|3|3|5|4|10|4+|85||1|false|32mm||
+000001580|1|Tech-Priest Manipulus|6"|3+|2+|4|4|5|3|8|2+|70||1|false|50mm||
+000001581|1|Master of Possession|6"|3+|3+|4|4|5|5|9|3+|105||1|false|40mm||
+000001583|1|Lord Discordant on Helstalker|12"|2+|2+|4|6|9|6|9|2+|175||1|false|120 x 92mm||
+000001584|1|Master of Executions|6"|2+|3+|4|4|5|6|9|3+|65||1|false|40mm||
+000001586|1|Venomcrawler|12"|3+|3+|7|7|9|6|8|3+|105||1|false|100mm||
+000001587|1|Noctilith Crown|-|-|4+|8|8|14|-|8|3+|100||1|false|Use model||
+000001588|1|Skull Altar|-|-|-|6|8|9|-|7|4+/4+|50||1|false|Use model||
+000001589|1|Infernal Enrapturess|9"|2+|3+|4|4|4|4|8|5+/4+|80||1|false|60 x 35mm||
+000001591|1|Janus Draik|6"|3+|3+|3|3|4|3|9|4+|45||1|true|32mm||
+000001592|1|Espern Locarno|6"|5+|5+|3|3|3|2|7|6+|35||1|true|32mm||
+000001593|1|Taddeus the Purifier|6"|4+|4+|3|3|4|3|7|6+|55||1|true|32mm||
+000001594|1|Pious Vorne|6"|3+|4+|3|3|3|3|7|7+|30||1|true|32mm||
+000001595|1|UR-025|5"|3+|3+|5|5|4|2|8|3+|45||1|true|32mm||
+000001596|1|Rein|6"|5+|2+|2|2|2|1|6|6+|||1|true|25mm||
+000001596|2|Raus|6"|5+|2+|2|2|2|1|6|6+|||1|true|25mm||
+000001597|1|Dahyak Grekh|7"|3+|3+|3|3|3|3|7|6+|40||1|true|32mm||
+000001598|1|Amallyn Shadowguide|7"|3+|2+|3|3|3|2|7|5+|55||1|true|32mm||
+000001599|1|Obsidius Mallex|6"|2+|2+|4|4|5|4|9|3+|130||1|true|40mm||
+000001600|1|Rogue Psyker|6"|4+|4+|3|3|4|2|8|5+|35||1|true|32mm||
+000001601|1|Negavolt Cultist|6"|3+|4+|3|3|1|3|8|6+|||4|true|32mm||
+000001602|1|Chaos Space Marine|6"|3+|3+|4|4|1|1|7|3+|||2|true|32mm||
+000001603|1|Spindle Drone|6"|3+|3+|4|4|2|2|10|4+|||4|true|25mm||
+000001604|1|Chaos Beastman|6"|3+|4+|4|4|1|1|6|5+|||4|true|32mm||
+000001606|1|Captain in Phobos Armour|6"|2+|2+|4|4|6|5|9|3+|85||1|false|40mm||
+000001607|1|Librarian in Phobos Armour|6"|3+|3+|4|4|5|4|9|3+|90||1|false|40mm||
+000001608|1|Lieutenant in Phobos Armour|6"|2+|2+|4|4|5|4|8|3+|70||1|false|40mm||
+000001609|1|Infiltrator|6"|3+|3+|4|4|2|2|7|3+|20||4-9|false|32mm||
+000001609|2|Infiltrator Sergeant|6"|3+|3+|4|4|2|3|8|3+|20||1|false|32mm||
+000001610|1|Suppressor|12"|3+|3+|4|4|2|2|7|3+|||2|false|40mm||
+000001610|2|Suppressor Sergeant|12"|3+|3+|4|4|2|3|8|3+|||1|false|40mm||
+000001611|1|Eliminator|6"|3+|2+|4|4|2|2|7|3+|25||2|false|40mm||
+000001611|2|Eliminator Sergeant|6"|3+|2+|4|4|2|3|8|3+|25||1|false|40mm||
+000001630|1|Ambull|6"|3+|6+|6|6|7|4|6|3+|75||1|true|50mm||
+000001631|1|Borewyrm Infestation|4"|4+|6+|3|4|2|3|5|4+|15||1-2|true|25mm||
+000001632|1|Amallyn Shadowguide|7"|3+|2+|3|3|3|2|7|5+|55||1|true|32mm||
+000001633|1|Dahyak Grekh|7"|3+|3+|3|3|3|3|7|6+|40||1|true|32mm||
+000001634|1|Rein|6"|5+|2+|2|2|2|1|6|6+|||1|true|25mm||
+000001634|2|Raus|6"|5+|2+|2|2|2|1|6|6+|||1|true|25mm||
+000001635|1|Elucia Vhane|6"|3+|3+|3|3|4|3|9|4+|50||1|true|32mm||
+000001636|1|Voidsman|6"|4+|3+|3|3|1|1|7|5+|||4|true|32mm||
+000001636|2|Voidmaster Nitsch|6"|4+|3+|3|3|2|2|8|5+|||1|true|32mm||
+000001636|3|Aximillion|8"|3+|-|3|3|1|2|5|6+|||1|true|32mm||
+000001637|1|Larsen van der Grauss|6"|4+|4+|3|3|2|2|8|4+|25||1|true|32mm||
+000001638|1|Sanistasia Minst|6"|4+|4+|3|3|2|2|7|5+|20||1|true|32mm||
+000001639|1|Knosso Prond|7"|3+|4+|4|3|2|4|8|5+|30||1|true|32mm||
+000001647|1|Contorted Epitome|12"|2+|3+|4|5|8|8|8|4+/4+|160||1|false|75 x 42mm||
+000001648|1|Shalaxi Helbane|16"|2+|2+|6|7|22|6|10|5+/4+|300||1|false|100mm||
+000001649|1|Syll’Esske|10"|2+|3+|4|6|8|6|9|5+/4+|180||1|false|50mm||
+000001650|1|Skorpius Dunerider|12"|6+|3+|6|6|12|3|8|3+|85||1|false|Use model||
+000001651|1|Skorpius Disintegrator|12"|6+|3+|6|7|12|3|8|3+|125||1|false|Use model||
+000001652|1|Repulsor Executioner|10"|6+|3+|8|8|16|6|9|3+|250||1|false|100mm||
+000001658|1|Knight Despoiler|10"|3+|3+|8|8|24|4|9|3+|375|+20 pts if equipped with 2 daemonbreath thermal cannons, 2 despoiler battle cannons, 2 despoiler gat|1|false|170 x 109mm||
+000001659|1|Knight Tyrant|8"|4+|3+|8|8|28|4|9|2+|585||1|false|170 x 109mm||
+000001660|1|Knight Desecrator|10"|2+|3+|8|8|24|4|9|3+|400||1|false|170 x 109mm||
+000001661|1|Knight Rampager|12"|2+|3+|8|8|24|5|9|3+|400||1|false|170 x 109mm||
+000001662|1|Chaos Acastus Knight Asterius|8"|4+|3+|8|8|30|3|9|3+|750||1|false|Use model||
+000001663|1|War Dog Moirax|12"|3+|3+|6|7|12|4|8|3+|155||1-3|false|100mm||
+000001664|1|Acastus Knight Asterius|8"|4+|3+|8|8|30|3|9|3+|750||1|false|Use model||
+000001665|1|Knight Moirax|12"|3+|3+|6|7|12|4|8|3+|155||1-3|false|100mm||
+000001666|1|Incursor|6"|3+|3+|4|4|2|2|7|3+|18||4-9|false|32mm||
+000001666|2|Incursor Sergeant|6"|3+|3+|4|4|2|3|8|3+|18||1|false|32mm||
+000001667|1|Invictor Tactical Warsuit|10"|3+|3+|7|6|13|4|8|3+|140||1|false|90mm||
+000001668|1|Impulsor|14"|6+|3+|7|7|11|3|8|3+|100||1|false|100mm||
+000001678|1|Ancient in Terminator Armour|6"|3+|3+|4|4|5|3|8|2+|90||1|false|40mm||
+000001679|1|Khan on Bike|14"|2+|2+|4|5|6|4|9|3+|100||1|false|75 x 25mm||
+000001680|1|Ares Gunship|20"-50"|6+|2+|8|8|22|6|11|3+|400||1|false|160mm||
+000001720|1|Chaos Vindicator Laser Destroyer|10"|6+|3+|6|8|11|3|8|3+|175||1|false|Use model||
+000001746|1|Death Guard Greater Blight Drone|14"|3+|3+|6|7|9|4|8|3+|125||1|false|60mm||
+000001750|1|Chaos Vindicator Laser Destroyer|10"|6+|3+|6|8|11|3|8|3+|175||1|false|Use model||
+000001812|1|Cultist|6"|4+|4+|3|3|1|1|5|6+|||6|true|25mm||
+000001812|2|Cultist Champion|6"|4+|4+|3|3|1|2|6|6+|||1|true|25mm||
+000001813|1|Cultist Firebrand|6"|3+|3+|4|4|3|3|6|4+|35||1|true|32mm||
+000001814|1|Neyam Shai Murad|6"|3+|4+|3|3|4|3|9|4+|55||1|true|32mm||
+000001815|1|Gotfret de Montbard|6"|3+|4+|3|3|4|4|7|4+|40||1|true|32mm||
+000001816|1|Gotfret de Montbard|6"|3+|4+|3|3|4|4|7|4+|40||1|true|32mm||
+000001817|1|Aradia Madellan|6"|3+|3+|3|3|4|3|8|5+|45||1|true|32mm||
+000001818|1|Aradia Madellan|6"|3+|3+|3|3|4|3|8|5+|45||1|true|32mm||
+000001821|1|X-101|5"|5+|5+|4|4|2|2|6|4+|25||1|true|32mm||
+000001822|1|X-101|5"|5+|5+|4|4|2|2|6|4+|25||1|true|32mm||
+000001825|1|Iron Father Feirros|5"|3+|2+|4|5|7|5|9|2+|130||1|false|40mm||
+000001990|1|Valdor Tank Hunter|10"|6+|4+|7|8|20|6|8|2+|335||1|false|Use model||
+000001991|1|Tor Garadon|5"|2+|2+|4|5|7|5|9|3+|120||1|false|40mm||
+000001992|1|Adrax Agatone|6"|2+|2+|4|4|6|5|9|2+|120||1|false|40mm||
+000001993|1|Da Red Gobbo|5"|4+|3+|3|3|3|3|6|5+|30||1|true|32mm||
+000001994|1|Carnodon|12"|5+|4+|7|7|12|3|7|3+|110||1|false|Use model||
+000001995|1|Tormentbringer on Hellflayer|14"|2+|3+|4|5|7|8|8|4+/4+|110||1|false|120 x 92mm||
+000001998|1|Burna Boy|5"|3+|5+|4|4|1|2|6|6+|10||5-15|false|32mm||
+000001998|2|Spanner|5"|3+|5+|4|4|1|2|6|6+|10||0-3|false|32mm||
+000001999|1|Deffkopta|14"|3+|5+|4|5|4|2|6|4+|20||1-5|false|65mm||
+000002000|1|Kommando|6"|3+|5+|4|4|1|2|6|6+|8||5-15|false|32mm||
+000002000|2|Boss Nob|6"|3+|5+|5|4|2|3|7|6+|8||0-1|false|32mm||
+000002001|1|Mek|5"|3+|5+|4|4|3|2|6|6+|22||1|false|32mm||
+000002001|2|Grot Oiler|5"|5+|4+|2|2|1|1|4|6+|4||0-1|false|25mm||
+000002002|1|Sorcerer|6"|3+|3+|4|4|4|3|9|3+|80||1|false|40mm||
+000002003|1|Sorcerer in Terminator Armour|5"|3+|3+|4|4|5|3|9|2+|100||1|false|40mm||
+000002004|1|Honour Guard|6"|3+|3+|4|4|2|2|9|2+|21||2|true|32mm||
+000002005|1|Marneus Calgar|5"|2+|2+|4|4|7|5|9|2+|250||1|true|50mm||
+000002006|1|Chief Librarian Tigurius|6"|3+|3+|4|4|4|3|9|3+|120||1|true|25mm||
+000002007|1|Kayvaan Shrike|12"|2+|2+|4|4|5|5|9|3+|120||1|true|25mm||
+000002008|1|Kor’sarro Khan|6"|2+|2+|4|4|5|4|9|3+|100||1|true|25mm||
+000002009|1|Dreadnought|6"|3+|3+|6|7|8|4|8|3+|60||1|false|60mm||
+000002010|1|Librarian in Terminator Armour|5"|3+|3+|4|4|5|3|9|2+|100||1|false|40mm||
+000002011|1|Techmarine|6"|3+|2+|4|4|4|3|8|2+|45||1|false|40mm||
+000002012|1|Venerable Dreadnought|6"|2+|2+|6|7|8|4|8|3+|80||1|false|60mm||
+000002020|1|Inquisitor|6"|3+|3+|3|3|5|4|9|4+|55||1|false|25mm||
+000002021|1|Termagant|6"|4+|4+|3|3|1|1|5|6+|4||10-30|false|25mm||
+000002033|1|Chaos Lord|6"|2+|2+|4|4|5|4|9|3+|74||1|false|40mm||
+000002034|1|Sorcerer|6"|3+|3+|4|4|4|3|9|3+|80||1|false|40mm||
+000002035|1|Commissar|6"|3+|3+|3|3|3|3|8|5+|15||1|false|25mm||
+000002036|1|Company Commander|6"|3+|3+|3|3|4|3|8|5+|30||1|false|25mm||
+000002037|1|Guardsman|6"|4+|4+|3|3|1|1|6|5+|4||10|false|25mm||
+000002037|2|Sergeant|6"|4+|4+|3|3|1|2|7|5+|4|||false|25mm||
+000002037|3|Heavy Weapons Team|6"|4+|4+|3|3|2|2|6|5+|8|||false|60mm||
+000002038|1|Lord Commissar|6"|2+|2+|3|3|4|3|9|4+|30||1|false|25mm||
+000002039|1|Tempestus Scion|6"|4+|3+|3|3|1|1|6|4+|7||4-9|false|25mm||
+000002039|2|Tempestor|6"|3+|3+|3|3|1|2|7|4+|7||1|false|25mm||
+000002040|1|Platoon Commander|6"|3+|3+|3|3|3|3|7|5+|20||1|false|25mm||
+000002041|1|Guardsman|6"|4+|4+|3|3|1|1|6|5+|4||6|false|25mm||
+000002042|1|Tempestor Prime|6"|3+|3+|3|3|4|3|8|4+|35||1|false|25mm||
+000002043|1|Veteran|6"|4+|3+|3|3|1|1|6|5+|5||9|false|25mm||
+000002043|2|Veteran Sergeant|6"|4+|3+|3|3|1|2|7|5+|5||1|false|25mm||
+000002043|3|Veteran Weapons Team|6"|4+|3+|3|3|2|2|6|5+|10||0-1|false|25mm||
+000002044|1|Dreadnought|6"|3+|3+|6|7|8|4|8|3+|65||1|false|60mm||
+000002045|1|Techmarine|6"|3+|2+|4|4|4|3|8|2+|55||1|false|32mm||
+000002046|1|Venerable Dreadnought|6"|2+|2+|6|7|8|4|8|3+|85||1|false|60mm||
+000002053|1|Autarch|7"|2+|2+|3|3|5|4|9|3+|65||1|false|25mm||
+000002054|1|Autarch with Swooping Hawk Wings|14"|2+|2+|3|3|5|4|9|3+|80||1|false|25mm||
+000002055|1|Autarch Skyrunner|16"|2+|2+|3|4|6|4|9|3+|95||1|false|32mm||
+000002056|1|Guardian|7"|3+|3+|3|3|1|1|7|5+|6||8-24|false|25mm||
+000002057|1|Striking Scorpion|7"|3+|3+|3|3|1|2|8|3+|8||5-10|false|25mm||
+000002057|2|Striking Scorpion Exarch|7"|3+|3+|3|3|2|3|8|3+|8||0-1|false|25mm||
+000002058|1|Swooping Hawk|14"|3+|3+|3|3|1|1|8|4+|6||5-10|false|25mm||
+000002058|2|Swooping Hawk Exarch|14"|3+|3+|3|3|2|2|8|4+|6|||false|25mm||
+000002059|1|Warp Spider|7"|3+|3+|3|3|1|1|8|3+|9||5-10|false|25mm||
+000002059|2|Warp Spider Exarch|7"|3+|3+|3|3|2|2|8|3+|9||0-1|false|25mm||
+000002060|1|Archon|8"|2+|2+|3|3|5|5|9|5+|55||1|false|25mm||
+000002061|1|Beastmaster|12"|3+|3+|3|3|3|3|7|5+|36||1|false|32mm flying base||
+000002062|1|Arch-Confessor Kyrinov|6"|3+|3+|3|3|5|4|8|5+|60||1|true|32mm||
+000002063|1|Triumph of Saint Katherine|6"|3+|3+|3|3|18|10|9|3+|200||1|false|120 x 92mm||
+000002064|1|Junith Eruita|10"|2+|2+|3|4|7|4|9|3+|130||1|false|50mm||
+000002065|1|Repentia Superior|6"|3+|3+|3|3|4|5|8|3+|40||1|false|32mm||
+000002066|1|Zephyrim|12"|3+|3+|3|3|1|3|8|3+|15||4-9|false|32mm||
+000002066|2|Zephyrim Superior|12"|3+|3+|3|3|1|4|9|3+|15||1|false|32mm||
+000002067|1|Mortifier|8"|3+|3+|5|5|5|4|8|4+|55||1-4|false|50mm||
+000002068|1|Battle Sanctum|-|-|-|-|-|-|-|-|-|80||1|false|Use model||
+000002069|1|Battle Sister|6"|4+|3+|3|3|1|1|7|3+|9||4-14|false|25mm||
+000002069|2|Sister Superior|6"|4+|3+|3|3|1|2|8|3+|9||1|false|25mm||
+000002070|1|Canoness|6"|2+|2+|3|3|5|4|9|3+|45||1|false|25mm||
+000002071|1|Celestian|6"|3+|3+|3|3|1|2|8|3+|10||5-10|false|25mm||
+000002071|2|Celestian Superior|6"|3+|3+|3|3|1|3|9|3+|10||0-1|false|25mm||
+000002072|1|Dominion|6"|4+|3+|3|3|1|1|7|3+|10||4-9|false|25mm||
+000002072|2|Dominion Superior|6"|4+|3+|3|3|1|2|8|3+|10||1|false|25mm||
+000002073|1|Preacher|6"|4+|4+|3|3|4|3|7|6+|30||1|false|25mm||
+000002074|1|Retributor|6"|4+|3+|3|3|1|1|7|3+|10||4-9|false|25mm||
+000002074|2|Retributor Superior|6"|4+|3+|3|3|1|2|8|3+|10||1|false|25mm||
+000002076|1|Carab Culln the Risen|8"|2+|2+|7|7|14|5|8|2+|265||1|false|80mm||
+000002077|1|Warbringer Nemesis Titan|15"|4+|3+|8|8|100|3|10|2+|3800||1|false|Use model||
+000002079|1|Makari|5"|4+|4+|3|3|4|2|6|6+|50||1|false|25mm||
+000002080|1|Big Mek with Kustom Force Field|5"|3+|4+|5|5|5|3|7|4+|85||1|false|40mm|Grot oiler 25mm|
+000002081|1|Serberys Sulphurhound|12"|4+|3+|3|4|2|2|6|4+|18||2-8|false|60 x 35mm||
+000002081|2|Serberys Sulphurhound Alpha|12"|4+|3+|3|4|2|3|7|4+|18||1|false|60 x 35mm||
+000002082|1|Serberys Raider|12"|4+|3+|3|4|2|2|6|4+|18||2-8|false|60 x 35mm||
+000002082|2|Serberys Raider Alpha|12"|4+|3+|3|4|2|3|7|4+|18||1|false|60 x 35mm||
+000002083|1|Pteraxii Sterylizor|12"|3+|3+|4|3|2|2|6|4+|19||4-9|false|40mm||
+000002083|2|Pteraxii Sterylizor Alpha|12"|3+|3+|4|3|2|3|7|4+|19||1|false|40mm||
+000002084|1|Pteraxii Skystalker|12"|3+|3+|4|3|2|2|6|4+|16||4-9|false|40mm||
+000002084|2|Pteraxii Skystalker Alpha|12"|3+|3+|4|3|2|3|7|4+|16||1|false|40mm||
+000002085|1|Archaeopter Transvector|20-50"|5+|3+|6|7|10|3|9|3+|110||1|false|170 x 109mm||
+000002086|1|Archaeopter Stratoraptor|20-50"|5+|3+|6|7|10|3|9|3+|180||1|false|170 x 109mm||
+000002087|1|Archaeopter Fusilave|20-50"|5+|3+|6|7|10|3|9|3+|150||1|false|170 x 109mm||
+000002088|1|Aleya|7"|2+|2+|3|3|5|5|9|3+|75||1|false|32mm||
+000002089|1|Tacticus Bunker|-|-|4+|8|8|20|-|10|3+|||1|false|Use model||
+000002089|2|Bunker Annex|-|-|4+|8|8|12|-|10|3+|||3|false|Use model||
+000002090|1|Lord Inquisitor Kyria Draxus|6"|2+|3+|3|3|5|4|9|3+|85||1|false|32mm||
+000002091|1|Ephrael Stern|8"|2+|3+|4|3|6|5|9|3+|||1|false|32mm||
+000002091|2|Kyganil|8"|2+|3+|3|3|5|4|8|6+|||1|false|32mm||
+000002092|1|Illuminor Szeras|8"|3+|3+|6|6|7|4|10|3+|145||1|false|80mm||
+000002093|1|The Archivist|5"|3+|3+|5|4|6|4|9|3+|90||1|true|50mm||
+000002094|1|Casan Sabius|6"|2+|2+|4|4|6|5|9|2+|145||1|false|32mm||
+000002098|1|Judiciar|6"|2+|3+|4|4|5|4|9|3+|75||1|false|40mm||
+000002099|1|Bladeguard Veteran|6"|3+|3+|4|4|3|3|8|3+|35||2-5|false|40mm||
+000002099|2|Bladeguard Veteran Sergeant|6"|3+|3+|4|4|3|4|9|3+|35||1|false|40mm||
+000002100|1|Bladeguard Ancient|6"|3+|3+|4|4|5|4|9|3+|75||1|false|40mm||
+000002101|1|Assault Intercessor|6"|3+|3+|4|4|2|2|7|3+|17||4-9|false|32mm||
+000002101|2|Assault Intercessor Sergeant|6"|3+|3+|4|4|2|3|8|3+|17||1|false|32mm||
+000002102|1|Outrider|14"|3+|3+|4|5|4|2|7|3+|35||2|false|90 x 52mm||
+000002102|2|Outrider Sergeant|14"|3+|3+|4|5|4|3|8|3+|35||1|false|90 x 52mm||
+000002103|1|Eradicator|5"|3+|3+|4|5|3|2|7|3+|45||2-5|false|40mm||
+000002103|2|Eradicator Sergeant|5"|3+|3+|4|5|3|3|8|3+|45||1|false|40mm||
+000002104|1|Invader ATV|14"|3+|3+|4|5|8|4|7|3+|70||1-3|false|Use model||
+000002105|1|Firestrike Servo-turret|3"|3+|2+|4|5|5|2|8|2+|80||1-3|false|80mm||
+000002108|1|Plasmancer|5"|3+|3+|4|4|4|1|10|4+|65||1|false|32mm||
+000002109|1|Skorpekh Lord|8"|2+|2+|6|6|6|4|10|3+|130||1|false|60mm||
+000002110|1|Skorpekh Destroyer|8"|3+|3+|5|5|3|3|10|3+|30||3-6|false|50mm||
+000002111|1|Cryptothrall|5"|4+|4+|5|5|2|3|10|3+|||2|false|32mm||
+000002112|1|Canoptek Reanimator|8"|4+|4+|5|5|6|4|10|3+|80||1|false|60mm||
+000002114|1|Scarab Swarm|10"|4+|-|3|3|4|4|10|6+|15||3-9|false|40mm||
+000002115|1|Canoptek Doomstalker|10"|4+|4+|6|6|12|3|10|3+|130||1|false|90mm||
+000002116|1|Lokhust Heavy Destroyer|8"|3+|3+|4|5|4|2|10|3+|50||1-3|false|60mm||
+000002163|1|Captain with Master-crafted Heavy Bolt Rifle|5"|2+|2+|4|5|7|5|9|3+|95||1|false|40mm||
+000002173|1|Lieutenant in Reiver Armour|6"|2+|2+|4|4|5|4|8|3+|65||1|false|40mm||
+000002190|1|Primaris Chaplain on Bike|14"|2+|3+|4|5|7|4|9|3+|115||1|false|90 x 52mm||
+000002199|1|Primaris Techmarine|6"|3+|2+|4|4|5|4|8|2+|70||1|false|40mm||
+000002202|1|Heavy Intercessor|5"|3+|3+|4|5|3|2|7|3+|23||4-9|false|40mm||
+000002202|2|Heavy Intercessor Sergeant|5"|3+|3+|4|5|3|3|8|3+|23||1|false|40mm||
+000002203|1|Helbrute|6"|3+|3+|6|7|8|5|8|3+|105||1|false|60mm||
+000002217|1|Veteran Intercessor|6"|3+|3+|4|4|2|3|8|3+|20||4-9|false|32mm||
+000002217|2|Veteran Intercessor Sergeant|6"|3+|3+|4|4|2|4|9|3+|20||1|false|32mm||
+000002234|1|Relic Terminator|5"|3+|3+|4|4|3|2|8|2+|33||4-9|false|40mm||
+000002234|2|Relic Terminator Sergeant|5"|3+|3+|4|4|3|3|9|2+|33||1|false|40mm||
+000002252|1|Storm Speeder Hailstrike|16"|3+|3+|5|6|10|3|7|3+|115||1|false|90mm||
+000002255|1|Storm Speeder Thunderstrike|16"|3+|2+|5|6|10|3|7|3+|135||1|false|90mm||
+000002258|1|Storm Speeder Hammerstrike|16"|3+|3+|5|6|10|3|7|3+|125||1|false|90mm||
+000002263|1|Land Speeder Typhoon|16"|3+|3+|4|6|6|2|7|3+|100||1-3|false|60mm flying base||
+000002266|1|Predator Annihilator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000002267|1|Gladiator Lancer|10"|6+|3+|7|8|12|3|8|3+|125||1|false|100mm||
+000002268|1|Gladiator Reaper|10"|6+|3+|7|8|12|3|8|3+|150||1|false|100mm||
+000002269|1|Gladiator Valiant|10"|6+|3+|7|8|12|3|8|3+|170||1|false|100mm||
+000002270|1|Hammerfall Bunker|-|-|4+|6|8|14|-|7|3+|100||1|false|Use model||
+000002271|1|Commander Dante|12"|2+|2+|4|4|6|6|9|2+|165||1|false|25mm||
+000002272|1|Gabriel Seth|6"|2+|2+|4|4|6|5|9|3+|130||1|false|25mm||
+000002273|1|The Sanguinor|12"|2+|2+|4|4|5|5|9|2+|150||1|false|25mm||
+000002274|1|Brother Corbulo|6"|2+|2+|4|4|5|4|9|3+|115||1|false|25mm||
+000002275|1|Sanguinary Priest|6"|2+|3+|4|4|4|3|9|3+|90||1|false|32mm||
+000002276|1|Chief Librarian Mephiston|7"|2+|2+|5|5|6|5|9|2+|125||1|false|40mm||
+000002277|1|Librarian Dreadnought|6"|3+|3+|6|7|8|4|9|3+|150||1|false|60mm||
+000002278|1|Astorath|12"|2+|2+|4|4|5|4|9|2+|140||1|false|25mm||
+000002279|1|Lemartes|12"|2+|3+|4|4|4|4|9|3+|120||1|false|25mm||
+000002280|1|Captain Tycho|6"|2+|2+|4|4|5|4|9|2+|95||1|false|25mm||
+000002281|1|Tycho the Lost|6"|2+|2+|4|4|5|4|9|2+|95||1|false|25mm||
+000002282|1|Sanguinary Guard|12"|3+|3+|4|4|2|3|8|2+|30||4-10|false|32mm||
+000002283|1|Sanguinary Ancient|12"|3+|3+|4|4|4|3|9|2+|110||1|false|32mm||
+000002284|1|Death Company Dreadnought|6"|3+|3+|6|7|8|5|7|3+|125||1|false|60mm||
+000002285|1|Death Company Marine|6"|3+|3+|4|4|2|2|7|3+|20||5-10|false|32mm||
+000002286|1|Death Company Intercessor|6"|3+|3+|4|4|2|3|7|3+|18||5-10|false|32mm||
+000002287|1|Furioso Dreadnought|6"|3+|3+|6|7|8|4|8|3+|120||1|false|60mm||
+000002288|1|Baal Predator|12"|6+|3+|6|7|11|3|8|3+|110||1|false|Use model||
+000002289|1|Azrael|6"|2+|2+|4|4|6|5|9|2+|140||1|false|25mm||
+000002290|1|Belial|5"|2+|2+|4|4|6|4|9|2+|125||1|false|40mm||
+000002291|1|Sammael|15"|2+|2+|4|5|8|4|9|3+|135||1|false|40mm||
+000002292|1|Ezekiel|6"|2+|2+|4|4|5|3|9|2+|105||1|false|32mm||
+000002293|1|Asmodai|6"|2+|3+|4|4|5|4|9|3+|115||1|false|25mm||
+000002294|1|Interrogator-Chaplain|6"|2+|3+|4|4|5|4|9|3+|85||1|false|32mm||
+000002295|1|Ravenwing Talonmaster|18"|2+|2+|4|6|8|3|8|3+|160||1|false|65mm||
+000002296|1|Lazarus|6"|2+|2+|4|4|6|5|9|3+|100||1|false|40mm||
+000002297|1|Interrogator-Chaplain in Terminator Armour|5"|2+|3+|4|4|6|4|9|2+|100||1|false|40mm||
+000002298|1|Deathwing Apothecary|5"|3+|3+|4|4|5|3|8|2+|90||1|false|40mm||
+000002299|1|Deathwing Champion|5"|2+|3+|4|4|5|4|8|2+|70||1|false|40mm||
+000002300|1|Deathwing Terminator|5"|3+|3+|4|4|3|2|8|2+|33||4-9|false|40mm||
+000002300|2|Deathwing Sergeant|5"|3+|3+|4|4|3|3|9|2+|33||1|false|40mm||
+000002301|1|Deathwing Knight|5"|2+|2+|4|4|3|2|8|2+|43||4-9|false|40mm||
+000002301|2|Knight Master|5"|2+|2+|4|4|3|3|9|2+|43||1|false|40mm||
+000002302|1|Deathwing Terminator|5"|3+|3+|4|4|3|2|8|2+|35||1-4|false|40mm||
+000002302|2|Deathwing Sergeant|5"|3+|3+|4|4|3|3|9|2+|35||1|false|40mm||
+000002303|1|Ravenwing Apothecary|14"|3+|3+|4|5|5|3|8|3+|90||1|false|75 x 42mm||
+000002304|1|Ravenwing Champion|14"|2+|3+|4|5|5|4|8|3+|60||1|false|75 x 42mm||
+000002305|1|Ravenwing Ancient|14"|3+|3+|4|5|5|3|8|3+|90||1|false|75 x 42mm||
+000002306|1|Ravenwing Black Knight|14"|3+|3+|4|5|3|2|8|3+|30||2-9|false|75 x 42mm||
+000002306|2|Ravenwing Huntmaster|14"|3+|3+|4|5|3|3|8|3+|30||1|false|75 x 42mm||
+000002307|1|Ravenwing Darkshroud|12"|3+|3+|4|6|9|3|8|3+|110||1|false|65mm||
+000002308|1|Ravenwing Land Speeder Vengeance|12"|3+|3+|4|6|9|3|8|3+|100||1|false|60mm flying base||
+000002309|1|Ravenwing Dark Talon|20-50"|6+|3+|6|6|11|3|8|3+|170||1|false|120 x 92mm flying base||
+000002310|1|Nephilim Jetfighter|20-50"|6+|3+|6|6|11|3|8|3+|155||1|false|120 x 92mm flying base||
+000002311|1|Watch Master|6"|2+|2+|4|4|6|4|9|2+|115||1|false|32mm||
+000002312|1|Watch Captain Artemis|6"|2+|2+|4|4|5|4|9|3+|95||1|false|32mm||
+000002313|1|Chaplain Cassius|6"|2+|3+|4|4|4|4|10|3+|85||1|false|32mm||
+000002314|1|Codicier Natorian|6"|2+|3+|4|4|4|3|9|3+|90||1|false|32mm||
+000002315|1|Deathwatch Veteran|6"|3+|3+|4|4|2|2|8|3+|27||4-9|false|32mm||
+000002315|2|Watch Sergeant|6"|3+|3+|4|4|2|3|9|3+|27||1|false|32mm||
+000002315|3|Black Shield|6"|2+|3+|4|4|2|3|8|3+|27||0-1|false|32mm||
+000002316|1|Veteran|6"|3+|3+|4|4|2|2|8|3+|||4|true|32mm||
+000002316|2|Watch Sergeant|6"|3+|3+|4|4|2|3|9|3+|||1|true|32mm||
+000002316|3|Terminator|5"|3+|3+|4|4|3|2|8|2+|||1|true|40mm||
+000002316|4|Veteran Biker|14"|3+|3+|4|5|3|2|8|3+|||1|true|75 x 42mm||
+000002316|5|Vanguard Veteran|12"|3+|3+|4|4|2|2|8|3+|||2|true|32mm||
+000002317|1|Deathwatch Terminator|5"|3+|3+|4|4|3|2|8|2+|35||4-9|false|40mm||
+000002317|2|Deathwatch Terminator Sergeant|5"|3+|3+|4|4|3|3|9|2+|35||1|false|40mm||
+000002318|1|Veteran Biker|14"|3+|3+|4|5|3|2|8|3+|35||2-5|false|75 x 25mm||
+000002318|2|Veteran Biker Sergeant|14"|3+|3+|4|5|3|3|9|3+|35||1|false|75 x 25mm||
+000002318|3|Veteran Attack Bike|14"|3+|3+|4|5|4|4|8|3+|35||0-1|false|Use model||
+000002319|1|Corvus Blackstar|20-50"|6+|3+|8|7|14|3|8|3+|150||1|false|120 x 92mm flying base||
+000002322|1|Logan Grimnar|5"|2+|2+|4|4|7|5|9|2+|140||1|false|40mm||
+000002323|1|Njal Stormcaller|5"|2+|2+|4|4|6|3|9|2+|120||1|false|40mm||
+000002324|1|Logan Grimnar on Stormrider|10"|2+|2+|4|6|14|5|9|2+|160||1|false|120 x 92mm||
+000002325|1|Bjorn the Fell-handed|6"|2+|2+|7|8|8|5|9|3+|155||1|false|60mm||
+000002326|1|Arjac Rockfist|5"|2+|2+|5|4|5|4|8|2+|100||1|false|40mm||
+000002327|1|Ulrik the Slayer|6"|2+|2+|4|4|5|4|9|3+|100||1|false|32mm||
+000002328|1|Ragnar Blackmane|6"|2+|2+|4|4|6|7|9|3+|110||1|false|40mm||
+000002329|1|Krom Dragongaze|6"|2+|2+|4|4|5|5|9|3+|90||1|false|32mm||
+000002330|1|Harald Deathwolf|10"|2+|2+|4|5|7|5|9|3+|120||1|false|60mm||
+000002331|1|Canis Wolfborn|10"|2+|5+|4|5|6|6|8|3+|100||1|false|60mm||
+000002332|1|Wolf Guard Battle Leader in Terminator Armour|5"|2+|2+|4|4|5|3|8|2+|75||1|false|40mm||
+000002333|1|Wolf Lord on Thunderwolf|10"|2+|2+|4|5|7|4|9|3+|110||1|false|60mm||
+000002334|1|Wolf Guard Battle Leader on Thunderwolf|10"|2+|2+|4|5|6|3|8|3+|95||1|false|60mm||
+000002335|1|Blood Claw|6"|3+|3+|4|4|2|1|7|3+|17||4-14|false|32mm||
+000002335|2|Blood Claw Pack Leader|6"|3+|3+|4|4|2|2|7|3+|17||1|false|32mm||
+000002335|3|Wolf Guard Pack Leader|6"|3+|3+|4|4|2|2|8|3+|18||0-1|false|32mm||
+000002335|4|Wolf Guard Terminator Pack Leader|5"|3+|3+|4|4|3|2|8|2+|34||0-1|false|40mm||
+000002336|1|Grey Hunter|6"|3+|3+|4|4|2|1|7|3+|18||4-9|false|32mm||
+000002336|2|Grey Hunter Pack Leader|6"|3+|3+|4|4|2|2|7|3+|18||1|false|32mm||
+000002336|3|Wolf Guard Pack Leader|6"|3+|3+|4|4|2|2|8|3+|18||0-1|false|32mm||
+000002336|4|Wolf Guard Terminator Pack Leader|5"|3+|3+|4|4|3|2|8|2+|34||0-1|false|40mm||
+000002337|1|Wolf Guard|6"|3+|3+|4|4|2|2|8|3+|20||4-9|false|32mm||
+000002337|2|Wolf Guard Pack Leader|6"|3+|3+|4|4|2|3|8|3+|20||1|false|32mm||
+000002338|1|Lukas the Trickster|6"|2+|3+|4|4|4|5|8|3+|70||1|false|32mm||
+000002339|1|Wolf Guard Terminator|5"|3+|3+|4|4|3|2|8|2+|34||4-9|false|40mm||
+000002339|2|Wolf Guard Terminator Pack Leader|5"|3+|3+|4|4|3|3|8|2+|34||1|false|40mm||
+000002340|1|Wulfen|8"|3+|5+|5|5|2|3|7|4+|20||4-9|false|40mm||
+000002340|2|Wulfen Pack Leader|8"|3+|5+|5|5|2|4|7|4+|20||1|false|40mm||
+000002341|1|Wulfen Dreadnought|8"|3+|5+|6|7|8|4|7|3+|120||1|false|60mm||
+000002342|1|Murderfang|8"|2+|5+|6|7|8|5|8|3+|140||1|false|60mm||
+000002343|1|Cyberwolf|10"|3+|-|4|4|2|3|6|4+|15||1-5|false|40mm||
+000002344|1|Thunderwolf Cavalry|10"|3+|3+|4|5|4|2|8|3+|35||2-5|false|60mm||
+000002344|2|Thunderwolf Cavalry Pack Leader|10"|3+|3+|4|5|4|3|8|3+|35||1|false|60mm||
+000002345|1|Fenrisian Wolf|10"|3+|-|4|4|1|2|4|6+|7||5-15|false|40mm||
+000002345|2|Cyberwolf|10"|3+|-|4|4|2|3|6|4+|15||0-1|false|40mm||
+000002346|1|Skyclaw|12"|3+|3+|4|4|2|1|7|3+|18||4-14|false|32mm||
+000002346|2|Skyclaw Pack Leader|12"|3+|3+|4|4|2|2|7|3+|18||1|false|32mm||
+000002346|3|Wolf Guard Skyclaw Pack Leader|12"|3+|3+|4|4|2|2|8|3+|20||0-1|false|32mm||
+000002347|1|Long Fang|6"|3+|3+|4|4|2|1|8|3+|23||4-5|false|32mm||
+000002347|2|Long Fang Pack Leader|6"|3+|3+|4|4|2|2|8|3+|23||1|false|32mm||
+000002347|3|Wolf Guard Pack Leader|6"|3+|3+|4|4|2|2|8|3+|18||0-1|false|32mm||
+000002347|4|Wolf Guard Terminator Pack Leader|5"|3+|3+|4|4|3|2|8|2+|34||0-1|false|40mm||
+000002348|1|Stormfang Gunship|20-50"|6+|3+|8|7|14|6|8|3+|225||1|false|120 x 92mm flying base||
+000002349|1|Stormwolf|20-50"|6+|3+|8|7|14|6|8|3+|225||1|false|120 x 92mm flying base||
+000002350|1|Royal Warden|6"|3+|3+|5|5|4|3|10|3+|70||1|false|32mm||
+000002351|1|Lokhust Lord|8"|3+|3+|5|6|6|4|10|3+|100||1|false|60mm flying base||
+000002352|1|Technomancer|5"|3+|3+|4|4|4|1|10|4+|70||1|false|50mm||
+000002353|1|Psychomancer|5"|3+|3+|4|4|4|1|10|4+|65||1|false|40mm||
+000002354|1|Chronomancer|8"|3+|3+|4|4|4|1|10|4+|75||1|false|40mm||
+000002355|1|Hexmark Destroyer|8"|3+|2+|5|5|5|4|10|3+|65||1|false|50mm||
+000002356|1|Canoptek Plasmacyte|8"|4+|4+|4|5|1|1|10|4+|15||1|false|28mm||
+000002357|1|C’tan Shard of the Void Dragon|8"|2+|2+|6|7|9|5|10|3+|300||1|false|80mm||
+000002358|1|Ophydian Destroyer|10"|3+|3+|4|4|3|3|10|4+|30||3-6|false|50mm||
+000002359|1|Lokhust Destroyer|8"|3+|3+|4|5|3|2|10|3+|40||1-6|false|60mm flying base||
+000002359|2|Lokhust Heavy Destroyer|8"|3+|3+|4|5|4|2|10|3+|40||0-1|false|60mm||
+000002360|1|Szarekh|8"|2+|2+|5|7|16|6|10|3+|||1|false|100mm||
+000002360|2|Triarchal Menhir|8"|6+|2+|5|7|5|1|10|3+|||2|false|50mm||
+000002361|1|Starstele|-|-|3+|6|8|10|-|-|3+|||3|false|Use model||
+000002362|1|Tomb Ziggurat|-|-|3+|9|9|20|-|10|3+|||1|false|Use model||
+000002362|2|Power Crucible|-|-|3+|9|9|20|-|10|3+|||1|false|Use model||
+000002362|3|Gun Emplacement Mount|-|-|3+|9|9|14|-|10|3+|||2|false|Use model||
+000002363|1|Guardian Drone|5"|3+|3+|5|6|7|4|10|3+|90||1|true|50mm||
+000002364|1|Khorne Berzerker|6"|3+|3+|5|4|2|5|8|3+|22||4-9|false|32mm||
+000002364|2|Berzerker Champion|6"|3+|3+|5|4|2|6|9|3+|22||1|false|32mm||
+000002367|1|Storm Eagle Gunship|20-45"|6+|3+|8|7|18|6|9|3+|335||1|false|120 x 92mm flying base||
+000002368|1|Razorback|12"|6+|3+|6|7|10|3|8|3+|100||1|false|Use model||
+000002369|1|Tarantula Sentry Gun|-|-|4+|4|5|4|-|7|3+|40||1-3|false|Use model||
+000002370|1|Razorback|12"|6+|3+|6|7|10|3|8|3+|100||1|false|Use model||
+000002371|1|Dreadnought|6"|3+|3+|6|7|8|5|8|3+|130||1|false|60mm||
+000002372|1|Land Speeder Tornado|16"|3+|3+|4|6|6|2|7|3+|70||1-3|false|60mm flying base||
+000002373|1|Death Korps Marshal Karis Venner|6"|3+|3+|3|3|4|3|9|4+|50||1|true|25mm||
+000002374|1|Death Korps Grenadier|6"|3+|3+|3|3|1|1|6|4+|7||4-9|false|25mm||
+000002374|2|Death Korps Watchmaster|6"|3+|3+|3|3|1|2|7|4+|7||1|false|25mm||
+000002374|3|Death Korps Grenadier Weapons Team|6"|3+|3+|3|3|2|2|6|4+|7||1|false|60mm||
+000002375|1|Medicae-servitor|6"|5+|5+|3|3|1|1|6|4+|5||2-4|false|25mm||
+000002375|2|Quartermaster Revenant|6"|3+|3+|3|3|2|2|7|4+|5||1|false|25mm||
+000002376|1|Drop Sentinel|9"|4+|4+|5|5|6|1|7|4+|50||1-3|false|60mm||
+000002377|1|Sniper Team|6"|4+|3+|3|3|2|2|6|5+|||3|false|60mm||
+000002378|1|Death Rider Commissar|10"|3+|3+|3|4|4|3|8|4+|25||1|false|40mm||
+000002379|1|Storm Chimera|12"|6+|4+|6|7|10|3|7|3+|95||1|true|Use model||
+000002380|1|Gate Section|-|-|-|10|10|8|-|10|2+|80|Extra gate section|1|false|Use model||
+000002380|2|Gate Tower Section|-|-|4+|10|10|16|-|10|2+|160|Extra gate tower section|2|false|Use model||
+000002380|3|Tower Section|-|-|4+|10|10|12|-|10|2+|120|Extra tower section|2|false|Use model||
+000002380|4|Wall Section|-|-|-|10|10|12|-|10|2+|120|Extra wall section|2|false|Use model||
+000002381|1|Primaris Redoubt|-|-|4+|8|8|20|-|10|3+|750||1|false|Use model||
+000002382|1|Chimera|12"|6+|4+|6|7|11|3|7|3+|85||1|false|Use model||
+000002383|1|Hellhound|12"|6+|4+|6|7|11|3|7|3+|110||1|false|Use model||
+000002384|1|Leman Russ Battle Tank|10"|6+|4+|7|8|13|6|7|2+|150||1-3|false|Use model||
+000002385|1|Death Korps Marshal|6"|3+|3+|3|3|4|3|9|4+|35||1|false|25mm||
+000002386|1|Squadron Commander|10"|3+|3+|3|4|5|3|8|4+|45||1|false|40mm||
+000002387|1|Death Rider Veteran|10"|4+|3+|3|4|3|2|7|4+|||4|false|40mm||
+000002388|1|Engineer|6"|4+|3+|3|3|1|1|6|4+|8||4-9|false|25mm||
+000002388|2|Engineer Weapons Team|6"|4+|3+|3|3|2|2|6|4+|25||0-1|false|60mm||
+000002388|3|Engineer Watchmaster|6"|4+|3+|3|3|1|2|7|4+|8||1|false|25mm||
+000002389|1|Death Rider|10"|4+|3+|3|4|3|1|7|4+|20||4-9|false|40mm||
+000002389|2|Ridemaster|10"|4+|3+|3|4|3|2|7|4+|20||1|false|40mm||
+000002390|1|Chaos Sicaran Punisher|14"|6+|3+|6|7|14|3|8|2+|155||1|false|Use model||
+000002391|1|Chaos Contemptor Dreadnought|8"|3+|3+|7|7|9|4|8|3+|140||1|false|60mm||
+000002392|1|Chaos Land Raider Proteus|10"|6+|3+|8|8|16|6|9|2+|220||1|false|Use model||
+000002393|1|Decimator|9"|3+|3+|7|7|12|5|8|3+|160||1|false|60mm||
+000002394|1|Chaos Terrax-pattern Termite|8"|4+|3+|7|8|14|3|8|3+|180||1|false|Use model||
+000002395|1|Chaos Sicaran Punisher|14"|6+|3+|6|7|14|3|8|2+|155||1|false|Use model||
+000002396|1|Chaos Land Raider Achilles|10"|6+|3+|8|8|16|6|9|2+|270||1|false|Use model||
+000002397|1|Chaos Whirlwind Scorpius|12"|6+|3+|6|7|11|3|8|3+|170||1|false|Use model||
+000002398|1|Hellforged Sicaran|14"|6+|3+|6|7|14|3|8|2+|165||1|false|Use model||
+000002399|1|Chaos Sicaran Venator|14"|6+|3+|6|7|14|3|8|2+|170||1|false|Use model||
+000002400|1|Chaos Spartan|10"|5+|3+|8|8|20|6|9|2+|420||1|false|Use model||
+000002401|1|Chaos Deredeo Dreadnought|8"|3+|3+|6|7|12|4|8|3+|190||1|false|80mm||
+000002402|1|Chaos Rapier Carrier|4"|3+|3+|4|5|5|2|7|3+|75||1|false|Use model||
+000002403|1|Chaos Leviathan Dreadnought|8"|3+|3+|7|7|14|4|8|2+|220||1|false|80mm||
+000002404|1|Dreadclaw Drop Pod|12"|4+|-|6|6|9|4|8|3+|115||1|false|Use model||
+000002405|1|Kharybdis Assault Claw|15"|4+|4+|8|8|20|4|8|3+|400||1|false|Use model||
+000002406|1|Chaos Cerberus|10"|5+|3+|8|8|20|6|9|2+|370||1|false|Use model||
+000002407|1|Chaos Typhon|10"|5+|3+|8|8|20|6|9|2+|320||1|false|Use model||
+000002408|1|Chaos Fellblade|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000002409|1|Chaos Falchion|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000002410|1|Chaos Mastodon|10"|5+|3+|9|9|30|6|9|2+|750||1|false|Use model||
+000002411|1|Hell Blade|20"-60"|6+|3+|6|6|9|2|8|3+|135||1|false|120 x 92mm flying base||
+000002412|1|Hell Talon|20"-60"|6+|3+|7|7|14|6|8|3+|210||1|false|120 x 92mm flying base||
+000002413|1|Chaos Storm Eagle Gunship|20"-45"|6+|3+|8|7|18|6|9|3+|335||1|false|120 x 92mm flying base||
+000002414|1|Chaos Fire Raptor Gunship|20"-45"|6+|3+|8|7|18|6|9|3+|340||1|false|120 x 92mm flying base||
+000002415|1|Chaos Thunderhawk Gunship|20"-50"|6+|3+|10|8|30|6|9|2+|800||1|false|120 x 92mm flying base||
+000002416|1|Chaos Sokar-pattern Stormbird|20-50"|6+|3+|10|8|40|6|9|2+|1000||1|false|120 x 92mm flying base||
+000002417|1|Chaos Xiphon Interceptor|20"-60"|6+|3+|6|7|12|3|8|3+|235||1|false|120 x 92mm flying base||
+000002418|1|Chaos Contemptor Dreadnought|8"|3+|3+|7|7|9|4|8|3+|140||1|false|60mm||
+000002419|1|Chaos Land Raider Proteus|10"|6+|3+|8|8|16|6|9|2+|220||1|false|Use model||
+000002421|1|Decimator|9"|3+|3+|7|7|12|5|8|3+|160||1|false|60mm||
+000002422|1|Chaos Terrax-pattern Termite|8"|4+|3+|7|8|14|3|8|3+|180||1|false|Use model||
+000002423|1|Chaos Sicaran Punisher|14"|6+|3+|6|7|14|3|8|2+|155||1|false|Use model||
+000002424|1|Chaos Land Raider Achilles|10"|6+|3+|8|8|16|6|9|2+|270||1|false|Use model||
+000002425|1|Chaos Whirlwind Scorpius|12"|6+|3+|6|7|11|3|8|3+|170||1|false|Use model||
+000002426|1|Hellforged Sicaran|14"|6+|3+|6|7|14|3|8|2+|165||1|false|Use model||
+000002427|1|Chaos Sicaran Venator|14"|6+|3+|6|7|14|3|8|2+|170||1|false|Use model||
+000002428|1|Chaos Spartan|10"|5+|3+|8|8|20|6|9|2+|420||1|false|Use model||
+000002429|1|Chaos Deredeo Dreadnought|8"|3+|3+|6|7|12|4|8|3+|190||1|false|80mm||
+000002430|1|Chaos Rapier Carrier|4"|3+|3+|4|5|5|2|7|3+|75||1|false|Use model||
+000002431|1|Chaos Leviathan Dreadnought|8"|3+|3+|7|7|14|4|8|2+|220||1|false|80mm||
+000002432|1|Dreadclaw Drop Pod|12"|4+|-|6|6|9|4|8|3+|115||1|false|Use model||
+000002433|1|Kharybdis Assault Claw|15"|4+|4+|8|8|20|4|8|3+|400||1|false|Use model||
+000002434|1|Chaos Cerberus|10"|5+|3+|8|8|20|6|9|2+|370||1|false|Use model||
+000002435|1|Chaos Typhon|10"|5+|3+|8|8|20|6|9|2+|320||1|false|Use model||
+000002436|1|Chaos Fellblade|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000002437|1|Chaos Falchion|10"|5+|3+|8|8|26|6|9|2+|550||1|false|Use model||
+000002438|1|Chaos Mastodon|10"|5+|3+|9|9|30|6|9|2+|750||1|false|Use model||
+000002439|1|Hell Blade|20"-60"|6+|3+|6|6|9|2|8|3+|135||1|false|120 x 92mm flying base||
+000002440|1|Hell Talon|20"-60"|6+|3+|7|7|14|6|8|3+|210||1|false|120 x 92mm flying base||
+000002441|1|Chaos Storm Eagle Gunship|20"-45"|6+|3+|8|7|18|6|9|3+|335||1|false|120 x 92mm flying base||
+000002442|1|Chaos Fire Raptor Gunship|20"-45"|6+|3+|8|7|18|6|9|3+|340||1|false|120 x 92mm flying base||
+000002443|1|Chaos Thunderhawk Gunship|20"-50"|6+|3+|10|8|30|6|9|2+|800||1|false|120 x 92mm flying base||
+000002444|1|Chaos Sokar-pattern Stormbird|20-50"|6+|3+|10|8|40|6|9|2+|1000||1|false|120 x 92mm flying base||
+000002445|1|Chaos Xiphon Interceptor|20"-60"|6+|3+|6|7|12|3|8|3+|235||1|false|120 x 92mm flying base||
+000002446|1|Chaos Deimos Predator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000002447|1|Chaos Deimos Predator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000002448|1|Chaos Warhound Titan|0"|-|-|8|8|50|4|10|2+|2000||1|true|Use model||
+000002449|1|Chaos Reaver Titan|0"|-|-|8|8|70|4|10|2+|3000||1|true|Use model||
+000002450|1|Chaos Warbringer Nemesis Titan|0"|-|-|8|8|100|3|10|2+|3800||1|true|Use model||
+000002451|1|Chaos Warlord Titan|0"|-|-|9|9|120|4|10|2+|5500||1|true|Use model||
+000002452|1|Nob on Warbike|14"|3+|5+|5|5|3|3|6|4+|30||2-8|false|75 x 42mm||
+000002452|2|Boss Nob on Warbike|14"|3+|5+|5|5|3|3|7|4+|30||1|false|75 x 42mm||
+000002453|1|Mega Dread|8"|3+|5+|7|7|16|5|9|3+|175||1|false|Use model||
+000002454|1|Hammerhead Gunship|12"|6+|4+|6|7|14|3|8|3+|145||1|false|60mm flying base||
+000002454|2|Gun Drone|10"|5+|5+|3|4|1|1|6|4+|||2|false|32mm flying base||
+000002455|1|Corsair Reaver|8"|3+|3+|3|3|1|1|6|5+|9||5-15|false|25mm||
+000002455|2|Corsair Reaver Felarch|8"|3+|3+|3|3|1|2|7|5+|9||0-1|false|25mm||
+000002456|1|Corsair Skyreaver|16"|3+|3+|3|3|1|1|6|5+|12||5-15|false|25mm||
+000002456|2|Corsair Skyreaver Felarch|16"|3+|3+|3|3|1|2|7|5+|12||0-1|false|25mm||
+000002457|1|Corsair Cloud Dancer|16"|3+|3+|3|4|2|1|6|4+|22||3-9|false|32mm flying base||
+000002457|2|Corsair Cloud Dancer Felarch|16"|3+|3+|3|4|2|2|7|4+|22||0-1|false|32mm flying base||
+000002460|1|Lord of Virulence|5"|2+|2+|4|5|6|5|9|2+|120||1|false|50mm||
+000002461|1|Chaos Predator Destructor|12"|6+|3+|6|7|11|3|8|3+|130||1|false|Use model||
+000002462|1|Miasmic Malignifier|-|-|6+|7|8|12|-|-|3+|65||1|false|Use model||
+000002463|1|Hound of Morkai|6"|3+|3+|4|4|2|2|7|3+|17||4-9|false|32mm||
+000002463|2|Hound of Morkai Pack Leader|6"|3+|3+|4|4|2|3|8|3+|17||1|false|32mm||
+000002464|1|Captain Nasiem|6"|2+|2+|4|4|6|5|9|3+|100||1|true|40mm||
+000002465|1|Epistolary Lykandos|6"|3+|3+|4|4|5|4|9|3+|100||1|true|40mm||
+000002466|1|Orator Sephax|6"|2+|3+|4|4|5|4|9|3+|90||1|true|40mm||
+000002467|1|Ancient Kae|6"|3+|3+|4|4|5|4|8|3+|95||1|true|40mm||
+000002468|1|Deathwing Strikemaster|5"|2+|2+|4|4|5|3|8|2+|85||1|false|40mm||
+000002471|1|Lhamaean|8"|3+|3+|3|3|3|2|8|5+|16||0-4|false|25mm||
+000002471|2|Medusae|8"|3+|3+|3|3|3|1|8|5+|22||0-4|false|25mm||
+000002471|3|Sslyth|8"|3+|3+|5|3|3|3|6|5+|18||0-4|false|40mm||
+000002471|4|Ur-Ghul|8"|3+|-|4|3|3|4|4|7+|16||0-4|false|25mm||
+000002472|1|Palatine|6"|2+|2+|3|3|4|3|8|3+|45||1|false|32mm||
+000002473|1|Uriel Ventris|6"|2+|2+|4|4|6|5|9|3+|100||1|false|40mm||
+000002474|1|Grukk Face-rippa|5"|2+|5+|6|5|7|5|8|4+|||1|false|40mm||
+000002475|1|Skull-Nob|5"|2+|5+|5|4|2|3|6|4+|||4-9|false|32mm||
+000002475|2|Skrak Head-smasha|5"|2+|5+|5|4|3|3|7|4+|||1|false|32mm||
+000002475|3|Ammo Runt|5"|5+|4+|2|2|1|1|4|6+|||0-2|false|25mm||
+000002476|1|Goff Rokker|5"|3+|5+|5|4|4|3|6|4+|||1|false|25mm||
+000002477|1|Technoarcheologist|6"|4+|3+|4|4|4|2|8|3+|50||1|false|32mm||
+000002478|1|Skitarii Marshal|6"|3+|2+|3|3|4|3|8|4+|50||1|false|32mm||
+000002479|1|Morvenn Vahl|8"|2+|2+|5|5|8|5|9|2+|280||1|false|60mm||
+000002480|1|Aestred Thurga|6"|3+|3+|3|3|5|3|9|3+|||1|false|32mm||
+000002480|2|Agathae Dolan|6"|4+|4+|3|3|4|3|8|6+|||1|false|25mm||
+000002481|1|Celestian Sacresant|6"|3+|3+|3|3|1|2|8|2+|14||4-9|false|32mm||
+000002481|2|Sacresant Superior|6"|3+|3+|3|3|1|3|9|2+|14||1|false|32mm||
+000002482|1|Dogmata|6"|3+|3+|3|3|4|3|8|3+|65||1|false|32mm||
+000002483|1|Paragon|8"|3+|3+|5|5|4|3|8|2+|||2|false|50mm||
+000002483|2|Paragon Superior|8"|3+|3+|5|5|4|4|9|2+|||1|false|50mm||
+000002484|1|Castigator|12"|6+|3+|6|7|11|3|8|3+|135||1|false|Use model||
+000002485|1|Colonel-Commissar Ibram Gaunt|6"|2+|2+|3|3|4|3|9|4+|||1|false|28mm||
+000002485|2|Colonel CoIm Corbec|6"|3+|3+|3|3|4|3|8|5+|||1|false|28mm||
+000002485|3|Major Elim Rawne|6"|3+|3+|3|3|3|3|7|5+|||1|false|28mm||
+000002485|4|Master Sniper Hlaine Larkin|6"|3+|2+|3|3|2|1|6|5+|||1|false|28mm||
+000002485|5|Trooper ‘Try Again’ Bragg|6"|3+|5+|4|3|2|2|7|5+|||1|false|28mm||
+000002485|6|Scout Sergeant Oan Mkoll|6"|2+|2+|3|3|2|4|7|5+|||1|false|28mm||
+000002486|1|Taddeus the Purifier|6"|4+|4+|3|3|4|3|7|6+|55||1|true|32mm||
+000002487|1|Technoarcheologist|6"|4+|3+|4|4|4|2|8|3+|50||1|false|32mm||
+000002488|1|Zodgrod Wortsnagga|5"|2+|5+|5|5|6|4|7|6+|65||1|false|50mm||
+000002489|1|Beastboss|5"|2+|5+|6|6|6|5|8|4+|95||1|false|50mm||
+000002490|1|Beastboss on Squigosaur|10"|2+|5+|6|7|9|5|8|4+|160||1|false|80mm||
+000002491|1|Painboss|7"|3+|5+|5|5|5|4|8|4+|80||1|false|40mm|Grot Orderly 25mm|
+000002492|1|Wurrboy|5"|3+|5+|5|5|5|3|6|6+|70||1|false|32mm||
+000002493|1|Mozrog Skragbad|10"|2+|5+|6|7|9|6|8|3+|185||1|false|80mm||
+000002494|1|Beast Snagga Boy|5"|3+|5+|5|5|1|2|6|6+|10||9-19|false|32mm||
+000002494|2|Beast Snagga Nob|5"|3+|5+|5|5|2|3|7|6+|10||1|false|32mm||
+000002495|1|Nob on Smasha Squig|10"|3+|5+|5|6|5|4|7|4+|65||1|false|90 x 52mm||
+000002496|1|Squighog Boy|10"|3+|5+|5|6|3|3|6|4+|25||3-6|false|75 x 42mm|Bomb Squig 25mm|
+000002497|1|Kill Rig|12"|3+|5+|6|8|16|6|7|3+|190||1|false|170 x 109mm||
+000002498|1|Hunta Rig|12"|3+|5+|6|8|16|6|7|3+|160||1|false|170 x 109mm||
+000002499|1|Big’ed Bossbunka|-|-|5+|6|8|12|-|7|3+|75||1|false|Use model||
+000002500|1|Infernal Master|6"|3+|3+|4|4|4|4|9|3+|90||1|false|40mm||
+000002501|1|Chaos Predator Annihilator|12"|6+|3+|6|7|11|3|8|3+|115||1|false|Use model||
+000002502|1|Pious Vorne|6"|3+|4+|3|3|3|3|7|7+|30||1|true|32mm||
+000002503|1|Gotfret de Montbard|6"|3+|4+|3|3|4|4|7|4+|40||1|true|32mm||
+000002505|1|Primaris Initiate|6"|3+|3+|4|4|2|2|7|3+|17||5-11|false|32mm||
+000002505|2|Primaris Neophyte|6"|3+|3+|4|4|2|2|6|4+|14||4-8|false|28mm||
+000002505|3|Primaris Sword Brother|6"|3+|3+|4|4|2|3|8|3+|17||1|false|40mm||
+000002506|1|Primaris Sword Brother|6"|3+|3+|4|4|2|3|8|3+|22||4-10|false|40mm||
+000002507|1|Sister Novitiate|6"|4+|3+|3|3|1|1|7|4+|||9|false|28mm||
+000002507|2|Novitiate Superior|6"|4+|3+|3|3|1|2|8|3+|||1|false|32mm||
+000002508|1|Cartographica Rogue Trader|6"|3+|3+|3|3|4|3|9|4+|60||1|false|25mm||
+000002508|2|Death Cult Executioner|6"|2+|4+|3|3|2|5|7|5+|15||0-1|false|25mm||
+000002508|3|Lectro-Maester|6"|4+|3+|3|3|2|1|7|5+|15||0-1|false|25mm||
+000002508|4|Rejuvenat Adept|6"|4+|4+|3|3|2|1|7|5+|10||0-1|false|25mm||
+000002509|1|Voidsmen|6"|4+|4+|3|3|1|1|6|4+|8||4-8|false|25mm||
+000002509|2|Voidmaster|6"|4+|4+|3|3|1|2|7|4+|8||1|false|25mm||
+000002509|3|Canid|8"|3+|-|4|3|1|3|6|4+|8||0-1|false|25mm||
+000002510|1|Looted Wagon|12"|5+|5+|6|7|10|3|6|4+|||1|true|Use model||
+000002511|1|Looted ‘Eavy Wagon|10"|5+|5+|7|7|12|3|7|3+|||1|true|Use model||
+000002512|1|Battle Fortress|10"|5+|5+|9|8|26|9|8|3+|||1|true|Use model||
+000002513|1|Watch Sergeant|6"|3+|3+|4|4|2|3|9|3+|27||1|false|32mm||
+000002513|2|Deathwatch Veteran|6"|3+|3+|4|4|2|2|8|3+|27||4-9|false|32mm||
+000002513|3|Deathwatch Terminator|5"|3+|3+|4|4|3|2|8|2+|35||0-5|false|40mm||
+000002513|4|Veteran Biker|14"|3+|3+|4|5|3|2|8|3+|35||0-5|false|75 x 25mm||
+000002513|5|Vanguard Veteran|6"|3+|3+|4|4|2|2|8|3+|20||0-5|false|32mm||
+000002513|6|Black Shield|6"|2+|3+|4|4|2|3|8|3+|27||0-1|false|32mm||
+000002514|1|Intercessor Sergeant|6"|3+|3+|4|4|2|3|8|3+|18||1|false|32mm||
+000002514|2|Intercessor|6"|3+|3+|4|4|2|2|7|3+|18||4-9|false|32mm||
+000002514|3|Assault Intercessor|6"|3+|3+|4|4|2|2|7|3+|17||0-5|false|32mm||
+000002514|4|Outrider|14"|3+|3+|4|5|4|2|7|3+|35||0-5|false|90 x 52mm||
+000002514|5|Hellblaster|6"|3+|3+|4|4|2|2|7|3+|30||0-5|false|32mm||
+000002515|1|Heavy Intercessor Sergeant|5"|3+|3+|4|5|3|3|8|3+|23||1|false|40mm||
+000002515|2|Heavy Intercessor|5"|3+|3+|4|5|3|2|7|3+|23||4-9|false|40mm||
+000002515|3|Aggressor|5"|3+|3+|4|5|3|3|7|3+|30||0-5|false|40mm||
+000002515|4|Inceptor|10"|3+|3+|4|5|3|2|7|3+|40||0-5|false|40mm||
+000002515|5|Eradicator|5"|3+|3+|4|5|3|2|7|3+|45||0-5|false|40mm||
+000002516|1|Infiltrator Sergeant|6"|3+|3+|4|4|2|3|8|3+|20||1|false|32mm||
+000002516|2|Infiltrator|6"|3+|3+|4|4|2|2|7|3+|20||4-9|false|32mm||
+000002516|3|Incursor|6"|3+|3+|4|4|2|2|7|3+|18||0-5|false|32mm||
+000002516|4|Reiver|6"|3+|3+|4|4|2|2|7|3+|16||0-5|false|32mm||
+000002516|5|Eliminator|6"|3+|2+|4|4|2|2|7|3+|25||0-5|false|40mm||
+000002517|1|Da Red Gobbo on Bounca|10"|4+|3+|3|5|5|3|6|4+|50||1|true|40mm||
+000002518|1|Blade Champion|6"|2+|2+|5|5|7|6|11|3+|120||1|false|40mm||
+000002519|1|Valerian|6"|2+|2+|5|5|7|6|11|2+|130||1|false|40mm||
+000002520|1|Knight-Centura|7"|2+|2+|3|3|5|4|9|3+|50||1|false|32mm||
+000002521|1|Prosecutor|7"|3+|3+|3|3|1|2|8|3+|11||4-9|false|32mm||
+000002521|2|Prosecutor Sister Superior|7"|3+|3+|3|3|1|3|9|3+|11||1|false|32mm||
+000002522|1|Vigilator|7"|3+|3+|3|3|1|2|8|3+|12||4-9|false|32mm||
+000002522|2|Vigilator Sister Superior|7"|3+|3+|3|3|1|3|9|3+|12||1|false|32mm||
+000002523|1|Witchseeker|7"|3+|3+|3|3|1|2|8|3+|12||4-9|false|32mm||
+000002523|2|Witchseeker Sister Superior|7"|3+|3+|3|3|1|3|9|3+|12||1|false|32mm||
+000002524|1|Anathema Psykana Rhino|12"|6+|3+|6|7|10|3|8|3+|75||1|false|Use model||
+000002525|1|Reductus Saboteur|6"|3+|2+|3|3|4|3|8|5+|70||1|false|32mm||
+000002526|1|<b>Advanced Guardian Drone</b>, <b>Command-link Drone</b>, <b>Grav-inhibitor Drone</b>, <b>Guardian Drone</b>, <b>Gun Drone</b>, <b>Marker Drone</b>, <b>Missile Drone</b>, <b>Pulse Accelerator Drone</b>, <b>Sniper Drone</b> and <b>Stealth Drone</b>|10"|5+|5+|3|4|1|1|6|4+||||true|32mm flying base||
+000002526|2|<b>Shield Drone</b> and <b>Shielded Missile Drone</b>|10"|5+|5+|3|4|2|1|6|4+||||true|32mm flying base||
+000002526|3|<b>Interceptor Drone</b>|20"|5+|5+|3|4|1|1|6|4+||||true|32mm flying base||
+000002526|4|<b>Recon Drone</b>|10"|5+|5+|3|4|3|1|6|4+||||true|32mm flying base||
+000002527|1|Erasmus Cartavolnus|6"|3+|3+|3|3|5|4|9|3+|80||1|false|32mm||
+000002528|1|Winged Hive Tyrant|16"|2+|2+|7|7|12|5|10|3+|230||1|false|60mm||
+000002529|1|Parasite of Mortrex|16"|2+|3+|5|5|6|6|8|4+|80||1|false|40mm||
+000002530|1|Primaris Company Champion|6"|2+|2+|4|4|5|5|8|3+|70||1|false|32mm||
+000002531|1|Corsair Voidreaver|7"|3+|3+|3|3|1|2|7|4+|10||4-9|false|28mm||
+000002531|2|Voidreaver Felarch|7"|3+|3+|3|3|1|3|8|4+|10||1|false|28mm||
+000002532|1|Corsair Voidscarred|7"|3+|3+|3|3|1|3|7|4+|12||4-9|false|28mm||
+000002532|2|Voidscarred Felarch|7"|3+|3+|3|3|1|4|8|4+|12||1|false|28mm||
+000002532|3|Shade Runner|7"|2+|3+|3|3|1|4|7|4+|20||0-1|false|28mm||
+000002532|4|Soul Weaver|7"|3+|3+|3|3|1|3|8|4+|20||0-1|false|28mm||
+000002532|5|Way Seeker|7"|3+|3+|3|3|1|3|8|4+|25||0-1|false|28mm||
+000002533|1|Shroud Runner|16"|3+|2+|3|4|3|2|7|4+|30||3-6|false|60mm flying base||
+000002534|1|Troupe Master|8"|2+|2+|3|3|5|6|9|6+|75||1|false|25mm||
+000002535|1|Shadowseer|8"|2+|2+|3|3|5|4|9|6+|100||1|false|25mm||
+000002536|1|Player|8"|3+|3+|3|3|1|4|8|6+|13||4-11|false|25mm||
+000002536|2|Lead Player|8"|3+|3+|3|3|2|4|8|6+|13||1|false|25mm||
+000002537|1|Death Jester|8"|2+|2+|3|3|5|5|9|6+|70||1|false|25mm||
+000002538|1|Solitaire|12"|2+|2+|4|4|5|8|9|6+|110||1|false|25mm||
+000002539|1|Skyweaver|16"|3+|3+|3|4|3|4|8|4+|45||2-6|false|60mm flying base||
+000002540|1|Voidweaver|16"|3+|3+|5|5|6|4|8|4+|130||1-3|false|65mm||
+000002541|1|Starweaver|16"|3+|3+|5|5|6|4|8|4+|95||1|false|65mm||
+000002542|1|Yvraine|8"|2+|2+|3|3|5|4|9|6+|140||1|false|75 x 42mm||
+000002543|1|The Visarch|8"|2+|2+|3|3|6|5|9|2+|100||1|false|32mm||
+000002544|1|The Yncarne|10"|2+|2+|7|7|12|6|10|3+|260||1|false|80mm||
+000002545|1|Beastmaster|12"|3+|3+|3|4|3|3|7|5+|35||1|false|32mm flying base||
+000002546|1|Raider|14"|4+|3+|6|6|10|3|7|4+|95||1|false|60mm flying base||
+000002547|1|Venom|16"|4+|3+|5|5|6|3|7|4+|65||1|false|60mm flying base||
+000002548|1|Reaver|18"|3+|3+|3|4|2|3|7|4+|20||2-11|false|32mm flying base||
+000002548|2|Arena Champion|18"|3+|3+|3|4|2|4|8|4+|20||1|false|32mm flying base||
+000002549|1|Hellion|14"|3+|3+|3|4|2|3|7|5+|17||4-19|false|32mm flying base||
+000002549|2|Helliarch|14"|3+|3+|3|4|2|4|8|5+|17||1|false|32mm flying base||
+000002550|1|Razorwing Jetfighter|20-72"|6+|3+|6|6|10|3|7|4+|150||1|false|120 x 92mm flying base||
+000002551|1|Voidraven Bomber|20-60"|6+|3+|6|6|12|3|7|4+|175||1|false|120 x 92mm flying base||
+000002552|1|Scourge|14"|3+|3+|3|3|1|2|7|4+|14||4-9|false|32mm||
+000002552|2|Solarite|14"|3+|3+|3|3|1|3|8|4+|14||1|false|32mm||
+000002553|1|Ravager|14"|4+|3+|6|6|11|3|7|4+|130||1|false|Use model||
+000002554|1|Lhamaean|8"|3+|3+|3|3|3|2|8|5+|16||0-4|false|25mm||
+000002554|2|Medusae|8"|3+|3+|3|3|3|1|8|5+|22||0-4|false|25mm||
+000002554|3|Sslyth|8"|3+|3+|5|3|3|3|6|5+|18||0-4|false|40mm||
+000002554|4|Ur-Ghul|8"|3+|-|4|3|3|4|4|7+|16||0-4|false|25mm||
+000002555|1|Archon|8"|2+|2+|3|3|5|5|9|4+|70||1|false|25mm||
+000002556|1|Succubus|8"|2+|2+|3|3|5|6|8|6+|80||1|false|25mm||
+000002557|1|Kabalite Warrior|7"|3+|3+|3|3|1|2|7|4+|8||4-19|false|25mm||
+000002557|2|Sybarite|7"|3+|3+|3|3|1|3|8|4+|8||1|false|25mm||
+000002558|1|Wych|8"|3+|3+|3|3|1|3|7|6+|10||4-19|false|25mm||
+000002558|2|Hekatrix|8"|3+|3+|3|3|1|4|8|6+|10||1|false|25mm||
+000002559|1|Incubi|7"|2+|3+|3|3|1|3|8|3+|22||4-9|true|28mm||
+000002559|2|Klaivex|7"|2+|3+|3|3|2|4|9|3+|22||1|true|28mm||
+000002560|1|Corsair Voidscarred|7"|3+|3+|3|3|1|3|7|4+|12||4-9|false|28mm||
+000002560|2|Voidscarred Felarch|7"|3+|3+|3|3|1|4|8|4+|12||1|false|28mm||
+000002560|3|Shade Runner|7"|2+|3+|3|3|1|4|7|4+|20||0-1|false|28mm||
+000002560|4|Soul Weaver|7"|3+|3+|3|3|1|3|8|4+|20||0-1|false|28mm||
+000002560|5|Way Seeker|7"|3+|3+|3|3|1|3|8|4+|25||0-1|false|28mm||
+000002561|1|Corsair Voidreaver|7"|3+|3+|3|3|1|2|7|4+|10||4-9|false|28mm||
+000002561|2|Voidreaver Felarch|7"|3+|3+|3|3|1|3|8|4+|10||1|false|28mm||
+000002562|1|War Dog Executioner|12"|3+|3+|6|7|12|4|8|3+|155||1-3|false|100mm||
+000002563|1|War Dog Stalker|12"|3+|3+|6|7|12|4|8|3+|145||1-3|false|100mm||
+000002564|1|War Dog Karnivore|14"|2+|3+|6|7|12|5|8|3+|140||1-3|false|100mm||
+000002565|1|War Dog Brigand|12"|3+|3+|6|7|12|4|8|3+|155||1-3|false|100mm||
+000002566|1|War Dog Huntsman|12"|3+|3+|6|7|12|4|8|3+|145||1-3|false|100mm||
+000002567|1|Knight Abominant|10"|3+|3+|8|8|24|3|9|3+|430||1|false|170 x 109mm||
+000002568|1|Kratos|10"|6+|3+|8|8|18|6|9|2+|320||1|false|Use model||
+000002569|1|Cult Demagogue|6"|4+|4+|3|3|3|3|7|6+|||1|false|32mm||
+000002569|2|Mindwitch|6"|4+|4+|3|3|3|1|6|6+|||1|false|32mm||
+000002569|3|Iconarch|6"|4+|4+|3|3|2|2|6|6+|||1|false|32mm||
+000002569|4|Blessed Blades|6"|4+|4+|4|3|1|2|6|6+|||2|false|28mm||
+000002570|1|Legionary|6"|3+|3+|4|4|2|3|8|3+|18||4-9|false|32mm||
+000002570|2|Aspiring Champion|6"|3+|3+|4|4|2|4|9|3+|18||1|false|32mm||
+000002571|1|Mutant|6"|4+|4+|4|4|1|2|6|6+|6||5-10|false|25mm||
+000002571|2|Torment|6"|4+|4+|5|4|3|2D3|6|6+|15|This unit cannot contain more than 3 Torment models unless it also contains 10 Mutant models.|3-6|false|40mm||
+000002572|1|Chaos Predator Annihilator|12"|6+|3+|6|8|11|3|8|3+|130||1|false|Use model||
+000002573|1|Chaos Lord|6"|2+|2+|4|4|6|6|10|3+|90||1|false|40mm||
+000002574|1|Chaos Lord in Terminator Armour|5"|2+|2+|4|4|7|6|10|2+|110||1|false|40mm||
+000002575|1|Exalted Champion|6"|2+|2+|4|4|5|5|9|3+|90||1|false|40mm||
+000002576|1|Sorcerer|6"|3+|3+|4|4|5|5|9|3+|95||1|false|40mm||
+000002577|1|Sorcerer in Terminator Armour|5"|3+|3+|4|4|6|5|9|2+|110||1|false|40mm||
+000002578|1|Warpsmith|6"|3+|2+|4|4|5|5|9|2+|80||1|false|60 x 35mm||
+000002579|1|Rubric Marine|6"|3+|3+|4|4|2|2|7|3+|21||4-9|false|32mm||
+000002579|2|Aspiring Sorcerer|6"|3+|3+|4|4|2|3|8|3+|21||1|false|32mm||
+000002580|1|Plague Marine|5"|3+|3+|4|5|2|2|7|3+|19||4-9|false|32mm||
+000002580|2|Plague Champion|5"|3+|3+|4|5|2|3|8|3+|19||1|false|32mm||
+000002581|1|Noise Marine|6"|3+|3+|4|4|2|3|8|3+|21||4-9|false|32mm||
+000002581|2|Noise Champion|6"|3+|3+|4|4|2|4|9|3+|21||1|false|32mm||
+000002582|1|Bloodthirster|12"|2+|2+|8|8|20|8|10|4+/4+|310||1|false|120 x 92mm||
+000002583|1|Blue Horror|6"|5+|4+|2|3|1|1|5|6+/4+|||10|false|25mm||
+000002583|2|Brimstone Horror|6"|5+|4+|1|3|1|1|4|6+/5+|||-|false|25mm||
+000002584|1|Pink Horror|6"|4+|3+|3|3|1|1|6|6+/3+|||9|false|32mm||
+000002584|2|Iridescent Horror|6"|4+|3+|3|3|1|2|7|6+/3+|||1|false|32mm||
+000002584|3|Blue Horror|6"|5+|4+|2|3|1|1|5|6+/4+|||-|false|25mm||
+000002584|4|Brimstone Horror|6"|5+|4+|1|3|1|1|4|6+/5+|||-|false|25mm||
+000002585|1|Gellerpox Mutants|5"|4+|4+|4|4|1|2|6|6+|||3|false|25mm||
+000002585|2|Nightmare Hulks|5"|4+|6+|5|4|5|4|8|5+|||4|false|40mm||
+000002586|1|Mutoid Vermin|8"|4+|-|2|2|1|2|4|7+|||16|false|25mm||
+000002587|1|Navis Armsman|6"|4+|4+|3|3|1|1|6|4+|||9|false|25mm|28mm if armed with endurant shield, las-volley, meltagun or plasmagun|
+000002587|2|Navis Sergeant-at-Arms|6"|4+|4+|3|3|1|2|7|4+|||1|false|25mm||
+000002588|1|Kroot Farstalker|7"|3+|4+|4|3|1|2|6|6+|||9|false|28mm||
+000002588|2|Kroot Kill-broker|7"|3+|4+|4|3|1|3|7|6+|||1|false|32mm||
+000002589|1|Traitor Enforcer|6"|3+|3+|3|3|4|3|8|5+|45||1|false|32mm||
+000002589|2|Traitor Ogryn|6"|3+|4+|6|5|6|5|8|5+|65||0-1|false|40mm||
+000002590|1|Traitor Guardsman|6"|4+|4+|3|3|1|1|6|5+|||9|false|25mm||
+000002590|2|Traitor Sergeant|6"|4+|4+|3|3|1|2|7|5+|||1|false|25mm||
+000002591|1|Mutoid Vermin|8"|4+|-|2|2|1|2|4|7+|||16|false|25mm||
+000002592|1|Gellerpox Mutants|5"|4+|4+|4|4|1|2|6|6+|||3|false|25mm||
+000002592|2|Nightmare Hulks|5"|4+|6+|5|4|5|4|8|5+|||4|false|40mm||
+000002593|1|Ûthar the Destined|5"|2+|2+|5|5|6|5|9|3+|160||1|false|40mm||
+000002594|1|Kâhl|5"|2+|2+|4|4|5|4|9|3+|90||1|false|40mm||
+000002595|1|Einhyr Champion|5"|2+|2+|5|5|5|4|9|2+|120||1|false|40mm||
+000002596|1|Grimnyr|5"|3+|3+|4|4|4|2|9|4+|||1|false|40mm||
+000002596|2|CORV|5"|4+|4+|3|4|1|1|6|4+|||2|false|25mm||
+000002597|1|Brôkhyr Iron-master|5"|3+|2+|4|4|4|3|9|4+|||1|false|32mm||
+000002597|2|Ironkin Assistant|5"|3+|3+|4|4|2|2|9|4+|||1|false|28mm||
+000002597|3|E-COG|5"|4+|4+|3|4|1|1|9|4+|||3|false|25mm||
+000002598|1|Hearthkyn Warrior|5"|3+|3+|4|4|1|2|7|4+|13||9-19|false|28mm||
+000002598|2|Theyn|5"|3+|3+|4|4|2|3|8|4+|13||1|false|28mm||
+000002599|1|Hearthguard|5"|3+|3+|5|5|2|2|8|2+|45||4-9|false|32mm||
+000002599|2|Hesyr|5"|3+|3+|5|5|2|3|9|2+|45||1|false|32mm||
+000002600|1|Beserk|5"|3+|3+|5|5|2|3|8|6+|33||5-10|false|28mm|50mm with mole grenade launcher|
+000002601|1|Pioneer|12"|3+|3+|4|5|3|3|8|4+|35||3-6|false|90 x 52mm||
+000002602|1|Sagitaur|12"|6+|3+|6|7|9|3|8|3+|130||1-2|false|Use model||
+000002603|1|Brôkhyr Thunderkyn|5"|3+|3+|5|5|3|2|8|3+|35||3-6|false|40mm||
+000002604|1|Hekaton Land Fortress|10"|6+|3+|8|8|16|6|9|2+|310||1|false|Use model||
+000002605|1|Lord Solar Leontus|12"|2+|2+|6|4|8|6|10|3+|170||1|false|80mm||
+000002606|1|Ursula Creed|6"|3+|3+|3|3|5|5|9|4+|80||1|false|32mm||
+000002607|1|Cadian Castellan|6"|3+|3+|3|3|5|4|9|5+|50||1|false|||
+000002608|1|Veteran Guardsman|6"|4+|4+|3|3|1|2|7|5+|||4*|false|||
+000002608|2|Platoon Commander|6"|3+|3+|3|3|4|3|8|5+|||1|false|||
+000002608|3|Veteran Heavy Weapons Team|6"|4+|4+|3|3|2|4|7|5+|||0-1*|false|||
+000002609|1|Cadian Veteran Guardsman|6"|4+|4+|3|3|1|2|7|5+|||4|false|28mm||
+000002609|2|Cadian Commander|6"|3+|3+|3|3|4|3|8|5+|||1|false|28mm||
+000002610|1|Master of Ordnance|6"|4+|4+|3|3|1|1|6|5+|25||1|false|||
+000002610|2|Officer of the Fleet|6"|4+|4+|3|3|1|1|6|5+|25||1|false|||
+000002610|3|Astropath|6"|4+|4+|3|3|1|1|6|5+|40||1|false|||
+000002611|1|Ogryn Bodyguard|6"|3+|4+|6|5|6|5|8|5+|50||1|false|||
+000002611|2|Nork Deddog|6"|2+|3+|6|5|7|6|8|4+|60||1|false|||
+000002612|1|Shock Trooper|6"|4+|4+|3|3|1|1|6|5+|||9|false|25mm||
+000002612|2|Shock Trooper Sergeant|6"|4+|4+|3|3|1|2|7|5+|||1|false|25mm||
+000002613|1|Death Korps Trooper|6"|4+|4+|3|3|1|1|6|5+|||9|false|25mm||
+000002613|2|Death Korps Watchmaster|6"|4+|4+|3|3|1|2|7|5+|||1|false|25mm||
+000002614|1|Jungle Fighter|6"|4+|4+|3|3|1|1|6|5+|||9|false|25mm||
+000002614|2|Jungle Fighter Sergeant|6"|4+|4+|3|3|1|2|7|5+|||1|false|25mm||
+000002615|1|Kasrkin Trooper|6"|4+|3+|3|3|1|2|7|4+|||9|false|28mm||
+000002615|2|Kasrkin Sergeant|6"|4+|3+|3|3|1|3|8|4+|||1|false|28mm||
+000002616|1|Rough Rider|12"|3+|4+|4|4|2|2|6|4+|20||4-9|false|40mm||
+000002616|2|Rough Rider Sergeant|12"|3+|4+|4|4|2|3|7|4+|20||1|false|40mm||
+000002617|1|Rogal Dorn Battle Tank|10"|6+|4+|8|9|17|6|8|2+|250||1|false|Use model||
+000002618|1|Ordnance Team|6"|4+|4+|3|4|6|3|6|4+|||2|false|100mm||
+000002619|1|Aegis Defence Line|-|-|-|-|-|-|-|-|-|40||1|false|Use model||
