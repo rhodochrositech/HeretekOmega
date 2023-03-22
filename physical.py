@@ -51,6 +51,9 @@ class Unit:
 
     def setModels(self, models):
         self.models = models
+    
+    def addModel(self, model):
+        self.models.append(model)
 
     # createSubUnit(self, [int1,int2])
 
@@ -457,12 +460,13 @@ def populateWeapons():
                     if weapon.getWargear_id() == weaponconn.getWargear_id():
                         model.addWeapons(weapon)
 
-
 loadModels()
 loadWeapons()
 loadWeaponConnection()
 populateWeapons()
+
 if __name__ == "__main__":
+
     unit = []
 
     for i in range(5):
