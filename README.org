@@ -21,26 +21,30 @@ credit is arthur :>
 4. So when you reassign units, you will start with the first units you assigned (who are killing low health low priority targets) (edited)
 5. After you "steal" a unit from an earlier assignment, you might have to fix the first portion of the solution. An easy way to do that would be to run the algorithm again on just that part of the solution, although there is surely a better way.
 * Roadmap
-** TODO Full fight bot
-*** TODO Writing of optimumAssignment function
+** TODO Modeling the game
+*** TODO Full fight bot
+**** TODO Writing of optimumAssignment function
 :PROPERTIES:
 :Effort:   7:00
 :END:
 **** TODO Testing of optimumAssignment function
-***** TODO Simulating weapons & full stuff
-:PROPERTIES:
-:Effort:   3:00
-:END:
 ***** TODO Refactoring of existing functions
 ****** [ ] calculate_damage & helper functions
 ****** [ ] optimumAssignment
-This should be refactored as a consequence of the helper functions being refactored
 ******* [ ] modelPoints
 :PROPERTIES:
 :Effort:   0:10
 :END:
 ******* [ ] enemyHealth
-:PROPERTIES:
+        :PROPERTIES:
 :Effort:   0:10
 :END:
+******* [ ] attackSpace
+***** TODO Implement updated Model class
+*** TODO Pathfinding/movement
+*** TODO Simulating weapons & full stuff
+:PROPERTIES:
+:Effort:   3:00
+:END:
+*** TODO Terrain
 ** TODO Physical data reading
