@@ -4,13 +4,17 @@ import re
 
 
 def remove_nonnumeric(s):
-    return re.sub(r'\D', '', s)
+    return re.sub(r"\D", "", s)
+
+
 def remove_non_alphanumeric(text):
-    return re.sub(r'[^a-zA-Z0-9-]', ' ', text)
+    return re.sub(r"[^a-zA-Z0-9-]", " ", text)
+
 
 class Unit:
     UnitList = []
-    def __init__(self, UID, subUID = False, models=[]):
+
+    def __init__(self, UID, subUID=False, models=[]):
         self.UID = UID
         self.subUID = subUID
         self.models = models
@@ -22,27 +26,57 @@ class Unit:
         for unit in Unit.UnitList:
             if unit.getSubUID():
                 Unit.UnitList.pop(index)
-            index+=1
+            index += 1
 
     def getUID(self):
         return self.UID
+
     def getSubUID(self):
         return self.subUID
+
     def getModels(self):
         return self.models
 
     def createSubUnit(self, subUID, begin, end):
-        Unit(self.UID, subUID, self.models[begin:end])
+        Unit(self.UID, subUID, self.getModels()[begin:end])
+
     def cumulative_model(self):
         return False
-    #createSubUnit(self, [int1,int2])
+
+    def setUID(self, UID):
+        self.UID = UID
+
+    def setSubUID(self, subUID):
+        self.subUID = subUID
+
+    def setModels(self, models):
+        self.models = models
+
+    # createSubUnit(self, [int1,int2])
 
 
 class Model:
-    #TODO: ADD IN WEAPONS CATEGORY LIST
+    # TODO: ADD IN WEAPONS CATEGORY LIST
     ModelList = []
-    #datasheet_id,line,name,M,WS,BS,S,T,W,A,Ld,Sv,Cost
-    def __init__(self, ID, line, name, movement, weaponSkill, ballisticSkill, strength, toughness, wounds, attacks, leadership, save, cost, base,):
+    # datasheet_id,line,name,M,WS,BS,S,T,W,A,Ld,Sv,Cost
+
+    def __init__(
+        self,
+        ID,
+        line,
+        name,
+        movement,
+        weaponSkill,
+        ballisticSkill,
+        strength,
+        toughness,
+        wounds,
+        attacks,
+        leadership,
+        save,
+        cost,
+        base,
+    ):
         self.ID = ID
         self.line = line
         self.name = remove_non_alphanumeric(name)
@@ -60,85 +94,169 @@ class Model:
         self.weapons = []
         Model.ModelList.append(self)
 
-    
     def __str__(self):
-        return str(self.getStats(clean = True))
-    
+        return str(self.getStats(clean=True))
+
     @staticmethod
-    def getModelList(index = 'False'):
+    def getModelList(index="False"):
         try:
-            if index != 'False':
+            if index != "False":
                 return Model.ModelList[index]
             return Model.ModelList
         except Exception as err:
-            print('non-index given for getModelList')
-            return(err)
-        
+            print("non-index given for getModelList")
+            return err
 
     def getID(self):
         return self.ID
+
     def getLine(self):
         return self.line
+
     def getName(self):
-        return self.name    
+        return self.name
+
     def getMovement(self):
         return self.movement
+
     def getWeaponSkill(self):
         return self.weaponSkill
+
     def getBallisticSkill(self):
         return self.ballisticSkill
+
     def getStrength(self):
         return self.strength
+
     def getToughness(self):
-        return self.toughness 
+        return self.toughness
+
     def getWounds(self):
-        return self.wounds 
+        return self.wounds
+
     def getAttacks(self):
         return self.attacks
+
     def getLeadership(self):
         return self.leadership
+
     def getSave(self):
         return self.save
+
     def getCost(self):
         return self.cost
+
     def getBase(self):
         return self.base
+
     def getWeapons(self):
         return self.weapons
+
     def addWeapons(self, weapon):
         self.weapons.append(weapon)
+
     def getStats(self, clean=False):
         if not clean:
-            return [self.ID, self.line, self.name,
-                    self.movement, self.weaponSkill, self.ballisticSkill,
-                    self.strength, self.toughness, self.wounds,
-                    self.attacks, self.leadership, self.save,
-                    self.cost, self.weapons, self.base]
+            return [
+                self.ID,
+                self.line,
+                self.name,
+                self.movement,
+                self.weaponSkill,
+                self.ballisticSkill,
+                self.strength,
+                self.toughness,
+                self.wounds,
+                self.attacks,
+                self.leadership,
+                self.save,
+                self.cost,
+                self.weapons,
+                self.base,
+            ]
         else:
-            stats = [self.ID, self.line, self.name,
-                    self.movement, self.weaponSkill, self.ballisticSkill,
-                    self.strength, self.toughness, self.wounds,
-                    self.attacks, self.leadership, self.save,
-                    self.cost]
+            stats = [
+                self.ID,
+                self.line,
+                self.name,
+                self.movement,
+                self.weaponSkill,
+                self.ballisticSkill,
+                self.strength,
+                self.toughness,
+                self.wounds,
+                self.attacks,
+                self.leadership,
+                self.save,
+                self.cost,
+            ]
             for weapon in self.weapons:
                 stats.append(weapon.getName())
             stats.append(self.base)
             return stats
 
+    def setID(self, ID):
+        self.ID = ID
+
+    def setLine(self, line):
+        self.line = line
+
+    def setName(self, name):
+        self.name = name
+
+    def setMovement(self, movement):
+        self.movement = movement
+
+    def setWeaponSkill(self, weaponSkill):
+        self.weaponSkill = weaponSkill
+
+    def setBallisticSkill(self, ballisticSkill):
+        self.ballisticSkill = ballisticSkill
+
+    def setStrength(self, strength):
+        self.strength = strength
+
+    def setToughness(self, toughness):
+        self.toughness = toughness
+
+    def setWounds(self, wounds):
+        self.wounds = wounds
+
+    def setAttacks(self, attacks):
+        self.attacks = attacks
+
+    def setLeadership(self, leadership):
+        self.leadership = leadership
+
+    def setSave(self, save):
+        self.save = save
+
+    def setCost(self, cost):
+        self.cost = cost
+
+    def setBase(self, base):
+        self.base = base
+
+    def setWeapons(self, weapons):
+        self.weapons = weapons
+
+
 class WeaponConnection:
     WeaponconnList = []
 
     @staticmethod
-    def getWeaponconnList(index = 'False'):
+    def getWeaponconnList(index="False"):
         try:
-            if index != 'False':
+            if index != "False":
                 return WeaponConnection.WeaponconnList[index]
             return WeaponConnection.WeaponconnList
         except Exception as err:
-            print('non-index given for getWeaponconnList')
-            return(err)
+            print("non-index given for getWeaponconnList")
+            return err
 
-    def __init__(self, DID, line, wargear_id,cost,is_index_wargear,model,is_upgrade):
+    def __init__(
+        self, DID, line, wargear_id, cost, is_index_wargear, model, is_upgrade
+    ):
         self.DID = DID
         self.line = line
         self.wargear_id = wargear_id
@@ -147,41 +265,59 @@ class WeaponConnection:
         self.model = model
         self.is_upgrade = is_upgrade
         WeaponConnection.WeaponconnList.append(self)
+
     def getDID(self):
         return self.DID
+
     def getLine(self):
         return self.line
+
     def getWargear_id(self):
         return self.wargear_id
+
     def getCost(self):
         return self.cost
+
     def getIs_index_wargear(self):
         return self.is_index_wargear
+
     def getModel(self):
         return self.model
+
     def getIs_upgrade(self):
         return self.is_upgrade
-    
+
     def getStats(self):
-        return [self.DID, self.line, self.wargear_id,
-                self.cost, self.is_index_wargear, self.model,
-                self.is_upgrade]
+        return [
+            self.DID,
+            self.line,
+            self.wargear_id,
+            self.cost,
+            self.is_index_wargear,
+            self.model,
+            self.is_upgrade,
+        ]
+
     def __str__(self):
         return str(self.getStats())
+
 
 class Weapon:
     WeaponList = []
 
     @staticmethod
-    def getWeaponList(index = 'False'):
+    def getWeaponList(index="False"):
         try:
-            if index != 'False':
+            if index != "False":
                 return Weapon.WeaponList[index]
             return Weapon.WeaponList
         except Exception as err:
-            print('non-index given for getWeaponList')
-            return(err)
-    def __init__(self, wargear_id, line, name, range, type, strength, ap, damage, abilities):
+            print("non-index given for getWeaponList")
+            return err
+
+    def __init__(
+        self, wargear_id, line, name, range, type, strength, ap, damage, abilities
+    ):
         self.wargear_id = wargear_id
         self.line = line
         self.name = name
@@ -192,79 +328,126 @@ class Weapon:
         self.damage = damage
         self.abilities = abilities
         Weapon.WeaponList.append(self)
-    
+
     def getWargear_id(self):
         return self.wargear_id
+
     def getLine(self):
         return self.line
+
     def getName(self):
         return self.name
+
     def getRange(self):
         return self.range
+
     def getType(self):
         return self.type
+
     def getStrength(self):
         return self.strength
+
     def getAP(self):
         return self.ap
+
     def getDamage(self):
         return self.damage
+
     def getAbilities(self):
         return self.abilities
+
     def getStats(self):
-        return [self.wargear_id, self.line, self.name,
-                self.range, self.type, self.strength,
-                self.ap, self.damage, self.abilities]
+        return [
+            self.wargear_id,
+            self.line,
+            self.name,
+            self.range,
+            self.type,
+            self.strength,
+            self.ap,
+            self.damage,
+            self.abilities,
+        ]
+
     def __str__(self):
         return str(self.getStats())
 
 
 def loadModels():
-    with open('Datasheets_models.csv',newline='') as csvfile:
-            reader = csv.reader(csvfile, delimiter='|')
-            headers = next(reader)
-            #print([header+str(index) for index,header in enumerate(headers)],)
-            count = 0
-            while 1:
-                try:
-                    row = next(reader)
-                    Model(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[16])
-                    count += 1
-                except Exception as err:
-                    print(count,'models have been loaded.')
-                    print(err)
-                    break
+    with open("Datasheets_models.csv", newline="") as csvfile:
+        reader = csv.reader(csvfile, delimiter="|")
+        headers = next(reader)
+        # print([header+str(index) for index,header in enumerate(headers)],)
+        count = 0
+        while 1:
+            try:
+                row = next(reader)
+                Model(
+                    row[0],
+                    row[1],
+                    row[2],
+                    row[3],
+                    row[4],
+                    row[5],
+                    row[6],
+                    row[7],
+                    row[8],
+                    row[9],
+                    row[10],
+                    row[11],
+                    row[12],
+                    row[16],
+                )
+                count += 1
+            except Exception as err:
+                print(count, "models have been loaded.")
+                print(err)
+                break
+
+
 def loadWeaponConnection():
-    with open('Datasheets_wargear.csv',newline='') as csvfile:
-            reader = csv.reader(csvfile, delimiter='|')
-            headers = next(reader)
-            #print([header+str(index) for index,header in enumerate(headers)],)
-            count = 0
-            while 1:
-                try:
-                    row = next(reader)
-                    WeaponConnection(row[0], row[1], row[2], row[3], row[4], row[5], row[6])
-                    count+=1
-                except Exception as err:
-                    print(count,'weapons have been loaded.')
-                    print(err)
-                    break
+    with open("Datasheets_wargear.csv", newline="") as csvfile:
+        reader = csv.reader(csvfile, delimiter="|")
+        headers = next(reader)
+        # print([header+str(index) for index,header in enumerate(headers)],)
+        count = 0
+        while 1:
+            try:
+                row = next(reader)
+                WeaponConnection(row[0], row[1], row[2], row[3], row[4], row[5], row[6])
+                count += 1
+            except Exception as err:
+                print(count, "weapons have been loaded.")
+                print(err)
+                break
+
 
 def loadWeapons():
-    with open('Wargear_list.csv',newline='') as csvfile:
-            reader = csv.reader(csvfile, delimiter='|')
-            headers = next(reader)
-            #print([header+str(index) for index,header in enumerate(headers)],)
-            count = 0
-            while 1:
-                try:
-                    row = next(reader)
-                    Weapon(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8])
-                    count+=1
-                except Exception as err:
-                    print(count,'weapons have been loaded.')
-                    print(err)
-                    break
+    with open("Wargear_list.csv", newline="") as csvfile:
+        reader = csv.reader(csvfile, delimiter="|")
+        headers = next(reader)
+        # print([header+str(index) for index,header in enumerate(headers)],)
+        count = 0
+        while 1:
+            try:
+                row = next(reader)
+                Weapon(
+                    row[0],
+                    row[1],
+                    row[2],
+                    row[3],
+                    row[4],
+                    row[5],
+                    row[6],
+                    row[7],
+                    row[8],
+                )
+                count += 1
+            except Exception as err:
+                print(count, "weapons have been loaded.")
+                print(err)
+                break
+
 
 def populateWeapons():
     for model in Model.getModelList():
@@ -279,18 +462,17 @@ loadModels()
 loadWeapons()
 loadWeaponConnection()
 populateWeapons()
-if __name__ == '__main__':
+if __name__ == "__main__":
     unit = []
-    
+
     for i in range(5):
         print(Model.getModelList(i))
     for i in range(10):
         print(WeaponConnection.getWeaponconnList(i))
     for model in Model.getModelList():
-        if 'ii Vanguard' in model.getName():
-            #print(model.getStats())
+        if "ii Vanguard" in model.getName():
+            # print(model.getStats())
             unit.append(model)
-    #print(unit)
+    # print(unit)
     for model in unit:
         print(model)
-    

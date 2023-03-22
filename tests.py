@@ -1,17 +1,18 @@
-#!/usr/bin/env python3
 import physical as p
-import HeretekOmega as heretek
-
+import HeretekOmega as h
 
 unit = []
-for model in Model.getModelList():
-        if 'ii Vanguard' in model.getName():
-            #print(model.getStats())
-            unit.append(model)
+for model in p.Model.getModelList():
+    if "ii Vanguard" in model.getName():
+        # print(model.getStats())
+        unit.append(model)
 unit.append(unit[1])
 unit.append(unit[1])
 unit.append(unit[1])
-VanguardUnit = Unit(1,unit)
-EvilVanguardUnit = Unit(2,unit)
-print(VanguardUnit)
-print(EvilVanguardUnit)
+VanguardUnit = p.Unit(1, unit)
+EvilVanguardUnit = p.Unit(2, unit)
+print(VanguardUnit.getModels())
+print(EvilVanguardUnit.getModels())
+# BUG: both of these return empty
+
+# h.optimumAssignment(friendlies=VanguardUnit, enemies=EvilVanguardUnit)

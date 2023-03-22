@@ -1,6 +1,5 @@
 # REVIEW: Why is this the case? Shouldn't we be "using" p whenever we call
 # a method specific to Model() or Unit()?
-import physical as p
 
 
 def calculate_damage(attacker, attacked):
@@ -11,7 +10,7 @@ def calculate_damage(attacker, attacked):
     toughness = attacked.getToughness()
     print()
     # Calculate ratio to hit
-    # TODO: Refactor this to reflect new model representation
+    # DONE: Refactor this to reflect new model representation
     if skill >= 7:
         hit_ratio = 1
     elif skill <= 1:
@@ -61,18 +60,17 @@ def modelPoints(m):
 
 
 def unitSpace(unit):
-    # DONE: E999 SyntaxError: positional argument follows keyword argument no idea what this is
-    # p.Unit(unit.UID, unit.subUID, unit.models.sort(reverse=True, modelPoints))
-
     sortedUnit = unit
-    sortedUnit.setModels(unit.getModels().sort(modelPoints, reverse=True))
+    sortedUnit.setModels(sorted(unit.getModels(), key=modelPoints, reverse=True))
+    print(sortedUnit)
     i = 0
     outputSpace = []
-    while i < len(sortedUnit.models):
+    while i < len(sortedUnit.getModels()):
         currentSubUnit = sortedUnit.subUnit(i, 0, i + 1)
         tranch = currentSubUnit.cumulative()
         outputSpace += [tranch]
         i += 1
+    return outputSpace
 
 
 def enemyHealth(e):
@@ -91,22 +89,14 @@ class DamageKeyGivenEnemy:
         return calculate_damage(fg, self.bg)
 
 
-def optimumAssignment(self, friendlies, enemyTargets):
-    # Figure out which of your guys should shoot which of the bad guys
-    # so that you get the most points possible.
-    #
-    # Some assumptions: for any enemy e, e[9] is the points the enemy is worth.
-    # DONE: Refactor this so enemyPoints is a method called on e.
-    # TODO: Write and implement some tests.
-
-    # See the definition of friendlyAttacks and unitSpace.
+def optimumAssignment(friendlies, enemies):
     friendlyAttacks = attackSpace(friendlies)
-    enemyTargets = unitSpace(enemyTargets)
+    enemyTargets = unitSpace(enemies)
 
     # Here we are going to represent the assignment as a dict, whose
     # keys are the attacks, and values are the enemies each key will
     # target.
-    #
+
     # Initialize this dict as everyone attacking the first enemy to begin with.
     noTargets = []
     for i in friendlyAttacks:
@@ -114,7 +104,7 @@ def optimumAssignment(self, friendlies, enemyTargets):
     target = dict(zip(friendlyAttacks, noTargets))
 
     # Sort enemies by health, weakest first.
-    enemiesByHealth = enemyTargets.sort(reverse=True, key=enemyHealth)
+    enemiesByHealth = sorted(enemyTargets, key=enemyHealth, reverse=True)
     i = 0
     while i < len(enemiesByHealth):
         currentEnemy = enemiesByHealth[i]
@@ -129,8 +119,8 @@ def optimumAssignment(self, friendlies, enemyTargets):
 
         # Create a new list which is the list of friendly units sorted by
         # how much damage they do to the ith enemy, weakest first.
-        friendlyAttacksByDamage = friendlyAttacks.sort(
-            reverse=True, key=currentDamage.key
+        friendlyAttacksByDamage = sorted(
+            friendlyAttacks, key=currentDamage.key, reverse=True
         )
 
         j = 0
