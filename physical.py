@@ -51,6 +51,10 @@ class Squad:
         cumModel.setAttacks(cumulativeAttacks)
         return cumModel
 
+
+    def copySquad(self):
+        return Squad(self.UID, self.subUID, self.models)
+
     def setUID(self, UID):
         self.UID = UID
 
