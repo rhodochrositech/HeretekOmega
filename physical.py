@@ -17,7 +17,7 @@ class Squad:
     def __init__(self, UID, subUID=False, models=[]):
         self.UID = UID
         self.subUID = subUID
-        self.models = []
+        self.models = models
         Squad.UnitList.append(self)
 
     @staticmethod
@@ -38,10 +38,18 @@ class Squad:
         return self.models
 
     def createSubUnit(self, subUID, begin, end):
-        Squad(self.UID, subUID, self.getModels()[begin:end])
+        return Squad(self.UID, subUID, self.getModels()[begin:end])
 
-    def cumulative_model(self):
-        return False
+    def cumulativeModel(self):
+        cumulativeWounds = 0
+        cumulativeAttacks = 0
+        for model in self.getModels():
+            cumulativeAttacks += model.getAttacks()
+            cumulativeWounds += model.getWounds()
+        cumModel = self.getModels()[0]
+        cumModel.setWounds(cumulativeWounds)
+        cumModel.setAttacks(cumulativeAttacks)
+        return cumModel
 
     def setUID(self, UID):
         self.UID = UID
@@ -51,7 +59,7 @@ class Squad:
 
     def setModels(self, models):
         self.models = models
-    
+
     def addModel(self, model):
         self.models.append(model)
 
@@ -84,12 +92,24 @@ class Model:
         self.line = line
         self.name = remove_non_alphanumeric(name)
         self.movement = movement
-        self.weaponSkill = remove_nonnumeric(weaponSkill)
-        self.ballisticSkill = remove_nonnumeric(ballisticSkill)
+        try:
+            self.weaponSkill = int(remove_nonnumeric(weaponSkill))
+        except:
+            self.weaponSkill = 0
+        try:
+            self.ballisticSkill = int(remove_nonnumeric(ballisticSkill))
+        except:
+            self.ballisticSkill = 0
         self.strength = strength
         self.toughness = toughness
-        self.wounds = wounds
-        self.attacks = attacks
+        try:
+            self.wounds = int(wounds)
+        except:
+            self.wounds = 0
+        try:
+            self.attacks = int(attacks)
+        except:
+            self.attacks = 0
         self.leadership = leadership
         self.save = remove_nonnumeric(save)
         self.cost = cost
@@ -459,6 +479,7 @@ def populateWeapons():
                 for weapon in Weapon.getWeaponList():
                     if weapon.getWargear_id() == weaponconn.getWargear_id():
                         model.addWeapons(weapon)
+
 
 loadModels()
 loadWeapons()

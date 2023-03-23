@@ -3,12 +3,15 @@
 
 
 def calculate_damage(attacker, attacked):
-    skill = attacker.getSkill()
+    # TODO: Change this when we add guns.
+    skill = attacker.getWeaponSkill()
     strength = attacker.getStrength()
     attacks = 1
-    damage = attacker.getDamage()
+    # TODO: Change this to something like attacker.getDamage() and write this method
+    # which should be dependent on weapon.
+
+    damage = 1
     toughness = attacked.getToughness()
-    print()
     # Calculate ratio to hit
     # DONE: Refactor this to reflect new model representation
     if skill >= 7:
@@ -17,7 +20,7 @@ def calculate_damage(attacker, attacked):
         hit_ratio = 1 / 6
     else:
         hit_ratio = (7 - skill) / 6
-    print("|Chance to hit:", hit_ratio)
+    # print("|Chance to hit:", hit_ratio)
     wound_ratio = "a"
 
     # Calculate ratio to wound
@@ -31,8 +34,8 @@ def calculate_damage(attacker, attacked):
         wound_ratio = 4 / 6
     elif strength >= toughness * 2:
         wound_ratio = 5 / 6
-    print("|Chance to wound:", wound_ratio)
-    print("|Attacks:", attacks)
+    # print("|Chance to wound:", wound_ratio)
+    # print("|Attacks:", attacks)
 
     # Calculate average damage
     avg_damage = (attacks * hit_ratio * damage) * wound_ratio
@@ -62,12 +65,11 @@ def modelPoints(m):
 def unitSpace(unit):
     sortedUnit = unit
     sortedUnit.setModels(sorted(unit.getModels(), key=modelPoints, reverse=True))
-    print(sortedUnit)
     i = 0
     outputSpace = []
     while i < len(sortedUnit.getModels()):
-        currentSubUnit = sortedUnit.subUnit(i, 0, i + 1)
-        tranch = currentSubUnit.cumulative()
+        currentSubUnit = sortedUnit.createSubUnit(i, 0, i + 1)
+        tranch = currentSubUnit.cumulativeModel()
         outputSpace += [tranch]
         i += 1
     return outputSpace
@@ -76,7 +78,7 @@ def unitSpace(unit):
 def enemyHealth(e):
     # DONE: Change enemyHealth to reflect refactoring of models.
     # Note: "wounds" are health
-    return e.getHealth()
+    return e.getWounds()
 
 
 class DamageKeyGivenEnemy:
@@ -92,6 +94,11 @@ class DamageKeyGivenEnemy:
 def optimumAssignment(friendlies, enemies):
     friendlyAttacks = attackSpace(friendlies)
     enemyTargets = unitSpace(enemies)
+    print("This is friendly attacks")
+    print(friendlyAttacks)
+    print()
+    print("this is enemyTargets")
+    print(friendlyAttacks)
 
     # Here we are going to represent the assignment as a dict, whose
     # keys are the attacks, and values are the enemies each key will
