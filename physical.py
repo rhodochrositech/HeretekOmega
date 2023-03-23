@@ -86,7 +86,7 @@ class Model:
         leadership,
         save,
         cost,
-        base,
+        base
     ):
         self.ID = ID
         self.line = line
@@ -217,6 +217,12 @@ class Model:
                 stats.append(weapon.getName())
             stats.append(self.base)
             return stats
+
+    def copyModel(self, ID=None):
+        if ID:
+            return Model(ID, self.line, self.name, self.movement, self.weaponSkill, self.ballisticSkill, self.strength, self.toughness, self.wounds, self.attacks, self.leadership, self.save, self.cost, self.base)
+        else:
+            return Model(self.ID, self.line, self.name, self.movement, self.weaponSkill, self.ballisticSkill, self.strength, self.toughness, self.wounds, self.attacks, self.leadership, self.save, self.cost, self.base)
 
     def setID(self, ID):
         self.ID = ID
