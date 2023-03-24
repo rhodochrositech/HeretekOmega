@@ -14,7 +14,7 @@ def remove_non_alphanumeric(text):
 class Squad:
     UnitList = []
 
-    def __init__(self, UID, subUID=False, models=[]):
+    def __init__(self, UID, models, subUID=False):
         self.UID = UID
         self.subUID = subUID
         self.models = models
@@ -38,22 +38,22 @@ class Squad:
         return self.models
 
     def createSubUnit(self, subUID, begin, end):
-        return Squad(self.UID, subUID, self.getModels()[begin:end])
+        return Squad(self.UID, self.getModels()[begin:end], subUID)
 
     def cumulativeModel(self):
         cumulativeWounds = 0
         cumulativeAttacks = 0
+        cumulativeCost = 0
         for model in self.getModels():
             cumulativeAttacks += model.getAttacks()
             cumulativeWounds += model.getWounds()
-        cumModel = self.getModels()[0]
+            cumulativeCost += model.getCost()
+        cumModel = self.getModels()[0].copyModel()
         cumModel.setWounds(cumulativeWounds)
         cumModel.setAttacks(cumulativeAttacks)
+        cumModel.setCost(cumulativeCost)
+
         return cumModel
-
-
-    def copySquad(self):
-        return Squad(self.UID, self.subUID, self.models)
 
     def setUID(self, UID):
         self.UID = UID
@@ -90,7 +90,7 @@ class Model:
         leadership,
         save,
         cost,
-        base
+        base,
     ):
         self.ID = ID
         self.line = line
@@ -116,7 +116,11 @@ class Model:
             self.attacks = 0
         self.leadership = leadership
         self.save = remove_nonnumeric(save)
-        self.cost = cost
+        # REVIEW: Nat: is it necessary to wrap cost in a try-except here?
+        try:
+            self.cost = int(cost)
+        except:
+            self.cost = 0
         self.base = base
         self.weapons = []
         Model.ModelList.append(self)
@@ -224,9 +228,39 @@ class Model:
 
     def copyModel(self, ID=None):
         if ID:
-            return Model(ID, self.line, self.name, self.movement, self.weaponSkill, self.ballisticSkill, self.strength, self.toughness, self.wounds, self.attacks, self.leadership, self.save, self.cost, self.base)
+            return Model(
+                ID,
+                self.line,
+                self.name,
+                self.movement,
+                self.weaponSkill,
+                self.ballisticSkill,
+                self.strength,
+                self.toughness,
+                self.wounds,
+                self.attacks,
+                self.leadership,
+                self.save,
+                self.cost,
+                self.base,
+            )
         else:
-            return Model(self.ID, self.line, self.name, self.movement, self.weaponSkill, self.ballisticSkill, self.strength, self.toughness, self.wounds, self.attacks, self.leadership, self.save, self.cost, self.base)
+            return Model(
+                self.ID,
+                self.line,
+                self.name,
+                self.movement,
+                self.weaponSkill,
+                self.ballisticSkill,
+                self.strength,
+                self.toughness,
+                self.wounds,
+                self.attacks,
+                self.leadership,
+                self.save,
+                self.cost,
+                self.base,
+            )
 
     def setID(self, ID):
         self.ID = ID

@@ -51,9 +51,9 @@ def attackSpace(squad):
     space = []
     for model in squad.getModels():
         for i in range(model.getAttacks()):
-            virtualModel = model
+            virtualModel = model.copyModel()
             virtualModel.setAttacks(1)
-            space += [virtualModel]
+            space += [virtualModel.copyModel()]
     return space
 
 
@@ -94,11 +94,12 @@ class DamageKeyGivenEnemy:
 def optimumAssignment(friendlies, enemies):
     friendlyAttacks = attackSpace(friendlies)
     enemyTargets = unitSpace(enemies)
+    print([x.getCost() for x in enemyTargets])
     print("This is friendly attacks")
-    print(friendlyAttacks)
+    print([x.getName() for x in friendlyAttacks])
     print()
     print("this is enemyTargets")
-    print(friendlyAttacks)
+    print([x.getName() for x in enemyTargets])
 
     # Here we are going to represent the assignment as a dict, whose
     # keys are the attacks, and values are the enemies each key will
@@ -136,6 +137,7 @@ def optimumAssignment(friendlies, enemies):
             currentEnemy
         ):
             damageDone += currentDamage.key(friendlyAttacksByDamage[j])
+            print(damageDone)
             j += 1
 
         # If we can kill the ith enemy, assign him as the target of the 0-j
@@ -173,4 +175,5 @@ def optimumAssignment(friendlies, enemies):
         # If the previousPoints condition is not met, or we have
         # finished the sub-loop, we have assigned profitably.
         i += 1
+        print(i)
     return target
