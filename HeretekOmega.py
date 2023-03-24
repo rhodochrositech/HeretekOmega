@@ -9,8 +9,8 @@ def calculate_damage(attacker, attacked):
     attacks = 1
     # TODO: Change this to something like attacker.getDamage() and write this method
     # which should be dependent on weapon.
-
     damage = 1
+
     toughness = attacked.getToughness()
     # Calculate ratio to hit
     # DONE: Refactor this to reflect new model representation
@@ -94,12 +94,13 @@ class DamageKeyGivenEnemy:
 def optimumAssignment(friendlies, enemies):
     friendlyAttacks = attackSpace(friendlies)
     enemyTargets = unitSpace(enemies)
-    print([x.getCost() for x in enemyTargets])
-    print("This is friendly attacks")
-    print([x.getName() for x in friendlyAttacks])
-    print()
-    print("this is enemyTargets")
-    print([x.getName() for x in enemyTargets])
+    # print([y.getCost() for y in enemyTargets])
+    # print([y.getWounds() for y in enemyTargets])
+    # print("This is friendly attacks")
+    # print([y.getName() for y in friendlyAttacks])
+    # print()
+    # print("this is enemyTargets")
+    # print([y.getName() for y in enemyTargets])
 
     # Here we are going to represent the assignment as a dict, whose
     # keys are the attacks, and values are the enemies each key will
@@ -110,9 +111,9 @@ def optimumAssignment(friendlies, enemies):
     for i in friendlyAttacks:
         noTargets += [enemyTargets[0]]
     target = dict(zip(friendlyAttacks, noTargets))
-
     # Sort enemies by health, weakest first.
-    enemiesByHealth = sorted(enemyTargets, key=enemyHealth, reverse=True)
+    enemiesByHealth = sorted(enemyTargets, key=enemyHealth)
+    print([y.getCost() for y in enemiesByHealth])
     i = 0
     while i < len(enemiesByHealth):
         currentEnemy = enemiesByHealth[i]
@@ -121,15 +122,13 @@ def optimumAssignment(friendlies, enemies):
         # get assigned to e2 in the next iteration, but a3
         # on its own is enough to kill a3. We could have killed
         # both e1 and e2, but instead are "overkilling" e2.
-        #
+
         # Instantiate the key on the current enemy.
         currentDamage = DamageKeyGivenEnemy(currentEnemy)
 
         # Create a new list which is the list of friendly units sorted by
         # how much damage they do to the ith enemy, weakest first.
-        friendlyAttacksByDamage = sorted(
-            friendlyAttacks, key=currentDamage.key, reverse=True
-        )
+        friendlyAttacksByDamage = sorted(friendlyAttacks, key=currentDamage.key)
 
         j = 0
         damageDone = 0
@@ -141,8 +140,8 @@ def optimumAssignment(friendlies, enemies):
             j += 1
 
         # If we can kill the ith enemy, assign him as the target of the 0-j
-        # friendlyAttacks iff he is worth more points than the sum of points
-        # of their previous targets.
+        # friendlyAttacks if and only if he is worth more points than the
+        # sum of points of their previous targets.
         if damageDone >= enemyHealth(currentEnemy):
 
             # Get the list of previous targets as a set to remove duplicates.
@@ -152,8 +151,8 @@ def optimumAssignment(friendlies, enemies):
 
             # Sum the value of their previous targets.
             previousPoints = 0
-            for target in previousTargets:
-                previousPoints += modelPoints(target)
+            for prevTarget in previousTargets:
+                previousPoints += modelPoints(prevTarget)
 
             # If we gain more points by attacking the currentEnemy.
             if previousPoints < modelPoints(currentEnemy):
@@ -170,7 +169,7 @@ def optimumAssignment(friendlies, enemies):
                     if damageDone - currentDamage.key(
                         friendlyAttacksByDamage[k]
                     ) < enemyHealth(currentEnemy):
-                        target[attack] = currentEnemy
+                        target[friendlyAttacksByDamage[k]] = currentEnemy
 
         # If the previousPoints condition is not met, or we have
         # finished the sub-loop, we have assigned profitably.

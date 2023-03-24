@@ -23,24 +23,27 @@ credit is arthur :>
 * Roadmap
 ** TODO Modeling the game
 *** TODO Full fight bot
-**** TODO Writing of optimumAssignment function
+**** DONE Writing of optimumAssignment function
 :PROPERTIES:
 :Effort:   7:00
 :END:
 **** TODO Testing of optimumAssignment function
-***** TODO Refactoring of existing functions
-****** [ ] calculate_damage & helper functions
-****** [ ] optimumAssignment
-******* [ ] modelPoints
-:PROPERTIES:
+***** DONE Refactoring of existing functions
+- Note taken on [2023-03-22 Wed 12:47] \\
+  Done with the first draft
+****** [X] calculate_damage & helper functions
+****** [X] optimumAssignment
+******* [X] modelPoints
+            :PROPERTIES:
 :Effort:   0:10
 :END:
-******* [ ] enemyHealth
+******* [X] enemyHealth
         :PROPERTIES:
 :Effort:   0:10
 :END:
-******* [ ] attackSpace
-***** TODO Implement updated Model class
+******* [X] attackSpace
+****** [X] Add unitSpace
+***** [X] Implement updated Model and Unit classes
 *** TODO Pathfinding/movement
 *** TODO Simulating weapons & full stuff
 :PROPERTIES:
