@@ -71,7 +71,7 @@ class Squad:
 
 
 class Model:
-    # TODO: ADD IN WEAPONS CATEGORY LIST
+    # TODO: Add in weapons category list.
     ModelList = []
     # datasheet_id,line,name,M,WS,BS,S,T,W,A,Ld,Sv,Cost
 
