@@ -48,6 +48,7 @@ class Squad:
             cumulativeAttacks += model.getAttacks()
             cumulativeWounds += model.getWounds()
             cumulativeCost += model.getCost()
+        # REVIEW: Should we really call it this?
         cumModel = self.getModels()[0].copyModel()
         cumModel.setWounds(cumulativeWounds)
         cumModel.setAttacks(cumulativeAttacks)
