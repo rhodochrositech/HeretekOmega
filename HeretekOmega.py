@@ -1,5 +1,6 @@
 # REVIEW: Why is this the case? Shouldn't we be "using" p whenever we call
 # a method specific to Model() or Unit()?
+import physical as p
 
 
 def calculate_damage(attacker, attacked):
@@ -58,7 +59,9 @@ def attackSpace(squad):
 
 
 def modelPoints(m):
-    # DONE: Refactor this to account for new model format.
+    # REVIEW: Is there a more elegant try-except implementation of this?
+    if m == None:
+        return 0
     return m.getCost()
 
 
@@ -92,15 +95,14 @@ class DamageKeyGivenEnemy:
 
 
 def optimumAssignment(friendlies, enemies):
+
+    # If we don't have any attacks, we have nothing to assign,
+    # so return an empty dictionary.
+    if friendlies.getModels() == []:
+        return {}
+
     friendlyAttacks = attackSpace(friendlies)
     enemyTargets = unitSpace(enemies)
-    # print([y.getCost() for y in enemyTargets])
-    # print([y.getWounds() for y in enemyTargets])
-    # print("This is friendly attacks")
-    # print([y.getName() for y in friendlyAttacks])
-    # print()
-    # print("this is enemyTargets")
-    # print([y.getName() for y in enemyTargets])
 
     # Here we are going to represent the assignment as a dict, whose
     # keys are the attacks, and values are the enemies each key will
@@ -109,7 +111,7 @@ def optimumAssignment(friendlies, enemies):
     # Initialize this dict as everyone attacking the first enemy to begin with.
     noTargets = []
     for i in friendlyAttacks:
-        noTargets += [enemyTargets[0]]
+        noTargets += [None]
     target = dict(zip(friendlyAttacks, noTargets))
     # Sort enemies by health, weakest first.
     enemiesByHealth = sorted(enemyTargets, key=enemyHealth)
@@ -175,4 +177,23 @@ def optimumAssignment(friendlies, enemies):
         # finished the sub-loop, we have assigned profitably.
         i += 1
         print(i)
+
+    # Get a list of the attacks whose targets are None, and make them into a Squad()
+    unassignedAttacks = []
+    for attack in target.keys():
+        if target[attack] == None:
+            unassignedAttacks.append(attack)
+    unassignedSquad = p.Squad(friendlies.getUID(), unassignedAttacks)
+
+    # If all of our attacks still have no targets, that means our attacks can't kill
+    # any enemies. Hail mary for the weakest enemy, and stop recurring.
+    if unassignedAttacks == friendlies.getModels():
+        for attack in unassignedSquad:
+            target[attack] = enemiesByHealth[0]
+            return target
+
+    # Recur by updating the targets of the attacks which haven't used to what
+    # their targets would have been if we only had them to begin with.
+    recursiveTarget = optimumAssignment(unassignedSquad, enemies)
+    target.update(recursiveTarget)
     return target
